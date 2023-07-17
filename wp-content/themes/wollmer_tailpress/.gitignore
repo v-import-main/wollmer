@@ -1,0 +1,13 @@
+/node_modules
+/.idea
+/.vscode
+/vendor
+.DS_Store
+/resources/img
+/resources/fonts
+/resources/svg
+app.css
+frontpage.css
+editor-style.css
+*.map
+data.php

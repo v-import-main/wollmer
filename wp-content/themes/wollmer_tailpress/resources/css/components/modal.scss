@@ -1,0 +1,259 @@
+.login-modal {
+  @apply
+    hidden
+    h-auto;
+
+  &.is-open {
+    @apply flex;
+  }
+
+  .headline {
+    @apply
+      text-xl
+      montserrat
+      text-center
+      mx-auto
+      mb-4
+      max-w-[70%]
+      lg:max-w-none;
+  }
+  .order-btn {
+    @apply
+      mt-4
+      w-full
+      block
+      cursor-pointer
+      montserrat
+      bg-yellow-400
+      rounded-lg
+      py-3
+      text-black
+      font-semibold;
+  
+    &.scnd-btn {
+      @apply
+        text-black
+        !ml-0
+        !mt-4
+        border
+        border-yellow-400
+        bg-white;
+    }
+  }
+
+  .control-wrapper {
+    @apply
+      mt-4 relative;
+
+    input {
+      filter: invert(100%) hue-rotate(18deg) brightness(1.5);
+      @apply absolute top-1.5 !outline-none;
+    }
+
+    label {
+      @apply
+        block
+        ml-5;
+      
+      a {
+        @apply
+        text-gray-400;
+      }
+    }
+  }
+
+  .modal-form-wrapper {
+    .form-row {
+      @apply
+        w-full
+        inline-flex
+        relative;
+      
+      label {
+        @apply
+          absolute
+          top-4
+          left-5
+          text-sm;
+      }
+      
+      .woocommerce-input-wrapper {
+        @apply
+          mt-3
+          rounded-lg
+          pt-6
+          px-4
+          pb-1
+          border
+          w-full;
+        
+        input {
+          @apply
+            font-semibold
+            w-full;
+          
+          &:focus,
+          &:focus-visible,
+          &:active {
+            @apply outline-none;
+          }
+        }
+      }
+    }
+  }
+  .modal-price-wrapper {
+    @apply
+      flex
+      mt-4;
+
+    .sale-price-wrapper {
+      @apply
+        flex
+        items-center;
+
+      .sale-price {
+        @apply
+          text-red-600
+          font-semibold
+          md:text-lg;
+      }
+
+      .orig-price {
+        @apply
+          ml-4
+          text-gray-400
+          md:text-base
+          text-xs
+          line-through;
+      }
+    }
+    .prefix-price {
+      @apply mr-4;
+    }
+
+    .regular-price,
+    .prefix-price {
+      @apply
+        font-semibold
+        md:text-lg;
+    }
+  }
+  .modal-product-wrapper {
+    @apply flex;
+    
+    .subheadline{
+      @apply montserrat;
+    }
+    .product-thumbnail {
+      @apply mr-4;
+
+      img {
+        @apply
+          min-w-[120px]
+          w-[120px]
+          h-[120px]
+          aspect-square
+          object-cover
+          rounded-xl;
+      }
+    }
+  }
+  &#addedmodal{
+    .modal-product-wrapper {
+      @apply flex-col md:flex-row;
+    }
+  }
+  &#backordermodal,
+  &#addedmodal,
+  &#oneclickmodal
+  {
+    .carousel__button,
+    .f-carousel__button,
+    .f-button {
+      @apply
+        top-2.5
+        right-2.5
+        bg-transparent;
+
+        svg {
+          @apply
+            text-gray-400;
+        }
+    }
+  }
+}
+
+.fancybox__carousel .fancybox__slide {
+  .login-modal {
+    @apply hidden !h-auto;
+
+    &.is-open {
+      @apply flex;
+    }
+
+    &.fancybox__content {
+      @apply
+        p-4
+        xs:p-9
+        my-20
+        !bg-white
+        rounded-xl
+        flex
+        !w-[420px]
+        max-w-[90vw];
+
+        &#oneclickmodal,
+        &#addedmodal,
+        &#backordermodal {
+          @apply md:!w-[720px];
+
+          .btn-wrapper,
+          .control-wrapper {
+            @apply max-w-[24rem] mx-auto;
+          }
+          .btn-wrapper input, a {
+            @apply text-center;
+          }
+        }
+
+        &#backordermodal,
+        &#oneclickmodal {
+          .form-row {
+            @apply justify-between -mx-4 w-[calc(100%+2rem)] flex-wrap lg:flex-nowrap;
+          }
+          .input-wrap {
+            @apply relative w-full mx-4;
+          }
+        }
+
+        .quantity {
+          @apply
+            hidden
+            xs:flex
+            rounded-xl
+            border
+            w-36
+            self-center
+            ml-auto md:ml-0
+            -mt-10 md:mt-0;
+
+          svg {
+            @apply fill-black;
+          }
+
+          /* Chrome, Safari, Edge, Opera */
+          input::-webkit-outer-spin-button,
+          input::-webkit-inner-spin-button {
+            -webkit-appearance:none;
+            margin:0;
+          }
+
+          /* Firefox */
+          input[type=number] {
+            @apply text-xl text-center w-full;
+            -moz-appearance:textfield;
+          }
+        }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+#modal-suggest {
+    @apply hidden
+        fixed
+        w-full
+        max-w-none md:max-w-[400px]
+        px-4 py-5
+        bg-white
+        left-0 md:left-[calc(50%+250px)]
+        top-[48px] md:top-[57px]
+        flex-col;
+    
+    box-shadow: 0px 3px 14px 2px rgba(0, 0, 0, 0.05);
+
+    .suggest-btn {
+        @apply cursor-pointer
+            max-w-[244px]
+            mx-auto
+            transition transition-opacity duration-300
+            border
+            bg-white
+            border-amber-400
+            hover:bg-amber-400;
+    }
+    .suggest-item {
+        @apply flex mb-4 items-center;
+
+        img {
+            @apply rounded-md w-[56px] mr-3;
+        }
+
+        .product-name {
+            @apply text-[14px];
+        }
+
+        .sale-price-wrapper {
+            @apply flex;
+
+            .sale-price {
+                @apply text-[14px] text-[#F34363] font-bold mr-2;
+            }
+
+            .orig-price {
+                @apply text-[12px] text-[#888888] line-through;
+            }
+
+        }
+        .regular-price {
+            @apply text-[14px] font-bold;
+        }
+
+    }
+}

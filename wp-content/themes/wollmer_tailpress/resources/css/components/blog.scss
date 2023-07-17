@@ -1,0 +1,19 @@
+.card-zoom {
+    @apply relative flex items-center justify-center overflow-hidden w-full rounded cursor-pointer;
+}
+
+.card-zoom-image {
+    @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
+}
+
+.card-zoom-text {
+    @apply absolute font-black transition-all duration-500 ease-in-out transform scale-110 text-gray-50;
+}
+
+.card-zoom:hover .card-zoom-image {
+    @apply scale-110;
+}
+
+.poster-zoom-text {
+    @apply absolute left-[10%] top-[10%] font-black transition-all duration-500 transform text-gray-50 opacity-60;
+}

@@ -1,0 +1,49 @@
+.char_headline.headline h2 {
+    @apply montserrat;
+    @apply text-lg md:text-[28px];
+    @apply mt-6 md:mt-10 md:mb-6;
+
+}
+#chars {
+    .columns {
+        @apply flex flex-col md:flex-row;
+
+        .right-col,
+        .left-col {
+            @apply w-full md:w-1/2;
+        }
+        .right-col {
+            ul {
+                @apply mb-8;
+                li {
+                    @apply flex flex-col md:flex-row justify-between mb-2.5 pb-2.5 border-b border-[#505050];
+                    
+                    p {
+                        @apply text-[#505050] text-[16px] mb-0 max-w-[320px] ;
+                    }
+                        
+                    .right p {
+                        @apply md:text-right;
+                    }
+                    p.left {
+                        @apply font-semibold md:font-normal;
+                    }
+                }
+                .showmore-atts {
+                    @apply flex uppercase my-4 cursor-pointer font-bold;
+
+                    svg {
+                        @apply mr-3;
+                    }
+                }
+            }
+            .pdf {
+                @apply flex justify-center max-w-[320px];
+
+                svg {
+                    @apply mr-3;
+                }
+            }
+        }
+    }
+}

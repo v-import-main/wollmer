@@ -1,0 +1,30 @@
+.item-news {
+  @media(min-width:768px){
+    max-width: calc(100% / 3);
+  }
+  @apply relative;
+  @apply cursor-pointer;
+
+  @apply w-full;
+  @apply mb-4 px-2 py-0;
+  
+  a {
+    @apply rounded-xl overflow-hidden;
+    @apply block;
+
+    img {
+      @apply w-full;
+    }
+  }
+
+  .icon {
+    @apply absolute;
+    @apply z-50;
+    @apply p-4;
+    @apply rounded-full;
+    left: calc(50% - 24px);
+    top: calc(50% - 24px);
+    background: rgba(233, 218, 0, 0.7);
+    -webkit-backdrop-filter: blur(2px);
+  }
+}

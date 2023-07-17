@@ -1,0 +1,15 @@
+section#complex {
+  @apply flex flex-col;
+
+  h2 {
+    @apply
+      /* pt-4 md:pt-12 */
+      pb-4 md:pb-6
+      pl-4 md:pl-0
+  
+      montserrat
+      text-lg
+      md:text-[28px];
+  }
+
+}

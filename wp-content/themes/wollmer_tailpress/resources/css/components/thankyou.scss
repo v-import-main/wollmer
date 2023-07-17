@@ -1,0 +1,22 @@
+.thank_sidebar {
+    
+    .thank_wrap {
+        @apply rounded-xl shadow-lg;
+        @apply px-6 py-9 lg:ml-12;
+        @apply flex flex-wrap;
+        
+        .flex-line {
+            @apply w-full flex justify-between mb-4;
+        }
+        
+        h2 {
+            @apply flex-line;
+            @apply text-left font-semibold;
+            @apply order-first text-2xl;
+        }
+
+        .btn {
+            @apply w-full;
+        }
+    }
+}

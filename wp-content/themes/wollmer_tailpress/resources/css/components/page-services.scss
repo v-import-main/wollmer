@@ -1,0 +1,23 @@
+.page-service {
+  h1.headline {
+    @apply text-lg montserrat md:text-[28px] mb-5;
+  }
+  section.entry-content {
+    @apply
+      text-base
+      md:text-[20px]
+      text-gray-900
+      md:text-neutral-600
+      mb-4;
+
+    p,ul {
+      @apply mb-4;
+    }
+    .wp-block-spacer {
+      @apply md:mb-5;
+    }
+    li a {
+      @apply text-inherit no-underline;
+    }
+  }
+}

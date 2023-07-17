@@ -1,0 +1,20 @@
+.cart-notice {
+    @apply relative -top-32 left-0 w-screen z-30;
+    @apply bg-[#FED02C] h-10 text-black text-sm font-semibold;
+    @apply justify-center items-center flex;
+    transition: all .2s;
+
+    &.active {
+        @apply top-0;
+    }
+}
+.fpm-notice {
+    @apply relative -top-0 left-0 w-screen z-30;
+    @apply bg-[#4A3439] text-white h-10 text-center text-xs md:text-sm font-semibold px-12;
+    @apply justify-center items-center flex;
+    transition: all .2s;
+
+    .cross {
+        @apply absolute right-2 md:right-7 top-2 cursor-pointer; 
+    }
+}

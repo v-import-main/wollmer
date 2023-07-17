@@ -1,0 +1,52 @@
+#section-cats {
+  @apply flex;
+  @apply flex-wrap;
+  @apply justify-between;
+  @apply mt-2;
+  @apply md:mt-6;
+  @apply md:-mx-3;
+
+  .item-category {
+    @apply block;
+    @apply mb-3;
+    @apply lg:mb-10;
+    @apply w-1/3;
+    @apply px-1;
+    @apply md:px-3;
+
+    picture {
+      @apply overflow-hidden;
+      @apply block;
+      @apply rounded-md;
+      @apply md:mb-2;
+      @apply bg-neutral-100;
+      
+      img {
+        @apply min-h-[88px];
+        @apply aspect-square md:aspect-auto;
+        @apply object-cover;
+        @apply md:min-h-[280px];
+        @apply transition;
+        @apply transition-transform;
+        @apply duration-300;
+        @apply w-full;
+        @apply mb-0;
+      }
+    }
+
+    p {
+      @apply montserrat;
+      @apply mt-1;
+      @apply text-center;
+      @apply lg:text-left;
+      @apply text-xs;
+      @apply lg:text-xl;
+    }
+
+    &:hover {
+      img {
+        @apply scale-105;
+      }
+    }
+  }
+}

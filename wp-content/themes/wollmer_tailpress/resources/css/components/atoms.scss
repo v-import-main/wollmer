@@ -1,0 +1,49 @@
+.is-style-btn a,
+.return-to-shop a
+,.btn {
+  @apply border-2;
+  @apply border-yellow-400;
+  @apply bg-yellow-400;
+  @apply hover:border-amber-400;
+  @apply hover:bg-amber-400;
+  @apply px-4;
+  @apply py-2.5;
+  @apply text-sm;
+  @apply rounded-xl;
+  @apply montserrat;
+  @apply !no-underline;
+}
+
+.return-to-shop a,
+.is-style-btn a {
+  @apply text-inherit;
+  @apply visited:text-inherit;
+  @apply mt-2;
+}
+
+.tag {
+  @apply
+    block
+    cursor-pointer
+    mx-1.5
+    mb-4
+    py-2
+    px-3
+    text-black
+    hover:text-gray-100
+    bg-gray-100
+    hover:bg-[#4D363A]
+    rounded-xl
+    border
+    border-gray-100
+    hover:border-neutral-700
+    whitespace-nowrap;
+  
+  &.selected {
+    @apply
+      text-gray-100
+      hover:text-black
+      bg-[#4D363A]
+      hover:bg-gray-100;
+  }
+}

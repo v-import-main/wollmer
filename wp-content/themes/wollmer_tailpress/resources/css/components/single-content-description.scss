@@ -1,0 +1,54 @@
+.wc-tabs-wrapper {
+  .tabs.wc-tabs {
+    /* @apply hidden; */
+  }  
+}
+.wp-block-image.is-style-circle-mask img, .wp-block-image.is-style-rounded img, .wp-block-image .is-style-rounded img {
+  @apply !rounded-xl;
+}
+
+.rank-math-list {
+  @apply my-5;
+
+  .rank-math-list-item {
+    background: #fff;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    
+
+    h3,p {
+      @apply my-3
+    }
+
+    .rank-math-question {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      &:after {
+        content: url("data:image/svg+xml,%3Csvg width='12' height='7' viewBox='0 0 12 7' fill='%23000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.1892 4.1548L1.38415 0.24423C1.06748 -0.0812339 0.554141 -0.0812339 0.237471 0.24423C0.0792646 0.406895 -2.7111e-08 0.620227 -3.64331e-08 0.833492C-4.57552e-08 1.04676 0.0792646 1.26002 0.237471 1.42275L5.42667 6.7559C5.74334 7.08137 6.25668 7.08137 6.57335 6.7559L11.7625 1.42262C12.0792 1.09722 12.0792 0.569495 11.7625 0.244098C11.4459 -0.0813659 10.9325 -0.081366 10.6159 0.244098L6.81082 4.1548L6.57335 4.39878C6.25668 4.72424 5.74334 4.72424 5.42667 4.39878L5.1892 4.1548Z'%3E%3C/path%3E%3C/svg%3E"); 
+        transition: all .2s;
+      }
+    }
+    .rank-math-answer {
+      @apply hidden;
+    }
+
+    &.active {
+      .rank-math-question {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+
+        &:after {
+          @apply rotate-180;
+        }
+      }
+      .rank-math-answer {
+        @apply block text-lg;
+      }
+    }
+  }
+}

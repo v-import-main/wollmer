@@ -1,0 +1,60 @@
+.section-product{
+  .headline {
+    @apply w-full;
+    @apply flex;
+    @apply justify-between;
+    @apply items-center;
+    @apply mb-0 md:mb-6;
+    @apply pt-4 md:pt-12;
+    @apply pb-0 md:pb-6;
+
+    h2 {
+      @apply montserrat;
+      @apply text-lg;
+      @apply md:text-[28px];
+    }
+  }
+
+  .btn {
+    @apply hidden;
+    @apply md:block;
+  }
+  .product-list {
+    .is-next,
+    .is-prev {
+      &:after {
+        @apply block -mt-6 ml-0;
+      }
+    }
+  }
+  .botline {
+    @apply text-center;
+    @apply block md:hidden;
+
+    &.shown {
+      @apply md:block w-full mb-12;
+
+      +.image {
+        @apply mt-8;
+      }
+    }
+
+    .btn {
+      @apply
+        mx-auto
+        max-w-[200px]
+        block;
+    }
+  }
+
+  &.search .botline {
+    @apply md:block mx-auto max-w-sm w-full mb-8;
+  }
+
+  .image {
+    @apply min-h-[140px] rounded-[10px] object-cover;
+  }
+}
+#revseq + .section-product{
+  @apply order-last;
+}

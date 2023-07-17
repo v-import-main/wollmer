@@ -1,0 +1,84 @@
+.item-reels {
+  @apply w-1/2 sm:w-1/4;
+  @apply overflow-hidden;
+
+  a {
+    @apply mx-2 md:mx-3;
+    @apply px-0 ;
+    
+    @apply cursor-pointer;
+
+    /* aspect-ratio:9/16; */
+
+    @apply
+      relative
+      block
+      rounded-xl;
+    
+
+
+    &:after {
+      content:'';
+      background-image: url(/wp-content/themes/wollmer_tailpress/css/play_yellow.png);
+      background-size:cover;
+      @apply
+        absolute z-50
+        top-[90px]
+        sm:top-[140px]
+        right-5
+        w-[48px]
+        h-[48px]
+        sm:w-[78px]
+        sm:h-[78px];
+    }
+
+    picture {
+      img {
+        @apply
+          -mb-[60px]
+          sm:-mb-[100px]
+          mx-auto
+          w-[120px] h-[120px]
+          sm:w-[200px] sm:h-[200px]
+          rounded-[50%];
+      }
+    }
+
+    .caption {
+      @apply
+        pt-[80px]
+        sm:pt-[130px]
+        px-3
+        pb-8
+        bg-[#F8F8F8]
+        rounded-xl
+        text-center
+        flex flex-col
+        h-full;
+
+      .title {
+        @apply
+          font-semibold
+          text-sm sm:text-xl
+          mb-2 sm:mb-4;
+      }
+      
+      .text {
+        @apply
+          text-xs sm:text-base;
+      }
+
+      .subtitle {
+        @apply
+          font-semibold
+          text-xs sm:text-sm
+          mb-0;
+      }
+    }
+
+    &:selected,
+    &:focus {
+      outline: none;
+    }
+  }
+}

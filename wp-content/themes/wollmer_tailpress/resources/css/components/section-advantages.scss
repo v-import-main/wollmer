@@ -1,0 +1,38 @@
+section#advantages {
+  @apply -mx-4;
+  @apply montserrat;
+
+  h2 {
+    @apply pt-4 md:pt-12;
+    @apply pb-4 md:pb-8;
+    @apply pl-4 md:pl-0;
+    @apply md:mx-4;
+
+    @apply text-lg;
+    @apply md:text-[28px];
+  }
+
+  .wp-block-column {
+    @apply text-stone-900 mx-4;
+
+    img {
+      @apply rounded-xl;
+      @apply aspect-4/3 h-full w-full;
+      @apply object-cover object-right;
+    }
+
+    figcaption {
+      @apply my-4;
+      @apply md:text-xl;
+      @apply leading-6;
+    }
+
+    h3 {
+      @apply text-lg mb-2;
+    }
+  
+    p {
+      @apply hidden md:block;
+    }
+  }
+}

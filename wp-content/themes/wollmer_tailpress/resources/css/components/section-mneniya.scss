@@ -1,0 +1,131 @@
+.mp-product-widget-content {
+
+  .mp-head-block.mp-head-second-block.mp-float_l,
+  .mp-stars-score,
+  .mp-logo {
+    @apply !hidden;
+  }
+  .mp-product-widget-head {
+    @apply
+      !border-0
+      !py-0
+      !text-left
+      !mb-4;
+
+      &::before {
+        content: 'Отзывы';
+        
+        @apply
+        pb-4
+        md:pb-6
+        pl-0
+        montserrat
+        text-lg
+        md:text-[28px]
+        mr-4;
+      }
+
+    .mp-total-score {
+      @apply
+        text-base
+        text-gray-700
+        !leading-none
+        pt-4
+        md:pt-12;
+
+      &::before {
+        @apply
+          text-yellow-500
+          overflow-hidden
+          inline-block
+          h-4
+          w-4
+          mr-2
+          -mb-1;
+
+        content:'';
+        font-family: "mp-font";
+      }
+    }
+
+    .mp-head-first-block {
+      @apply
+        h-auto;
+    }
+  }
+  .mp-pagination .mp-page-url.mp-active {
+    @apply border-yellow-500;
+  }
+  .mp-reviews {
+    @apply grid grid-cols-1 md:grid-cols-2 md:gap-2;
+
+    .mp-review-text-block,
+    .mp-review-text,
+    .mp-review-info-row {
+      @apply m-0 float-none;
+    }
+
+    .mp-review-block {
+      @apply border-0 rounded-xl mx-1 bg-neutral-100 p-8;
+    }
+
+    .mp-review-text-block {
+      width:auto !important;
+    }
+
+    .mp-review-info-row {
+      @apply flex w-full;
+    }
+
+    .mp-review-info {
+      @apply flex m-0 w-full;
+
+      .mp-review-rate {
+        @apply order-1 mr-2;
+
+        .mp-icon-star::before {
+          @apply text-yellow-500;
+        }
+
+        .mp-icon-star-empty::before {
+          content:'';
+          @apply text-gray-500;
+        }
+
+        .mp-rating-value {
+          @apply w-32;
+        }
+
+        .mp-rating-value,
+        .mp-rating-value div {
+          @apply text-2xl leading-6;
+        }
+      }
+
+      .mp-author-name {
+        @apply order-2 mr-2;
+      }
+
+      .mp-review-date {
+        @apply order-3 ml-auto mr-2;
+      }
+
+      .mp-rating-source {
+        @apply order-4;
+      }
+    }
+
+    .mp-avatar {
+      @apply hidden;
+    }
+    .mp-icon-plus::before {
+      @apply
+      !border-yellow-500
+      text-yellow-500;
+    }
+  }
+  .wp-block-image.is-style-rounded img,
+  .wp-block-image .is-style-rounded img {
+    @apply rounded-xl;
+  }
+}

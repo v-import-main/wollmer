@@ -1,0 +1,114 @@
+.product-list {
+
+  @apply -mx-4 w-full relative;
+
+  &.def {
+    @apply grid;
+    @apply grid-cols-2;
+    @apply md:grid-cols-4;
+    @apply gap-4;
+    @apply mx-0;
+  }
+
+  @apply mt-3;
+  @apply md:mt-6;
+
+  .item-product {
+    @apply block;
+    @apply mb-3;
+    @apply lg:mb-10;
+
+    &.carousel__slide,
+    &.f-carousel__slide {
+      @apply w-1/2 lg:w-1/4 p-4;
+    }
+
+    .image-wrap {
+      @apply relative;
+      @apply flex;
+      @apply flex-col;
+
+      picture {
+        @apply overflow-hidden;
+        @apply block;
+        @apply rounded-md;
+        @apply mb-4;
+
+        img {
+          @apply transition transition-transform duration-300;
+          @apply w-full aspect-6/5 object-cover;
+          @apply mb-0;
+        }
+      }
+
+
+      button {
+        @apply opacity-0;
+        @apply transition;
+        @apply transition-opacity;
+        @apply duration-300;
+        @apply absolute;
+        @apply bottom-10;
+        @apply self-center;
+
+        @apply bg-white;
+        @apply border;
+        @apply border-amber-400;
+        @apply hover:bg-amber-400;
+      }
+
+      &:hover {
+        img {
+          @apply scale-105;
+        }
+        button {
+          @apply opacity-100;
+        }
+      }
+    }
+
+    .sale-price-wrapper {
+      @apply flex items-center;
+
+      .sale-price {
+        @apply text-red-600 font-semibold md:text-lg;
+      }
+
+      .orig-price {
+        @apply ml-4 text-gray-400 md:text-base text-xs line-through;
+      }
+    }
+    .regular-price {
+      @apply font-semibold md:text-lg;
+    }
+    .product-name {
+      @apply md:text-base text-sm;
+    }
+  }
+
+  &.home_prods {
+    @apply w-screen md:w-full;
+    
+    .item-product {
+
+      &:nth-child(n+5) {
+        @apply hidden;
+        @apply md:block;
+      }
+    }
+  }
+
+  .carousel__button.is-next,
+  .f-carousel__button.is-next,
+  .f-button.is-next {
+    @apply hidden sm:block !right-[-60px];
+  }
+  .carousel__button.is-prev,
+  .f-carousel__button.is-prev,
+  .f-button.is-prev {
+    @apply hidden sm:block !left-[-60px];
+  }
+}
+.single.single-product .product-list {
+  @apply w-screen xs:w-full;
+}

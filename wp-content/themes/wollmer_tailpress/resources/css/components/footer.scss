@@ -1,0 +1,107 @@
+footer {
+  @apply container;
+  @apply -mx-4;
+  @apply md:mx-auto;
+  @apply px-4;
+  @apply md:px-0;
+  @apply mb-16;
+  
+  .cols {
+    @apply flex;
+    @apply flex-col;
+    @apply md:flex-row;
+    @apply md:-mx-4;
+
+    .col {
+      @apply mx-4;
+      @apply w-auto;
+      @apply md:w-1/3;
+      @apply border-b;
+      @apply md:border-0;
+      @apply py-4;
+      @apply md:py-0;
+
+      h3 {
+        @apply montserrat;
+        @apply text-lg;
+        @apply mb-4;
+      }
+
+      p, a {
+        @apply text-gray-800;
+        @apply mb-2.5;
+        @apply flex;
+      }
+
+      &.contact-col {
+        @apply flex;
+        @apply flex-col;
+
+        @apply order-last;
+        @apply md:order-none;
+        @apply border-0;
+
+        div.contacts {
+          @apply flex md:flex-col;
+          @apply flex-wrap;
+          @apply order-2 md:order-none;
+
+          a {
+            @apply mr-4;
+            @apply align-middle;
+          }
+
+          svg {
+            @apply mr-2;
+          }
+        }
+
+        p, a {
+          @apply text-gray-400;
+          @apply mb-4;
+          @apply order-2;
+          @apply md:order-none;
+        }
+        
+        a {
+          @apply flex;
+          @apply flex-nowrap;
+        }
+
+        .logo {
+          @apply order-first max-h-[30px];
+        }
+
+        .social{
+          @apply order-1;
+          @apply md:order-last;
+          @apply -ml-4;
+          
+          a {
+            @apply hidden;
+            @apply md:block;
+            
+            &.soc_show {
+              @apply block;
+            }
+          }
+        }
+      }
+      &.about-col {
+        a.callback {
+          @apply cursor-pointer;
+          @apply mb-4;
+          @apply py-2.5;
+          @apply px-4;
+          @apply bg-gray-200;
+          @apply hover:text-neutral-100;
+          @apply hover:bg-[#4D363A];
+          @apply rounded-md;
+          @apply w-[266px];
+          @apply whitespace-nowrap;
+          @apply sm:hidden;
+        }
+      }
+    }
+  }
+}

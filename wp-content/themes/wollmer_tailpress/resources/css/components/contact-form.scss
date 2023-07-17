@@ -1,0 +1,94 @@
+#contact-form {
+  @apply bg-neutral-200;
+
+  @apply bg-no-repeat;
+  @apply bg-cover;
+  @apply bg-right;
+
+  @apply mt-0;
+  @apply md:mt-9;
+  
+  @apply md:mb-9;
+  
+  @apply -mx-4;
+  @apply md:mx-0;
+  @apply md:rounded-xl;
+
+  @apply pt-4;
+  @apply md:pt-9;
+  @apply pb-2;
+  @apply md:pb-6;
+  @apply px-4;
+  @apply md:px-20;
+
+  h2 {
+    @apply montserrat;
+    @apply text-lg;
+    @apply md:text-[28px];
+    @apply mb-2;
+    @apply md:mb-4;
+  }
+
+  p {
+    @apply w-full;
+    @apply md:w-5/12;
+    @apply mb-4;
+  }
+
+  input:not(.btn),
+  textarea {
+    @apply bg-white;
+    @apply px-4;
+    @apply py-3.5;
+    @apply text-sm;
+    @apply rounded-md;
+    @apply w-full;
+  }
+
+  .form-wrapper {
+    @apply w-full;
+    @apply mx-auto;
+    @apply md:w-5/12;
+
+    .inputs-wrapper {
+      @apply flex;
+      @apply flex-wrap;
+      @apply md:flex-nowrap;
+      @apply md:-mx-2;
+
+      span {
+        @apply block;
+        @apply md:mx-2;
+        @apply mb-4;
+
+
+        &.wpcf7-not-valid-tip {
+          @apply md:!w-full;
+        }
+      }
+    }
+
+    p {
+      @apply md:w-full;
+    }
+
+    textarea {
+      @apply h-24;
+    }
+
+
+    + p {
+      @apply relative;
+
+      .wpcf7-spinner {
+        @apply absolute;
+        left: calc(50% - 38px);
+      }
+    }
+  }
+
+  .btn {
+    @apply w-full;
+    @apply md:w-48;
+  }
+}

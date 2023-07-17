@@ -1,0 +1,12 @@
+.social {
+  @apply flex;
+
+  a {
+    @apply ml-3;
+
+    &.soc_show {
+      @apply hidden;
+      @apply md:block;
+    }
+  }
+}

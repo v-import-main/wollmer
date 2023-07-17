@@ -1,0 +1,55 @@
+#mobile-search {
+  @apply -translate-x-full;
+  @apply bg-white;
+  @apply z-50;
+  @apply fixed left-0;
+  @apply transition transition-transform duration-300;
+  @apply flex items-center;
+  @apply px-4 py-3;
+  @apply h-12;
+  @apply md:hidden;
+
+  &.active {
+    @apply translate-x-0;
+  }
+
+  .search-mobile-toggler {
+    svg {
+      @apply fill-neutral-900;
+      @apply rotate-180;
+    }
+  }
+
+  #searchform {
+    @apply flex;
+    @apply ml-4;
+    @apply w-full;
+
+    .btn.search-btn {
+      @apply rounded-r-md;
+      @apply rounded-l-none;
+      @apply bg-stone-700;
+      @apply text-white;
+      @apply p-2;
+      @apply border border-stone-700;
+    }
+
+    .search-cross {
+      @apply hidden;
+      @apply absolute top-4 right-20 mr-1.5 mt-px;
+      @apply cursor-pointer;
+    }
+
+    .input.search-input {
+      width: calc(100vw - 24px - 32px - 80px);
+      @apply rounded-l-md;
+      @apply bg-gray-100;
+      @apply px-2;
+      @apply border border-stone-700;
+
+      &:not([value=""]) + .search-cross {
+        @apply block;
+      }
+    }
+  }
+}

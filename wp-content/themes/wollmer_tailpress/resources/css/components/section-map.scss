@@ -1,0 +1,106 @@
+#section-map {
+  .taglist {
+    @apply
+      flex
+      overflow-x-scroll
+      px-2.5
+      md:px-0
+      -ml-4
+      -mr-4
+      md:mr-0
+      md:-ml-1.5;
+  }
+
+  .map-wrapper {
+    @apply
+      flex
+      rounded-xl
+      md:border
+      border-gray-300
+      overflow-hidden
+      md:max-h-[80vh];
+
+    .map-list {
+      @apply
+        md:mx-8
+        overflow-y-scroll;
+
+      .search-input {
+        @apply
+          mt-6
+          hidden;
+      }
+
+      .service-list {
+        @apply
+          mt-4
+          md:max-w-[350px];
+
+        .service-item {
+          @apply
+            py-4
+            pl-8
+            pr-4
+            my-4
+            rounded-xl
+            border
+            cursor-pointer
+            border-gray-300
+            hover:border-yellow-400;
+
+          &.selected {
+            @apply
+              border-yellow-400
+          }
+
+          p {
+            @apply mb-1;
+          }
+
+          .headline {
+            @apply
+              font-semibold
+              mb-4;
+          }
+          .lite {
+            @apply
+              text-gray-500;
+          }
+        }
+
+
+
+
+        .service-item {
+          @apply hidden;
+        }
+        &.show_1 {
+          .service-item.area_1 {
+            @apply block;
+          }
+        }
+        &.show_2 {
+          .service-item.area_2 {
+            @apply block;
+          }
+        }
+        &.show_3 {
+          .service-item.area_3 {
+            @apply block;
+          }
+        }
+        &.show_4 {
+          .service-item.area_4 {
+            @apply block;
+          }
+        }
+      }
+    }
+    #map {
+      @apply
+        w-full
+        hidden
+        md:block;
+    }
+  }
+}

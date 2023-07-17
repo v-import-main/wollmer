@@ -1,0 +1,22 @@
+.tabs.wc-tabs {
+    @apply flex mb-8 -ml-2 overflow-auto relative;
+
+    li {
+        a{
+            @apply cursor-pointer;
+            @apply mx-2;
+            @apply mb-4;
+            @apply py-2.5;
+            @apply px-4;
+            @apply bg-gray-200;
+            @apply md:hover:text-neutral-100;
+            @apply md:hover:bg-[#4D363A];
+            @apply rounded-md;
+            @apply font-semibold;
+            @apply block;
+        }
+        &.active a{
+            @apply bg-[#4D363A] text-neutral-100;
+        }
+    }
+}

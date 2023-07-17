@@ -1,0 +1,140 @@
+<yml_catalog date="2022-12-22 22:21">
+    <shop> 
+        <name>Wollmer</name>
+        <company>Wollmer</company>
+        <url>https://wollmer.ru</url>
+
+        <categories>
+            <category id="9b4bad53-02ae-11ed-0a80-0fe900498171">Электрическая мясорубка</category>
+            <category id="ae28c691-0f65-11ed-0a80-0d8300135272">Вертикальный пылесос</category>
+            <category id="9b5cb622-02ae-11ed-0a80-0fe900498178">Электрогриль</category>
+            <category id="9b698d1e-02ae-11ed-0a80-0fe90049817d">Погружные блендеры</category>
+            <category id="9ae0dd6f-4bc7-11ed-0a80-03de0011b6e1">Планетарный миксер</category>
+            <category id="198">Робот-мойщик окон</category>
+            <category id="8719c01c-0f65-11ed-0a80-017700133d2e">Аксессуары</category>
+        </categories>
+
+        <offers>
+        
+            <offer id="WLM905XP">
+                <url>http://wollmer.cq77457.tmweb.ru/product/myasorubka-wollmer-m905-x-power-basic/</url>
+                <categoryId>9b4bad53-02ae-11ed-0a80-0fe900498171</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/905-razmer-300x254.png</picture>
+                <name>Мясорубка Wollmer M905 X-Power</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="WLM907SS">
+                <url>http://wollmer.cq77457.tmweb.ru/product/myasorubka-wollmer-m907-strong-steel/</url>
+                <categoryId>9b4bad53-02ae-11ed-0a80-0fe900498171</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/907-razmer-1-300x254.png</picture>
+                <name>Мясорубка Wollmer M907 Strong Steel</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="WLM901">
+                <url>http://wollmer.cq77457.tmweb.ru/product/myasorubka-wollmer-m901/</url>
+                <categoryId>9b4bad53-02ae-11ed-0a80-0fe900498171</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/06/recent-elements-300x256.png</picture>
+                <name>Мясорубка Wollmer M901</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="WLD707S">
+                <url>http://wollmer.cq77457.tmweb.ru/product/vertikalnyj-pylesos-wollmer-d707-sapphire/</url>
+                <categoryId>ae28c691-0f65-11ed-0a80-0d8300135272</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/707-razmer-300x254.png</picture>
+                <name>Вертикальный пылесос Wollmer D707 Sapphire</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="WLD703C">
+                <url>http://wollmer.cq77457.tmweb.ru/product/vertikalnyj-pylesos-wollmer-d703-charoit/</url>
+                <categoryId>ae28c691-0f65-11ed-0a80-0d8300135272</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/703-razmer-300x254.png</picture>
+                <name>Вертикальный пылесос Wollmer D703 Charoit</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="WLS807N">
+                <url>http://wollmer.cq77457.tmweb.ru/product/elektrogril-wollmer-s807-new/</url>
+                <categoryId>9b5cb622-02ae-11ed-0a80-0fe900498178</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/807-razmer-300x254.png</picture>
+                <name>Электрогриль Wollmer S807 New</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="WLG522K">
+                <url>http://wollmer.cq77457.tmweb.ru/product/pogruzhnoj-blender-wollmer-g522-katana/</url>
+                <categoryId>9b698d1e-02ae-11ed-0a80-0fe90049817d</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/522-razmer-300x254.png</picture>
+                <name>Погружной блендер Wollmer G522 Katana</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="WLT1000">
+                <url>http://wollmer.cq77457.tmweb.ru/product/planetarnyj-mikser-wollmer-t1000/</url>
+                <categoryId>9ae0dd6f-4bc7-11ed-0a80-03de0011b6e1</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/11/11-300x225.png</picture>
+                <name>Планетарный миксер Wollmer T1000</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="WLW600U">
+                <url>http://wollmer.cq77457.tmweb.ru/product/robot-mojshhik-wollmer-w600-ultrabot-2/</url>
+                <categoryId>c4eea97d-0f65-11ed-0a80-0c4c00135e4f</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/600-pn-novyj-1-300x254.png</picture>
+                <name>Робот-мойщик Wollmer W600 Ultrabot</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="KWLMS905">
+                <url>http://wollmer.cq77457.tmweb.ru/product/nasadki-ovoshherezki-s-protalkivatelem-dlya-elektricheskoj-myasorubki-wollmer-m905-2/</url>
+                <categoryId>8719c01c-0f65-11ed-0a80-017700133d2e</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/13-300x254.png</picture>
+                <name>Насадки-овощерезки с проталкивателем для электрической мясорубки Wollmer M905</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="KWLMJ905">
+                <url>http://wollmer.cq77457.tmweb.ru/product/nasadka-sokovyzhimalka-dlya-elektricheskoj-myasorubki-wollmer-m905-2/</url>
+                <categoryId>8719c01c-0f65-11ed-0a80-017700133d2e</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/sokovyzhimalka-1-300x254.png</picture>
+                <name>Насадка-соковыжималка для электрической мясорубки Wollmer M905</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="KWLMJ907">
+                <url>http://wollmer.cq77457.tmweb.ru/product/nasadka-sokovyzhimalka-dlya-elektricheskoj-myasorubki-wollmer-m907-strong-steel-2/</url>
+                <categoryId>8719c01c-0f65-11ed-0a80-017700133d2e</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/sokovyzhimalka-907-1-300x254.png</picture>
+                <name>Насадка-соковыжималка для электрической мясорубки Wollmer M907 Strong Steel</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="KWLMS907">
+                <url>http://wollmer.cq77457.tmweb.ru/product/nasadki-ovoshherezki-s-protalkivatelem-dlya-elektricheskoj-myasorubki-wollmer-m907-2/</url>
+                <categoryId>8719c01c-0f65-11ed-0a80-017700133d2e</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/14-300x254.png</picture>
+                <name>Насадки-овощерезки с проталкивателем для электрической мясорубки Wollmer M907</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="KWLDA705">
+                <url>http://wollmer.cq77457.tmweb.ru/product/akkumulyator-dlya-vertikalnogo-pylesosa-wollmer-d705-2/</url>
+                <categoryId>8719c01c-0f65-11ed-0a80-017700133d2e</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/akkumulyator-300x254.png</picture>
+                <name>Аккумулятор для вертикального пылесоса Wollmer D705</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+            
+            <offer id="KWLDA707">
+                <url>http://wollmer.cq77457.tmweb.ru/product/akkumulyator-dlya-vertikalnogo-pylesosa-wollmer-d707-2/</url>
+                <categoryId>8719c01c-0f65-11ed-0a80-017700133d2e</categoryId>
+                <picture>http://wollmer.cq77457.tmweb.ru/wp-content/uploads/2022/08/akkumulyator-300x254.png</picture>
+                <name>Аккумулятор для вертикального пылесоса Wollmer D707</name>
+                <vendor>Wollmer</vendor>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>

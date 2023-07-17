@@ -1,0 +1,232 @@
+.woocommerce-checkout {
+  overflow: initial;
+
+  .woocommerce-terms-and-conditions-wrapper,
+  .woocommerce-form-coupon-toggle,
+  .woocommerce-additional-fields__field-wrapper label .optional,
+  .woocommerce-billing-fields h3,
+  .woocommerce-additional-fields h3,
+  .wc_payment_methods.payment_methods,
+  #order_review_heading,
+  #ship-to-different-address,
+  #billing_country_field,
+  .fields-wrapper abbr {
+    @apply hidden;
+  }
+
+  .checkout-right-wrapper {
+    @apply sticky top-12;
+  }
+
+  .tabs_toggler {
+    @apply flex;
+  }
+
+  .tabs {
+    #curier {
+      @apply flex flex-col;
+      .notes {
+        @apply order-last;
+      }
+    }
+  }
+  .woocommerce-Price-amount.amount bdi {
+    @apply whitespace-nowrap;
+  }
+
+  #place_order {
+    @apply rounded-xl bg-[#4D363A] p-3 text-center text-white font-semibold mt-8 mb-4 w-full block;
+  }
+
+  .headline {
+    @apply text-lg montserrat md:text-[28px] mb-6;
+  }
+
+  .checkout-cols-wrapper {
+    @apply flex flex-wrap md:flex-nowrap;
+
+    .checkout-left-sidebar {
+      @apply
+      w-full
+      md:w-2/3;
+    }
+    .checkout-right-sidebar {
+      @apply md:w-1/3 md:pl-12;
+
+      .checkout-right-wrapper {
+        @apply flex flex-wrap;
+        @apply rounded-xl shadow-lg;
+        @apply px-6 py-9 md:ml-12;
+      }
+    }
+  }
+
+  .shop_table {
+    @apply w-full;
+
+    tbody,thead {
+      @apply hidden;
+    }
+    tfoot {
+      @apply flex flex-col;
+
+      tr {
+        @apply flex justify-between mb-4;
+
+        &.order-total {
+          @apply order-first text-2xl;
+
+          th {
+            @apply text-left font-semibold;
+          }
+        }
+
+        th {
+          @apply text-left font-normal;
+        }
+
+        td {
+          @apply text-right;
+        }
+
+        &.cart-discount {
+          td {
+            @apply text-red-600;
+          }
+        }
+      }
+    }
+  }
+
+  .place-order {
+    @apply order-last w-full flex flex-wrap;
+
+    .control-wrapper {
+      @apply order-last;
+
+      input {
+        filter:invert(100%) hue-rotate(18deg) brightness(1.5);
+        @apply mr-2;
+      }
+
+      a {
+        @apply text-gray-500;
+      }
+    }
+  }
+
+  .fields-group {
+    @apply p-4 rounded-lg border mb-6;
+
+    .fields-group-headline {
+      @apply montserrat text-xl mb-3;
+    }
+
+    .fields-wrapper {
+
+      .form-row {
+        @apply mb-4 md:w-1/3 inline-flex relative;
+
+        label {
+          @apply absolute top-4 left-5 text-sm;
+        }
+
+        .woocommerce-input-wrapper {
+          @apply mt-3 rounded-lg pt-6 px-4 pb-1 border w-full mx-1;
+
+          textarea, input {
+            @apply w-full;
+
+            &:focus,
+            &:focus-visible,
+            &:active {
+              @apply outline-none;
+            }
+          }
+
+          input {
+            @apply font-semibold;
+          }
+          textarea {
+            @apply max-h-6;
+          }
+
+        }
+
+        &.checkbox,
+        &.checkbox_ship {
+          label {
+            @apply text-lg cursor-pointer font-semibold pt-3 min-h-[52px] flex relative -ml-4 pl-14;
+
+            &:before {
+              @apply absolute w-6 h-6 -ml-9;
+              content:'';
+              background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='23' height='23' rx='11.5' stroke='%234D363A'/%3E%3C/svg%3E");
+            }
+
+            .smaller {
+              @apply hidden;
+            }
+          }
+
+          input {
+            @apply hidden;
+          }
+
+          input:checked+label {
+            @apply border-yellow-400 h-full;
+
+            .smaller {
+              @apply block;
+            }
+
+            &:before {
+              background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='24' height='24' rx='12' fill='%23FED02C'/%3E%3Cpath d='M5.4422 12.1406L10.1839 16.8824C10.262 16.9605 10.3887 16.9605 10.4668 16.8824L18.5574 8.79176C18.6355 8.71364 18.6355 8.58697 18.5573 8.50887L17.1646 7.11716C17.0865 7.0391 16.9599 7.03913 16.8818 7.11723L10.4668 13.5334C10.3887 13.6115 10.262 13.6115 10.1839 13.5334L7.11666 10.4662C7.03856 10.3881 6.91193 10.3881 6.83382 10.4662L5.4422 11.8578C5.3641 11.9359 5.3641 12.0625 5.4422 12.1406Z' fill='white'/%3E%3C/svg%3E");
+            }
+          }
+        }
+      }
+    }
+    &.section-payments .fields-wrapper {
+      @apply flex flex-col-reverse;
+
+      .form-row {
+        @apply w-full;
+
+        label {
+          @apply text-[14px] md:text-sm leading-4 md:leading-6 pt-2 md:pt-3 pl-12 md:pl-14 flex flex-col;
+
+          &:before {
+            @apply mt-1 md:mt-0;
+          }
+          .smaller {
+            @apply text-[11px] md:text-[14px] font-normal;
+          }
+        }
+      }
+    }
+    &.fields-shipping .fields-wrapper{
+      @apply flex flex-col-reverse;
+
+      .form-row {
+        @apply w-full;
+      }
+    }
+  }
+}
+
+#shipping_method {
+  input{
+    @apply hidden;
+
+    &+label {
+      @apply hidden;
+    }
+    &:checked+label {
+      @apply block;
+    }
+  }
+}
+.CDEK-widget__delivery-type__button,
+.CDEK-widget__sidebar {display:none!important}
+.CDEK-widget__panel {right:0!important}

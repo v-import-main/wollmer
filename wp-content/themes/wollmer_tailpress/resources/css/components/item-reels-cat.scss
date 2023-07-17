@@ -1,0 +1,24 @@
+.item-reels-cat {
+  @apply bg-neutral-100;
+  @apply rounded-lg;
+  @apply mx-1.5;
+  @apply py-2;
+  @apply flex;
+  @apply flex-col;
+  @apply items-center;
+  @apply cursor-pointer;
+  @apply w-32 md:w-[calc(20%-11px)];
+  @apply max-h-[7rem];
+
+  &.six {
+    @apply md:w-[15%];
+  }
+
+  p {
+    @apply font-semibold;
+    @apply text-center;
+    @apply mt-2;
+    @apply text-sm;
+    @apply whitespace-nowrap;
+  }
+}

@@ -1,0 +1,30 @@
+#catalog-top {
+  .main-image {
+    @apply mb-0;
+    
+    picture {
+      @apply w-full;
+
+      img {
+        @apply w-full;
+        @apply sm:max-h-64;
+        @apply object-cover;
+        @apply object-top;
+      }
+    }
+    p {
+      @apply text-center;
+      @apply sm:text-left;
+      @apply w-full;
+      @apply ml-0;
+      @apply sm:ml-3;
+      @apply lg:ml-16;
+      @apply text-[28px];
+      @apply lg:text-4xl;
+      @apply self-end;
+      @apply sm:self-center;
+      @apply mb-6;
+      @apply sm:mb-0;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+<div class="cart-notice">Товар добавлен в корзину</div>
