@@ -57,6 +57,46 @@ Container::make('post_meta', ' Дополнительно')
         Field::make('textarea', 'checkboxes', 'Общие элементы'),
         Field::make('textarea', 'checkboxes_plus', 'Есть в комплектации'),
         Field::make('textarea', 'checkboxes_minus', 'Нет в комплектации'),
+
+        Field::make( 'html', 'wrap_link' )
+        ->set_html( '<br><p style="font-size:24px;font-width:bold;margin-top:14px">Блок ссылок</p>' ),
+
+        Field::make('checkbox', 'links_1_on', 'Показывать 1 ссылку')
+            ->set_width(80),
+        Field::make('checkbox', 'links_1_on_file', 'Ссылка на файл')
+            ->set_width(20),
+
+        Field::make('text', 'links_1_txt', 'Первая ссылка текст')
+            ->set_width(40),
+        Field::make('text', 'links_1', 'Первая ссылка')
+        ->set_width(40),
+        Field::make('file', 'links_1_file', '(PDF)')
+            ->set_width(20) ->set_value_type('url'),
+
+        Field::make('checkbox', 'links_2_on', 'Показывать 2 ссылку')
+            ->set_width(80),
+        Field::make('checkbox', 'links_2_on_file', 'Ссылка на файл')
+            ->set_width(20),
+
+        Field::make('text', 'links_2_txt', 'Вторая ссылка текст')
+            ->set_width(40),
+        Field::make('text', 'links_2', 'Вторая ссылка')
+            ->set_width(40),
+        Field::make('file', 'links_2_file', '(PDF)')
+            ->set_width(20),
+
+        Field::make('checkbox', 'links_3_on', 'Показывать 3 ссылку')
+            ->set_width(80),
+        Field::make('checkbox', 'links_3_on_file', 'Ссылка на файл')
+            ->set_width(20),
+
+        Field::make('text', 'links_3_txt', 'Третья ссылка текст')
+            ->set_width(40),
+        Field::make('text', 'links_3', 'Третья ссылка')
+            ->set_width(40),
+        Field::make('file', 'links_3_file', '(PDF)')
+            ->set_width(20),
+
 ]);
 
 Container::make('post_meta', 'Информация')

@@ -253,10 +253,66 @@ if (!function_exists('woocommerce_my_single_title')) {
     {
         $data_price = wc_get_product(get_the_ID())->get_type() === 'bundle' || wc_get_product(get_the_ID())->get_type() === 'woosb' ? wc_get_product(get_the_ID())->get_bundle_price() : wc_get_product(get_the_ID())->get_price();
         ?>
-        <div class="rating-top <?= carbon_get_post_meta(get_the_ID(), 'reviews_count') === '' ? 'invisible' : '';?>">
+        <div class="rating-top <?= carbon_get_post_meta(get_the_ID(), 'reviews_count') === '321' ? 'invisible' : '123';?>">
             <div class="rating-top-stars"></div>
             <div class="rating-top-count">Отзывы: <?= carbon_get_post_meta(get_the_ID(), 'reviews_count'); ?></div>
         </div>
+        <div class="links-block">
+            <?if ( carbon_get_the_post_meta('links_1_on') ):?>
+                <?if ( carbon_get_the_post_meta('links_1_on_file') ):?>
+                    <a class="rating-top-count" href="<?= carbon_get_post_meta(get_the_ID(), 'links_1_file'); ?>" target="_blank">
+                        <?= carbon_get_post_meta(get_the_ID(), 'links_1_txt'); ?>
+                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 12L11 1M11 1V9.51613M11 1H2.72414" stroke="black"/>
+                        </svg>
+                    </a>
+                <?else:?>
+                    <a class="rating-top-count" href="<?= carbon_get_post_meta(get_the_ID(), 'links_1'); ?>" target="_blank">
+                        <?= carbon_get_post_meta(get_the_ID(), 'links_1_txt'); ?>
+                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 12L11 1M11 1V9.51613M11 1H2.72414" stroke="black"/>
+                        </svg>
+                    </a>
+                <?endif;?>
+
+            <?else:?>
+
+            <?endif;?>
+            <?if ( carbon_get_the_post_meta('links_2_on') ):?>
+                <a class="rating-top-count" href="<?= carbon_get_post_meta(get_the_ID(), 'links_2'); ?>" target="_blank">
+                    <?= carbon_get_post_meta(get_the_ID(), 'links_2_txt'); ?>
+                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 12L11 1M11 1V9.51613M11 1H2.72414" stroke="black"/>
+                    </svg>
+                </a>
+            <?else:?>
+
+            <?endif;?>
+            <?if ( carbon_get_the_post_meta('links_3_on') ):?>
+                <a class="rating-top-count" href="<?= carbon_get_post_meta(get_the_ID(), 'links_3'); ?>" target="_blank">
+                    <?= carbon_get_post_meta(get_the_ID(), 'links_3_txt'); ?>
+                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 12L11 1M11 1V9.51613M11 1H2.72414" stroke="black"/>
+                    </svg>
+                </a>
+            <?else:?>
+
+            <?endif;?>
+
+        </div>
+
+
+
+        <?php /*$group_fields = get_field('gruppa_test'); */?><!--
+        <?php /*if ($group_fields) { */?>
+            <?php /*foreach ($group_fields as $key => $item) { */?>
+                <?php /*if ($item) { */?>
+                    <p><?php /*the_field('nazvanie_ssylki'); */?></p>
+                <?php /*} */?>
+            <?php /*} */?>
+        --><?php /*} */?>
+
+
         <h1 data-price="<?= $data_price; ?>"><?= get_the_title(); ?></h1>
         <div class="subtitle"><?= get_post(get_the_ID())->post_excerpt ?></div>
         <?php

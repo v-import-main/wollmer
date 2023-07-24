@@ -26,3 +26,4 @@ $gall = count($args['product']->get_gallery_image_ids()) > 1;
     </div>
   <?php } ?>
 </section>
+

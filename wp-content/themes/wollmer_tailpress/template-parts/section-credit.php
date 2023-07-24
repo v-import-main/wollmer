@@ -7,12 +7,12 @@ $var_prod = false;
 
 if(is_product()){
   $type = 'product';
-  
+
   if( $product->get_stock_quantity() < 1 ) return;
   if( has_term( 'komplektuyuschie', 'product_cat', $product->get_id() ) ) return;
   if( has_term( 'programma-wollmer-care', 'product_cat', $product->get_id() ) ) return;
   if( has_term( 'aksessuary', 'product_cat', $product->get_id() ) ) return;
-  
+
 }
 if(is_cart()){
   $type = 'cart';
@@ -62,7 +62,7 @@ if(is_cart()){
 
     function get_cart_items() {
       let items = [];
-      
+
       if(type === 'cart'){
         let cart_list = document.querySelector('.woocommerce-cart-form tbody').children;
         for (let i = items.length; i < cart_list.length-1; i++ ) {
@@ -95,7 +95,7 @@ if(is_cart()){
           'quantity': 1
         }
       }
-      
+
       return items;
     }
 
@@ -108,20 +108,20 @@ if(is_cart()){
       console.log('items',tin_obj.items);
       switch (time) {
         case 3:
-          $time = 'installment_0_0_3_5,19'; 
+          $time = 'installment_0_0_3_5,19';
           break;
         case 6:
-          $time = 'installment_0_0_6_8,84'; 
+          $time = 'installment_0_0_6_8,84';
           break;
         case 12:
-          $time = 'installment_0_0_12_15,59'; 
+          $time = 'installment_0_0_12_15,59';
           break;
         default:
           break;
       };
 
       tin_obj.promoCode = $time;
-      
+
       tinkoff.create(
         tin_obj,
       {view: 'modal'}

@@ -15,6 +15,6 @@
     </label>
     </div>
 
-    <?php } ?> 
+    <?php } ?>
   </div>
 </div>
