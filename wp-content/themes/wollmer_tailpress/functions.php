@@ -520,3 +520,4 @@ register_block_style(
 	  'label' => __( 'Brand', 'textdomain' )
 	]
   );
+

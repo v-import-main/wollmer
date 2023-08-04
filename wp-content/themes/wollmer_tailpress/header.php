@@ -11,7 +11,7 @@
 	
 	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@600&display=swap" as="style">
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@600&display=swap">
-
+    <link href="https://cdn.jsdelivr.net/npm/suggestions-jquery@21.12.0/dist/css/suggestions.min.css" rel="stylesheet" />
 	<?php
 	if(is_front_page()){
 		echo '<link rel="preload" href="/wp-content/uploads/2022/10/large-banners.png.webp" as="image">';

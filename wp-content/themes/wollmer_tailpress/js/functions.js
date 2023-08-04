@@ -65,3 +65,140 @@ function search_suggest(s) {
 	});
 	return false;
 }
+
+
+/*$(document).on("change",".radio_option", function(){
+    if ($('#vis_0_flat_rate1').prop("checked")) {
+        $('#billing_address_1_field').addClass("active");
+        $('#billing_street_field').addClass("active");
+        $('#billing_kv_field').addClass("active");
+    } else {
+        $('#billing_address_1_field').removeClass("active");
+        $('#billing_street_field').removeClass("active");
+        $('#billing_kv_field').removeClass("active");
+    }
+});*/
+
+/*$(document).ready(function() {
+    var radioButtons = $('input[name="shipping_method_vis"]');
+    radioButtons.each(function() {
+        if ($(this).is(':checked')) {
+            if ($(this).val() == "1) {
+                $('#billing_address_1_field').addClass("active");
+                $('#billing_street_field').addClass("active");
+                $('#billing_kv_field').addClass("active");
+            } else if ($(this).val() == "2") {
+                $('#billing_address_1_field').removeClass("active");
+                $('#billing_street_field').removeClass("active");
+                $('#billing_kv_field').removeClass("active");
+            }
+        }
+    });
+});*/
+
+/*
+document.addEventListener('DOMContentLoaded', function() {
+    var radioButtons = document.getElementsByName('shipping_method_vis');
+    for (var i = 0; i < radioButtons.length; i++) {
+        if (radioButtons[i].checked) {
+            if(radioButtons[i].getElementById('vis_0_flat_rate1')){
+                document.getElementById('billing_address_1_field').classList.add('active');
+            }else if(radioButtons[i].getElementById('vis_0_flat_rate1')){
+                document.getElementById('billing_address_1_field').classList.remove('active');
+            }
+        }
+    }
+});
+*/
+
+let inp = document.querySelectorAll('.radio_option');
+let box_1 = document.querySelectorAll('#curier .address-field:nth-child(9)');
+let box_2 = document.querySelectorAll('#curier .address-field:nth-child(8)');
+let box_3 = document.querySelectorAll('#curier .address-field:nth-child(7)');
+let box_4 = document.querySelectorAll('#curier .address-field:nth-child(6)');
+
+for (let i = 0; i < inp.length; i++) {
+    if (inp[i].checked) {
+        box_1[i].classList.add('active');
+        box_2[i].classList.add('active');
+        box_3[i].classList.add('active');
+        box_4[i].classList.add('active');
+    }
+    inp[i].addEventListener('change', () => {
+        box_1.forEach((el) => el.classList.remove('active'));
+        box_1[i].classList.add('active');
+    });
+    inp[i].addEventListener('change', () => {
+        box_2.forEach((el) => el.classList.remove('active'));
+        box_2[i].classList.add('active');
+    });
+    inp[i].addEventListener('change', () => {
+        box_3.forEach((el) => el.classList.remove('active'));
+        box_3[i].classList.add('active');
+    });
+    inp[i].addEventListener('change', () => {
+        box_4.forEach((el) => el.classList.remove('active'));
+        box_4[i].classList.add('active');
+    });
+}
+
+$(document).ready(function() {
+    var token = 'c5148ad3b5c68eaebc9bf5c1258f90af442e05bc'
+    var type = "ADDRESS";
+    var $region = $("#billing_address_1");
+    var $street = $("#billing_street");
+    var $house = $("#billing_house");
+    var $city   = $("#billing_city");
+
+    function showPostalCode(suggestion) {
+        $("#postal_code").val(suggestion.data.postal_code);
+    }
+
+    function clearPostalCode() {
+        $("#postal_code").val("");
+    }
+
+// регион и район
+    $region.suggestions({
+        token: token,
+        type: type,
+        hint: false,
+        bounds: "region-city"
+    });
+
+// город и населенный пункт
+    $city.suggestions({
+        token: token,
+        type: type,
+        hint: false,
+        bounds: "city-settlement",
+        constraints: $region
+    });
+
+// улица
+    $street.suggestions({
+        token: token,
+        type: type,
+        hint: false,
+        bounds: "street",
+        constraints: $city,
+        count: 15,
+    });
+
+
+// дом
+    $house.suggestions({
+        token: token,
+        type: type,
+        hint: false,
+        noSuggestionsHint: false,
+        bounds: "house",
+        constraints: $street
+    });
+
+
+    console.log($house.suggestions())
+
+});
+
+

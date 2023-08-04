@@ -506,10 +506,8 @@ function fdev_remove_all_checkout_fields($checkout_fields){
     unset($checkout_fields['billing']['billing_address_2']);
     unset($checkout_fields['billing']['billing_postcode']);
     // unset($checkout_fields['billing']['billing_country']);
-    unset($checkout_fields['billing']['postal_code']);
     unset($checkout_fields['billing']['billing_state']);
     unset($checkout_fields['billing']['billing_street']);
-    unset($checkout_fields['billing']['billing_house']);
     unset($checkout_fields['billing']['billing_kv']);
 //    unset($checkout_fields['billing']['billing_city']);
 
@@ -530,24 +528,18 @@ function fdev_remove_all_checkout_fields($checkout_fields){
     $checkout_fields[ 'order' ][ 'order_comments' ][ 'placeholder' ] = 'Если есть уточнения по заказу, напишите их тут';
     $checkout_fields[ 'order' ][ 'order_comments' ][ 'rows' ] = 5;
 
-    $checkout_fields[ 'order' ][ 'postal_code' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
     $checkout_fields[ 'order' ][ 'billing_state' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
     $checkout_fields[ 'order' ][ 'billing_city' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
     $checkout_fields[ 'order' ][ 'billing_address_1' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
     $checkout_fields[ 'order' ][ 'billing_street' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
-    $checkout_fields[ 'order' ][ 'billing_house' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
     $checkout_fields[ 'order' ][ 'billing_kv' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
 
     // unset($checkout_fields[ 'billing '][ 'billing_country' ]);
     $checkout_fields[ 'billing' ][ 'billing_country' ][ 'default' ] = 'RU';
     // $checkout_fields[ 'shipping' ][ 'shipping_country' ][ 'default' ] = 'RU';
 
-    $checkout_fields[ 'order' ][ 'billing_address_1' ][ 'label' ] = 'Населённый пункт';
     $checkout_fields[ 'order' ][ 'billing_address_1' ][ 'placeholder' ] = 'Номер дома, название улицы, квартира';
     $checkout_fields[ 'order' ][ 'billing_address_1' ][ 'autocomplete' ] = 'off';
-
-    $checkout_fields[ 'order' ][ 'postal_code' ][ 'label' ] = 'Индекс';
-    $checkout_fields[ 'order' ][ 'postal_code' ][ 'placeholder' ] = '';
 
     $checkout_fields[ 'order' ][ 'billing_state' ][ 'label' ] = 'Регион, область';
     $checkout_fields[ 'order' ][ 'billing_state' ][ 'placeholder' ] = 'Укажите ваш регион или область';
@@ -558,33 +550,25 @@ function fdev_remove_all_checkout_fields($checkout_fields){
     $checkout_fields[ 'order' ][ 'billing_city' ][ 'autocomplete' ] = 'address-level2';
 
 
-    $checkout_fields[ 'order' ][ 'billing_street' ][ 'label' ] = 'Улица';
-    $checkout_fields[ 'order' ][ 'billing_street' ][ 'placeholder' ] = 'Название улицы';
+    $checkout_fields[ 'order' ][ 'billing_street' ][ 'label' ] = 'Улица, дом';
+    $checkout_fields[ 'order' ][ 'billing_street' ][ 'placeholder' ] = 'Улица и номер дома';
 //    $checkout_fields[ 'order' ][ 'billing_street' ][ 'autocomplete' ] = 'street-address';
     $checkout_fields[ 'order' ][ 'billing_street' ][ 'autocomplete' ] = 'off';
-
-    $checkout_fields[ 'order' ][ 'billing_house' ][ 'label' ] = 'Дом';
-    $checkout_fields[ 'order' ][ 'billing_house' ][ 'placeholder' ] = 'Номер дома';
-    $checkout_fields[ 'order' ][ 'billing_house' ][ 'autocomplete' ] = 'flate-address';
 
     $checkout_fields[ 'order' ][ 'billing_kv' ][ 'label' ] = 'Квартира';
     $checkout_fields[ 'order' ][ 'billing_kv' ][ 'placeholder' ] = 'Номер квартиры';
     $checkout_fields[ 'order' ][ 'billing_kv' ][ 'autocomplete' ] = 'flate-address';
 
-    $checkout_fields[ 'order' ][ 'postal_code' ][ 'priority' ] = 1;
     $checkout_fields[ 'order' ][ 'billing_state' ][ 'priority' ] = 1;
     $checkout_fields[ 'order' ][ 'billing_city' ][ 'priority' ] = 1;
     $checkout_fields[ 'order' ][ 'billing_address_1' ][ 'priority' ] = 4;
     $checkout_fields[ 'order' ][ 'billing_street' ][ 'priority' ] = 2;
-    $checkout_fields[ 'order' ][ 'billing_house' ][ 'priority' ] = 2;
     $checkout_fields[ 'order' ][ 'billing_kv' ][ 'priority' ] = 3;
 
     unset( $checkout_fields[ 'billing' ][ 'billing_address_1' ] );
     unset( $checkout_fields[ 'billing' ][ 'billing_city' ] );
-    unset( $checkout_fields[ 'billing' ][ 'postal_code' ] );
     unset( $checkout_fields[ 'billing' ][ 'billing_state' ] );
     unset( $checkout_fields[ 'billing' ][ 'billing_street' ] );
-    unset( $checkout_fields[ 'billing' ][ 'billing_house' ] );
     unset( $checkout_fields[ 'billing' ][ 'billing_kv' ] );
 
     $checkout_fields[ 'billing' ][ 'billing_first_name' ][ 'label' ] = 'Имя и фамилия';
@@ -599,10 +583,8 @@ function fdev_remove_all_checkout_fields($checkout_fields){
     $checkout_fields[ 'billing' ][ 'billing_email' ][ 'placeholder' ] = 'order@wollmer.ru';
     $checkout_fields[ 'billing' ][ 'billing_email' ][ 'autocomplete' ] = 'off';
 
-    $checkout_fields[ 'order' ][ 'postal_code' ][ 'required' ] = false;
     $checkout_fields[ 'order' ][ 'billing_state' ][ 'required' ] = false;
     $checkout_fields[ 'order' ][ 'billing_street' ][ 'required' ] = false;
-    $checkout_fields[ 'order' ][ 'billing_house' ][ 'required' ] = false;
     $checkout_fields[ 'order' ][ 'billing_kv' ][ 'required' ] = false;
     $checkout_fields[ 'order' ][ 'billing_city' ][ 'required' ] = false;
     $checkout_fields[ 'order' ][ 'billing_address_1' ][ 'required' ] = false;
@@ -621,8 +603,8 @@ function change_woocommerce_field_markup($field, $key, $args, $value) {
 
     $stat = WC()->session->get( 'chosen_shipping_methods' )[0] !== 'flat_rate:2' ? 'cur' : 'pvz';
 
-    $stat_cur = WC()->session->get( 'chosen_shipping_methods' )[0] !== 'flat_rate:2' ? '' : 'selected';
-    $stat_pvz = WC()->session->get( 'chosen_shipping_methods' )[0] !== 'flat_rate:1' ? '' : 'selected';
+     $stat_cur = WC()->session->get( 'chosen_shipping_methods' )[0] !== 'flat_rate:2' ? '' : 'selected';
+     $stat_pvz = WC()->session->get( 'chosen_shipping_methods' )[0] !== 'flat_rate:1' ? '' : 'selected';
 
     $stat_cur = $stat === 'pvz' ? '' : 'selected';
     $stat_pvz = $stat === 'cur' ? '' : 'selected';
@@ -631,8 +613,8 @@ function change_woocommerce_field_markup($field, $key, $args, $value) {
 
 //     echo '$stat_cur:'.$stat_cur.' $stat_pvz:'.$stat_pvz.' $stat:'.$stat;
 
-    $display_cur = $stat_cur !== '' ? '' : 'style="display:none1"';
-    $display_pvz = $stat_pvz !== '' ? '' : 'style="display:none1"';
+     $display_cur = $stat_cur !== '' ? '' : 'style="display:none1"';
+     $display_pvz = $stat_pvz !== '' ? '' : 'style="display:none1"';
 
     $display_cur = $stat === 'cur' ? '' : 'style="display:none2"';
     $display_pvz = $stat === 'pvz' ? '' : 'style="display:none2"';
@@ -3446,100 +3428,3 @@ function override_default_address_checkout_fields( $address_fields ) {
     return $address_fields;
 }*/
 
-/**
- * @snippet       Регионы России для добавления в доставкее и на странице оформления заказа
- */
-add_filter( 'woocommerce_states', 'awrr_states_russia' );
-function awrr_states_russia( $states ) {
-
-    $states['RU'] = array(
-        '01' => 'Республика Адыгея',
-        '02' => 'Республика Башкортостан',
-        '03' => 'Республика Бурятия',
-        '04' => 'Республика Алтай',
-        '05' => 'Республика Дагестан',
-        '06' => 'Республика Ингушетия',
-        '07' => 'Республика Кабардино-Балкария',
-        '08' => 'Республика Калмыкия',
-        '09' => 'Республика Карачаево-Черкессия',
-        '10' => 'Республика Карелия',
-        '11' => 'Республика Коми',
-        '12' => 'Республика Марий Эл',
-        '13' => 'Республика Мордовия',
-        '14' => 'Республика Саха',
-        '15' => 'Республика Северная Осетия — Алания',
-        '16' => 'Республика Татарстан',
-        '17' => 'Республика Тыва',
-        '18' => 'Удмуртская Республика',
-        '19' => 'Республика Хакасия',
-        '20' => 'Чеченская республика',
-        '21' => 'Чувашская Республика',
-        '22' => 'Алтайский край',
-        '23' => 'Краснодарский край',
-        '24' => 'Красноярский край',
-        '25' => 'Приморский край',
-        '26' => 'Ставропольский край',
-        '27' => 'Хабаровский край',
-        '28' => 'Амурская область',
-        '29' => 'Архангельская область',
-        '30' => 'Астраханская область',
-        '31' => 'Белгородская область',
-        '32' => 'Брянская область',
-        '33' => 'Владимирская область',
-        '34' => 'Волгоградская область',
-        '35' => 'Вологодская область',
-        '36' => 'Воронежская область',
-        '37' => 'Ивановская область',
-        '38' => 'Иркутская область',
-        '39' => 'Калининградская область',
-        '40' => 'Калужская область',
-        '41' => 'Камчатский край',
-        '42' => 'Кемеровская область',
-        '43' => 'Кировская область',
-        '44' => 'Костромская область',
-        '45' => 'Курганская область',
-        '46' => 'Курская область',
-        '47' => 'Ленинградская область',
-        '48' => 'Липецкая область',
-        '49' => 'Магаданская область',
-        '50' => 'Московская область',
-        '51' => 'Мурманская область',
-        '52' => 'Нижегородская область',
-        '53' => 'Новгородская область',
-        '54' => 'Новосибирская область',
-        '55' => 'Омская область',
-        '56' => 'Оренбургская область',
-        '57' => 'Орловская область',
-        '58' => 'Пензенская область',
-        '59' => 'Пермский край',
-        '60' => 'Псковская область',
-        '61' => 'Ростовская область',
-        '62' => 'Рязанская область',
-        '63' => 'Самарская область',
-        '64' => 'Саратовская область',
-        '65' => 'Сахалинская область',
-        '66' => 'Свердловская область',
-        '67' => 'Смоленская область',
-        '68' => 'Тамбовская область',
-        '69' => 'Тверская область',
-        '70' => 'Томская область',
-        '71' => 'Тульская область',
-        '72' => 'Тюменская область',
-        '73' => 'Ульяновская область',
-        '74' => 'Челябинская область',
-        '75' => 'Забайкальский край',
-        '76' => 'Ярославская область',
-        '77' => 'Москва',
-        '78' => 'Санкт-Петербург',
-        '79' => 'Еврейская автономная область',
-        '82' => 'Республика Крым',
-        '83' => 'Ненецкий автономный округ',
-        '86' => 'Ханты-Мансийский автономный округ — Югра',
-        '87' => 'Чукотский автономный округ',
-        '89' => 'Ямало-Ненецкий автономный округ',
-        '92' => 'Севастополь',
-
-    );
-
-    return $states;
-}

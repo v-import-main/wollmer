@@ -112,5 +112,6 @@ echo carbon_get_theme_option('lowerbody');
 // echo '</pre>';
 
 ?>
+<script src="https://cdn.jsdelivr.net/npm/suggestions-jquery@21.12.0/dist/js/jquery.suggestions.min.js"></script>
 </body>
 </html>

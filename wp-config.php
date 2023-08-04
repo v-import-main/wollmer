@@ -26,13 +26,13 @@ define( 'WP_CACHE', true ); // Added by WP Rocket
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'u0789722_wollm' );
+define( 'DB_NAME', 'u0789722_womln' );
 
 /** Database username */
-define( 'DB_USER', 'u0789722_wollm' );
+define( 'DB_USER', 'u0789722_womln' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'u0789722_wollm' );
+define( 'DB_PASSWORD', 'u0789722_womln' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );

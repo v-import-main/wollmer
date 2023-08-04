@@ -14,7 +14,7 @@
     ?>
     <div class="form-row checkbox_ship">
        
-      <input value="<?= $key; ?>" <?= 'flat_rate:'.$key === $chosen_shipping_method ? 'checked' : '';?> type="radio" name="shipping_method_vis" id="vis_0_flat_rate<?= $key; ?>">
+      <input class="radio_option" value="<?= $key; ?>" <?= 'flat_rate:'.$key === $chosen_shipping_method ? 'checked' : '';?> type="radio" name="shipping_method_vis" id="vis_0_flat_rate<?= $key; ?>">
       <label for="vis_0_flat_rate<?= $key; ?>" class="woocommerce-input-wrapper <?= $gateway->chosen; ?>">
         <div><?= $method->get_title(); ?></div>
         <div class="smaller"><?= $method->get_instance_option( 'description' ); ?></div>
