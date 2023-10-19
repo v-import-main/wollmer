@@ -1,0 +1,4000 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: flatpm-wp\n"
+"POT-Creation-Date: 2023-04-19 17:59+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Михаил Flat <team@mehanoid.pro>\n"
+"Language-Team: FlatPM Team\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: flat_pm.php:18
+msgid "FlatPM – Ad Manager, AdSense, Custom Code and more"
+msgstr "FlatPM – Ad Manager, AdSense, Custom Code and more"
+
+#: flat_pm.php:19
+msgid ""
+"Plugin for displaying ads and interactive content. Popups, GEO, referer, "
+"browser, OS, ISP, UTM, A/B tests and more <a href=\"https://t.me/joinchat/"
+"+peZspodMlelhZjIy\">Our telegram channel</a>"
+msgstr ""
+"Плагин для вывода рекламы и интерактивного контента. Попапы, ГЕО, referer, "
+"браузер, ОС, ISP, UTM, A/B тесты и многое другое <a href=\"https://t.me/"
+"joinchat/UUXPMRJR9zRJUjzx\">Наш канал в телеграм</a>"
+
+#: flat_pm.php:182 flat_pm.php:258 flat_pm.php:261 path/folders/folder.php:198
+#: path/folders/list.php:17 path/folders/list.php:117 path/folders/list.php:146
+#: path/settings/settings_tab/personalization.php:74
+msgid "All blocks"
+msgstr "Все блоки"
+
+#: flat_pm.php:185 flat_pm.php:279
+#: path/settings/export_import_tab/export.php:152
+#: path/settings/export_import_tab/import.php:88
+msgid "License"
+msgstr "Лицензия"
+
+#: flat_pm.php:193
+msgid "Documentation"
+msgstr "Документация"
+
+#: flat_pm.php:266
+msgid "Need to migrate"
+msgstr "Необходима миграция"
+
+#: flat_pm.php:271
+msgid "Add block"
+msgstr "Добавить блок"
+
+#: flat_pm.php:272 path/settings/export_import_tab/export.php:128
+#: path/settings/export_import_tab/import.php:64
+msgid "Header and footer"
+msgstr "Header и footer"
+
+#: flat_pm.php:274 path/settings/block_ip.php:16
+#: path/settings/export_import_tab/export.php:134
+#: path/settings/export_import_tab/import.php:70
+msgid "Blacklist IP"
+msgstr "Блокировка ip"
+
+#: flat_pm.php:275 path/settings/settings.php:8
+msgid "Plugin settings"
+msgstr "Настройки плагина"
+
+#: flat_pm.php:276 path/settings/css_editor.php:10
+msgid "Style editor"
+msgstr "Редактор стилей"
+
+#: flat_pm.php:277 path/settings/export_import.php:8
+msgid "Import / Export"
+msgstr "Импорт / Экспорт"
+
+#: flat_pm.php:278
+msgid "Shortcodes"
+msgstr "Шорткоды"
+
+#: l10n/l10n-js.php:4
+msgid "changes not saved"
+msgstr "настройки не сохранены"
+
+#: l10n/l10n-js.php:5
+msgid "Untitled"
+msgstr "Без названия"
+
+#: l10n/l10n-js.php:6 path/blocks/add_tab/view/iterable.php:76
+#: path/blocks/add_tab/view/iterable.php:77
+#: path/blocks/add_tab/view/once.php:81 path/blocks/add_tab/view/once.php:82
+#: path/blocks/edit_tab/view/iterable.php:99
+#: path/blocks/edit_tab/view/iterable.php:100
+#: path/blocks/edit_tab/view/once.php:105
+#: path/blocks/edit_tab/view/once.php:106
+msgid "Image"
+msgstr "Картинка"
+
+#: l10n/l10n-js.php:7
+msgid "Link"
+msgstr "Ссылка"
+
+#: l10n/l10n-js.php:8
+msgid "Sticky"
+msgstr "Прилипающий"
+
+#: l10n/l10n-js.php:9
+msgid "For sidebar"
+msgstr "Для сайдбара"
+
+#: l10n/l10n-js.php:10
+msgid "Slider"
+msgstr "Слайдер"
+
+#: l10n/l10n-js.php:11
+msgid "File is broken"
+msgstr "Файл поврежден"
+
+#: l10n/l10n-js.php:12
+msgid "The export file is empty!"
+msgstr "Файл экспорта пуст!"
+
+#: l10n/l10n-js.php:13
+msgid "php script returned error"
+msgstr "php-скрипт вернул ошибку"
+
+#: l10n/l10n-js.php:16 l10n/l10n-js.php:21 path/blocks/add.php:211
+#: path/blocks/add.php:243 path/blocks/add.php:284 path/blocks/add.php:311
+#: path/blocks/add.php:348 path/blocks/add.php:385 path/blocks/add.php:404
+#: path/blocks/edit.php:236 path/blocks/edit.php:250 path/blocks/edit.php:282
+#: path/blocks/edit.php:323 path/blocks/edit.php:350 path/blocks/edit.php:387
+#: path/blocks/edit.php:424 path/blocks/edit.php:443 path/folders/edit.php:164
+#: path/folders/folder.php:502 path/folders/list.php:212
+#: path/settings/export_import.php:44 path/settings/settings.php:68
+msgid "Cancel"
+msgstr "Отмена"
+
+#: l10n/l10n-js.php:17 l10n/l10n-js.php:22
+msgid "Clear"
+msgstr "Очистить"
+
+#: l10n/l10n-js.php:18 l10n/l10n-js.php:23
+msgid "Ok"
+msgstr "Ок"
+
+#: l10n/l10n-js.php:24
+msgid "Close"
+msgstr "Закрыть"
+
+#: l10n/l10n-js.php:25
+msgid "Now"
+msgstr "Сейчас"
+
+#: l10n/l10n-js.php:26
+msgid "Today"
+msgstr "Сегодня"
+
+#: l10n/l10n-js.php:30
+msgid "January"
+msgstr "Январь"
+
+#: l10n/l10n-js.php:31
+msgid "February"
+msgstr "Февраль"
+
+#: l10n/l10n-js.php:32
+msgid "March"
+msgstr "Март"
+
+#: l10n/l10n-js.php:33
+msgid "April"
+msgstr "Апрель"
+
+#: l10n/l10n-js.php:34 l10n/l10n-js.php:48
+msgid "May"
+msgstr "Май"
+
+#: l10n/l10n-js.php:35
+msgid "June"
+msgstr "Июнь"
+
+#: l10n/l10n-js.php:36
+msgid "July"
+msgstr "Июль"
+
+#: l10n/l10n-js.php:37
+msgid "August"
+msgstr "Август"
+
+#: l10n/l10n-js.php:38
+msgid "September"
+msgstr "Сентябрь"
+
+#: l10n/l10n-js.php:39
+msgid "October"
+msgstr "Октябрь"
+
+#: l10n/l10n-js.php:40
+msgid "November"
+msgstr "Ноябрь"
+
+#: l10n/l10n-js.php:41
+msgid "December"
+msgstr "Декабрь"
+
+#: l10n/l10n-js.php:44
+msgid "Jan"
+msgstr "Янв"
+
+#: l10n/l10n-js.php:45
+msgid "Feb"
+msgstr "Фев"
+
+#: l10n/l10n-js.php:46
+msgid "Mar"
+msgstr "Мар"
+
+#: l10n/l10n-js.php:47
+msgid "Apr"
+msgstr "Апр"
+
+#: l10n/l10n-js.php:49
+msgid "Jun"
+msgstr "Июн"
+
+#: l10n/l10n-js.php:50
+msgid "Jul"
+msgstr "Июл"
+
+#: l10n/l10n-js.php:51
+msgid "Aug"
+msgstr "Авг"
+
+#: l10n/l10n-js.php:52
+msgid "Sep"
+msgstr "Сен"
+
+#: l10n/l10n-js.php:53
+msgid "Oct"
+msgstr "Окт"
+
+#: l10n/l10n-js.php:54
+msgid "Nov"
+msgstr "Ноя"
+
+#: l10n/l10n-js.php:55
+msgid "Dec"
+msgstr "Дек"
+
+#: l10n/l10n-js.php:58
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: l10n/l10n-js.php:59
+msgid "Monday"
+msgstr "Понедельник"
+
+#: l10n/l10n-js.php:60
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: l10n/l10n-js.php:61
+msgid "Wednesday"
+msgstr "Среда"
+
+#: l10n/l10n-js.php:62
+msgid "Thursday"
+msgstr "Четверг"
+
+#: l10n/l10n-js.php:63
+msgid "Friday"
+msgstr "Пятница"
+
+#: l10n/l10n-js.php:64
+msgid "Saturday"
+msgstr "Суббота"
+
+#: l10n/l10n-js.php:67 l10n/l10n-js.php:76
+msgid "Sun"
+msgstr "Вс"
+
+#: l10n/l10n-js.php:68 l10n/l10n-js.php:77
+msgid "Mon"
+msgstr "Пн"
+
+#: l10n/l10n-js.php:69 l10n/l10n-js.php:78
+msgid "Tue"
+msgstr "Вт"
+
+#: l10n/l10n-js.php:70 l10n/l10n-js.php:79
+msgid "Wed"
+msgstr "Ср"
+
+#: l10n/l10n-js.php:71 l10n/l10n-js.php:80
+msgid "Thu"
+msgstr "Чт"
+
+#: l10n/l10n-js.php:72 l10n/l10n-js.php:81
+msgid "Fri"
+msgstr "Пт"
+
+#: l10n/l10n-js.php:73 l10n/l10n-js.php:82
+msgid "Sat"
+msgstr "Сб"
+
+#: path/404/404.php:8
+msgid "404 Error"
+msgstr "странице 404 ошибки"
+
+#: path/404/404.php:20
+msgid "The requested page does not exist"
+msgstr "Запрашиваемая страница не найдена"
+
+#: path/404/404.php:21
+msgid ""
+"Check the link in the address bar, most likely the block or folder with this "
+"ID has been deleted."
+msgstr ""
+"Проверьте ссылку в адресной строке, скорее всего блок или папка с таким ID "
+"удалены."
+
+#: path/404/404.php:22
+msgid ""
+"If you expect to see a block or folder here, and you are sure that the link "
+"is correct, then contact support."
+msgstr ""
+"Если вы ожидаете увидеть здесь блок или папку, и уверены, что ссылка верная, "
+"то обратитесь в службу поддержки."
+
+#: path/blocks/add.php:12
+msgid "Add new block"
+msgstr "Добавить новый блок"
+
+#: path/blocks/add.php:29 path/blocks/edit.php:46
+msgid ""
+"<span>The note!<br><span>In order not to use the same code in two columns, "
+"enable duplication for Adblock in the plugin options</span></span>"
+msgstr ""
+"<span>Примечание!<br><span>Чтобы не использовать один и тот же код в двух "
+"колонках, включите дублирование для Adblock в настройках плагина</span></"
+"span>"
+
+#: path/blocks/add.php:39 path/blocks/edit.php:56
+msgid "Enabled block"
+msgstr "Блок включен"
+
+#: path/blocks/add.php:46 path/blocks/edit.php:63
+msgid "Disabled block"
+msgstr "Блок выключен"
+
+#: path/blocks/add.php:55 path/blocks/edit.php:72
+msgid "Enabled fast mode"
+msgstr "Fast mode включен"
+
+#: path/blocks/add.php:62 path/blocks/edit.php:79
+msgid "Disabled fast mode"
+msgstr "Fast mode отключен"
+
+#: path/blocks/add.php:72 path/blocks/edit.php:89
+msgid "Enabled lazyload"
+msgstr "Lazyload включен"
+
+#: path/blocks/add.php:79 path/blocks/edit.php:96
+msgid "Disabled lazyload"
+msgstr "Lazyload отключен"
+
+#: path/blocks/add.php:88 path/blocks/edit.php:105 path/folders/edit.php:49
+msgid "Save"
+msgstr "Сохранить"
+
+#: path/blocks/add.php:96 path/blocks/edit.php:122
+msgid "Block name"
+msgstr "Название блока"
+
+#: path/blocks/add.php:97 path/blocks/edit.php:123 path/folders/edit.php:67
+msgid "Please fill out this field"
+msgstr "Заполните это поле"
+
+#: path/blocks/add.php:105 path/blocks/edit.php:131
+msgid "Subblocks"
+msgstr "Подблоки"
+
+#: path/blocks/add.php:108 path/blocks/edit.php:134
+#: path/settings/settings_tab/personalization.php:117
+msgid "Output options"
+msgstr "Параметры вывода"
+
+#: path/blocks/add.php:111 path/blocks/edit.php:137 path/folders/edit.php:75
+msgid "Content targeting"
+msgstr "Таргетинг по контенту"
+
+#: path/blocks/add.php:114 path/blocks/edit.php:140 path/folders/edit.php:78
+#: path/settings/settings_tab/personalization.php:101
+#: path/settings/settings_tab/personalization.php:153
+msgid "User targeting"
+msgstr "Таргетинг по пользователю"
+
+#: path/blocks/add.php:131
+msgid "Create new block"
+msgstr "Создать новый блок"
+
+#: path/blocks/add.php:143 path/blocks/edit.php:169 path/folders/edit.php:105
+msgid "Choose publications"
+msgstr "Выберите публикации"
+
+#: path/blocks/add.php:144 path/blocks/edit.php:170 path/folders/edit.php:106
+msgid ""
+"You can search as a single entry by entering the id, url or title, or as a "
+"list.<br>Each query on a new line:"
+msgstr ""
+"Вы можете искать как отдельную запись, введя идентификатор, URL или "
+"заголовок, так и ввести списком.<br>Каждый запрос в новой строке:"
+
+#: path/blocks/add.php:150 path/blocks/edit.php:176 path/folders/edit.php:112
+msgid "What are we looking for?"
+msgstr "Что будем искать?"
+
+#: path/blocks/add.php:160 path/blocks/add.php:193 path/blocks/edit.php:186
+#: path/blocks/edit.php:219 path/folders/edit.php:122 path/folders/edit.php:151
+msgid "minimum query length for url - 8 characters"
+msgstr "минимальная длина запроса для URL - 8 символов"
+
+#: path/blocks/add.php:161 path/blocks/add.php:194 path/blocks/edit.php:187
+#: path/blocks/edit.php:220 path/folders/edit.php:123 path/folders/edit.php:152
+msgid "minimum query length for title - 4 characters"
+msgstr "минимальная длина запроса для заголовка - 4 символа"
+
+#: path/blocks/add.php:164 path/blocks/add.php:197 path/blocks/edit.php:190
+#: path/blocks/edit.php:223
+msgid "Add all"
+msgstr "Добавить все"
+
+#: path/blocks/add.php:176 path/blocks/edit.php:202 path/folders/edit.php:134
+msgid "Choose taxonomies"
+msgstr "Выберите таксономии"
+
+#: path/blocks/add.php:177 path/blocks/edit.php:203 path/folders/edit.php:135
+msgid ""
+"You can search for one taxonomy by entering id, slug or title, or as a list."
+"<br>Each query on a new line:"
+msgstr ""
+"Вы можете искать как одну таксономию, вводя id, slug или её title, так и "
+"ввести списоком.<br>Каждый запрос с новой строки:"
+
+#: path/blocks/add.php:208 path/blocks/edit.php:247
+msgid "Confirm enabling \"Fast Mode\""
+msgstr "Подтвердите включение \"Fast Mode\""
+
+#: path/blocks/add.php:209 path/blocks/edit.php:248
+msgid ""
+"In this mode, all types of block output will be turned off, except for "
+"\"Based on selectors (Once)\""
+msgstr ""
+"В этом режиме будут отключены все типы вывода блока, кроме \"Основано на "
+"селекторах (Один раз)\""
+
+#: path/blocks/add.php:212 path/blocks/edit.php:237 path/blocks/edit.php:251
+#: path/folders/edit.php:165 path/folders/folder.php:503
+#: path/folders/list.php:129 path/folders/list.php:158
+#: path/folders/list.php:213 path/settings/export_import.php:45
+#: path/settings/settings.php:69
+msgid "I confirm"
+msgstr "Я подтверждаю"
+
+#: path/blocks/add.php:224 path/blocks/edit.php:263
+msgid "Image insertion assistant"
+msgstr "Помощник по вставке изображений"
+
+#: path/blocks/add.php:228 path/blocks/edit.php:267
+msgid "Image url:"
+msgstr "URL изображения:"
+
+#: path/blocks/add.php:232 path/blocks/edit.php:271
+msgid "Image alt:"
+msgstr "Alt картинки:"
+
+#: path/blocks/add.php:236 path/blocks/edit.php:275
+msgid "Image width:"
+msgstr "Ширина картинки:"
+
+#: path/blocks/add.php:240 path/blocks/edit.php:279
+msgid "Image height:"
+msgstr "Высота картинки:"
+
+#: path/blocks/add.php:244 path/blocks/add.php:285 path/blocks/add.php:312
+#: path/blocks/add.php:349 path/blocks/add.php:386 path/blocks/edit.php:283
+#: path/blocks/edit.php:324 path/blocks/edit.php:351 path/blocks/edit.php:388
+#: path/blocks/edit.php:425
+msgid "Insert"
+msgstr "Вставить"
+
+#: path/blocks/add.php:256 path/blocks/edit.php:295
+msgid "Link insertion assistant"
+msgstr "Помощник вставки ссылок"
+
+#: path/blocks/add.php:260 path/blocks/edit.php:299
+msgid "Link url:"
+msgstr "URL-адрес ссылки:"
+
+#: path/blocks/add.php:264 path/blocks/edit.php:303
+msgid "Link text:"
+msgstr "Текст ссылки:"
+
+#: path/blocks/add.php:273 path/blocks/edit.php:312
+msgid "Link target:"
+msgstr "Target ссылки:"
+
+#: path/blocks/add.php:281 path/blocks/edit.php:320
+msgid "Link rel:"
+msgstr "Rel ссылки:"
+
+#: path/blocks/add.php:297 path/blocks/edit.php:336
+msgid "Sticky insertion assistant"
+msgstr "Помощник вставки прилипающего блока"
+
+#: path/blocks/add.php:301 path/blocks/edit.php:340
+msgid "Sticky height:"
+msgstr "Высота прилипающего блока:"
+
+#: path/blocks/add.php:305 path/blocks/add.php:330 path/blocks/edit.php:344
+#: path/blocks/edit.php:369
+msgid "Offset from top:"
+msgstr "Отступ от верхна экрана:"
+
+#: path/blocks/add.php:308 path/blocks/add.php:337 path/blocks/add.php:374
+#: path/blocks/edit.php:347 path/blocks/edit.php:376 path/blocks/edit.php:413
+msgid "Your code:"
+msgstr "Ваш код:"
+
+#: path/blocks/add.php:324 path/blocks/edit.php:363
+msgid "Sidebar block insertion assistant"
+msgstr "Помощник вставки блока в сайдбар"
+
+#: path/blocks/add.php:344 path/blocks/add.php:381 path/blocks/edit.php:383
+#: path/blocks/edit.php:420
+msgid "Add more"
+msgstr "Добавить ещё"
+
+#: path/blocks/add.php:361 path/blocks/edit.php:400
+msgid "Slider insertion assistant"
+msgstr "Помощник вставки слайдера"
+
+#: path/blocks/add.php:367 path/blocks/edit.php:406
+msgid "Time to show slide:"
+msgstr "Время показа слайда:"
+
+#: path/blocks/add.php:398 path/blocks/edit.php:437
+msgid "Code Insertion Assistant."
+msgstr "Помощник вставки кода."
+
+#: path/blocks/add.php:400 path/blocks/edit.php:439
+msgid ""
+"FlatPM has determined that you want to insert a Yandex.Metrika, FloorAd, "
+"Fullscreen or TopAd."
+msgstr ""
+"FlatPM определил, что вы хотите вставить Яндекс.Метрику, FloorAd, Fullscreen "
+"или TopAd."
+
+#: path/blocks/add.php:401 path/blocks/edit.php:440
+msgid "Do you want us to help you?"
+msgstr "Вы хотите, чтобы мы вам помогли?"
+
+#: path/blocks/add.php:405 path/blocks/edit.php:444
+msgid "Yes help me!"
+msgstr "Да помогите мне!"
+
+#: path/blocks/add.php:418 path/blocks/edit.php:457
+msgid "Cool!"
+msgstr "Круто!"
+
+#: path/blocks/add.php:419 path/blocks/edit.php:458
+msgid "Thank you for your trust😉"
+msgstr "Спасибо за доверие😉"
+
+#: path/blocks/add.php:421 path/blocks/edit.php:460
+msgid "First, we'll set up the \"Output options\""
+msgstr "Во-первых, мы настроим \"Параметры вывода\"."
+
+#: path/blocks/add.php:423 path/blocks/edit.php:462
+msgid "Next step"
+msgstr "Следующий шаг"
+
+#: path/blocks/add.php:435 path/blocks/edit.php:474
+msgid "Second and final step."
+msgstr "Второй и последний шаг."
+
+#: path/blocks/add.php:436 path/blocks/edit.php:475
+msgid "Last, we'll set up \"Content targeting\""
+msgstr "Последнее, мы настроим \"Таргетинг по контенту\"."
+
+#: path/blocks/add.php:437 path/blocks/edit.php:476
+msgid "Everything is ready and set up correctly, enjoy 😊"
+msgstr "Все готово и настроено правильно, наслаждайтесь 😊"
+
+#: path/blocks/add_tab/content.php:16 path/blocks/edit_tab/content.php:19
+#: path/folders/edit_tab/content.php:25
+msgid "Post types:"
+msgstr "Типы публикаций:"
+
+#: path/blocks/add_tab/content.php:52 path/blocks/edit_tab/content.php:55
+#: path/folders/edit_tab/content.php:61
+msgid "Posts:"
+msgstr "Публикации:"
+
+#: path/blocks/add_tab/content.php:57 path/blocks/edit_tab/content.php:60
+#: path/folders/edit_tab/content.php:66
+msgid "In which posts to show:"
+msgstr "В каких публикациях показывать:"
+
+#: path/blocks/add_tab/content.php:58 path/blocks/add_tab/content.php:76
+#: path/blocks/add_tab/content.php:104 path/blocks/add_tab/content.php:122
+#: path/blocks/edit_tab/content.php:61 path/blocks/edit_tab/content.php:105
+#: path/blocks/edit_tab/content.php:159 path/blocks/edit_tab/content.php:203
+#: path/folders/edit_tab/content.php:67 path/folders/edit_tab/content.php:111
+#: path/folders/edit_tab/content.php:165 path/folders/edit_tab/content.php:209
+msgid "Remove all"
+msgstr "Убрать все"
+
+#: path/blocks/add_tab/content.php:61 path/blocks/add_tab/content.php:79
+#: path/blocks/add_tab/content.php:107 path/blocks/add_tab/content.php:125
+#: path/blocks/edit_tab/content.php:64 path/blocks/edit_tab/content.php:108
+#: path/blocks/edit_tab/content.php:162 path/blocks/edit_tab/content.php:206
+#: path/folders/edit_tab/content.php:70 path/folders/edit_tab/content.php:114
+#: path/folders/edit_tab/content.php:168 path/folders/edit_tab/content.php:212
+msgid "Add"
+msgstr "Добавить"
+
+#: path/blocks/add_tab/content.php:75 path/blocks/edit_tab/content.php:104
+#: path/folders/edit_tab/content.php:110
+msgid "In which posts to not show:"
+msgstr "В каких публикациях не показывать:"
+
+#: path/blocks/add_tab/content.php:98 path/blocks/edit_tab/content.php:153
+#: path/folders/edit_tab/content.php:159
+msgid "Taxonomies:"
+msgstr "Таксономии:"
+
+#: path/blocks/add_tab/content.php:103 path/blocks/edit_tab/content.php:158
+#: path/folders/edit_tab/content.php:164
+msgid "In which taxonomies to show:"
+msgstr "В каких таксономиях показывать:"
+
+#: path/blocks/add_tab/content.php:121 path/blocks/edit_tab/content.php:202
+#: path/folders/edit_tab/content.php:208
+msgid "In which taxonomies not to show:"
+msgstr "В каких таксономиях не показывать:"
+
+#: path/blocks/add_tab/content.php:144 path/blocks/edit_tab/content.php:251
+#: path/folders/edit_tab/content.php:257
+msgid "Content restriction:"
+msgstr "Ограничение контента:"
+
+#: path/blocks/add_tab/content.php:149 path/blocks/edit_tab/content.php:260
+#: path/folders/edit_tab/content.php:266
+msgid "Hide if the content is less than N characters:"
+msgstr "Скрыть, если содержимое меньше N символов:"
+
+#: path/blocks/add_tab/content.php:154 path/blocks/edit_tab/content.php:269
+#: path/folders/edit_tab/content.php:275
+msgid "Hide if there are less than N subheadings:"
+msgstr "Скрыть, если подзаголовков меньше N:"
+
+#: path/blocks/add_tab/content.php:159 path/blocks/edit_tab/content.php:278
+#: path/folders/edit_tab/content.php:284
+msgid "Hide if the content is more than N characters:"
+msgstr "Скрыть, если содержимое больше N символов:"
+
+#: path/blocks/add_tab/content.php:164 path/blocks/edit_tab/content.php:287
+#: path/folders/edit_tab/content.php:293
+msgid "Hide if there are more than N subheadings:"
+msgstr "Скрыть, если подзаголовков больше N:"
+
+#: path/blocks/add_tab/content.php:172 path/blocks/edit_tab/content.php:295
+#: path/folders/edit_tab/content.php:301
+msgid "Author targeting:"
+msgstr "Таргетинг по автору:"
+
+#: path/blocks/add_tab/content.php:177 path/blocks/add_tab/content.php:189
+#: path/blocks/edit_tab/content.php:300 path/blocks/edit_tab/content.php:318
+#: path/folders/edit_tab/content.php:306 path/folders/edit_tab/content.php:324
+msgid "Select Authors"
+msgstr "Выберите автора"
+
+#: path/blocks/add_tab/content.php:184 path/blocks/edit_tab/content.php:313
+#: path/folders/edit_tab/content.php:319
+msgid "Show if author:"
+msgstr "Вывести если автор:"
+
+#: path/blocks/add_tab/content.php:196 path/blocks/edit_tab/content.php:331
+#: path/folders/edit_tab/content.php:337
+msgid "Hide if author:"
+msgstr "Скрыть если автор:"
+
+#: path/blocks/add_tab/content.php:204 path/blocks/edit_tab/content.php:339
+#: path/folders/edit_tab/content.php:345
+msgid "Template types:"
+msgstr "Типы шаблонов:"
+
+#: path/blocks/add_tab/content.php:210 path/blocks/add_tab/content.php:218
+#: path/blocks/add_tab/content.php:242 path/blocks/add_tab/content.php:250
+#: path/blocks/add_tab/content.php:258 path/blocks/edit_tab/content.php:347
+#: path/blocks/edit_tab/content.php:357 path/blocks/edit_tab/content.php:387
+#: path/blocks/edit_tab/content.php:397 path/blocks/edit_tab/content.php:407
+#: path/folders/edit_tab/content.php:353 path/folders/edit_tab/content.php:363
+#: path/folders/edit_tab/content.php:393 path/folders/edit_tab/content.php:403
+#: path/folders/edit_tab/content.php:413
+msgid "Show on"
+msgstr "Выводить на"
+
+#: path/blocks/add_tab/content.php:210 path/blocks/edit_tab/content.php:347
+#: path/folders/edit_tab/content.php:353
+msgid "homepage"
+msgstr "главной"
+
+#: path/blocks/add_tab/content.php:218 path/blocks/edit_tab/content.php:357
+#: path/folders/edit_tab/content.php:363
+msgid "singular"
+msgstr "записях, постах, страницах"
+
+#: path/blocks/add_tab/content.php:226 path/blocks/add_tab/content.php:234
+#: path/blocks/edit_tab/content.php:367 path/blocks/edit_tab/content.php:377
+#: path/folders/edit_tab/content.php:373 path/folders/edit_tab/content.php:383
+msgid "Show in"
+msgstr "Выводить в"
+
+#: path/blocks/add_tab/content.php:226 path/blocks/edit_tab/content.php:367
+#: path/folders/edit_tab/content.php:373
+msgid "archives"
+msgstr "архивах"
+
+#: path/blocks/add_tab/content.php:234 path/blocks/edit_tab/content.php:377
+#: path/folders/edit_tab/content.php:383
+msgid "categories"
+msgstr "рубриках"
+
+#: path/blocks/add_tab/content.php:242 path/blocks/edit_tab/content.php:387
+#: path/folders/edit_tab/content.php:393
+msgid "search page"
+msgstr "странице поиска"
+
+#: path/blocks/add_tab/content.php:250 path/blocks/edit_tab/content.php:397
+#: path/folders/edit_tab/content.php:403
+msgid "page 404 errors"
+msgstr "странице 404 ошибки"
+
+#: path/blocks/add_tab/content.php:258 path/blocks/edit_tab/content.php:407
+#: path/folders/edit_tab/content.php:413
+msgid "pagination page"
+msgstr "странице пагинации"
+
+#: path/blocks/add_tab/html.php:30 path/blocks/edit_tab/html.php:42
+msgid "Sub block name"
+msgstr "Название подблока"
+
+#: path/blocks/add_tab/html.php:35 path/blocks/edit_tab/html.php:49
+#: path/folders/folder.php:36
+msgid "Smartphone"
+msgstr "Смартфон"
+
+#: path/blocks/add_tab/html.php:42 path/blocks/edit_tab/html.php:56
+#: path/folders/folder.php:37
+msgid "Tablet"
+msgstr "Планшет"
+
+#: path/blocks/add_tab/html.php:49 path/blocks/edit_tab/html.php:63
+#: path/folders/folder.php:38
+msgid "Laptop"
+msgstr "Ноутбук"
+
+#: path/blocks/add_tab/html.php:56 path/blocks/edit_tab/html.php:70
+#: path/folders/folder.php:39
+msgid "PC"
+msgstr "ПК"
+
+#: path/blocks/add_tab/html.php:61 path/blocks/edit_tab/html.php:75
+msgid "from"
+msgstr "от"
+
+#: path/blocks/add_tab/html.php:65 path/blocks/edit_tab/html.php:79
+msgid "Screen width from"
+msgstr "Ширина экрана от"
+
+#: path/blocks/add_tab/html.php:69 path/blocks/edit_tab/html.php:83
+msgid "to"
+msgstr "до"
+
+#: path/blocks/add_tab/html.php:73 path/blocks/edit_tab/html.php:87
+msgid "Screen width up to"
+msgstr "Ширина экрана до"
+
+#: path/blocks/add_tab/html.php:82 path/blocks/edit_tab/html.php:96
+#: path/folders/folder.php:426
+msgid "Group for A/B"
+msgstr "Группа для A/B"
+
+#: path/blocks/add_tab/html.php:90 path/blocks/edit_tab/html.php:109
+#: path/folders/edit.php:34 path/folders/folder.php:71
+#: path/folders/folder.php:431
+msgid "Enabled"
+msgstr "Включено"
+
+#: path/blocks/add_tab/html.php:97 path/blocks/edit_tab/html.php:116
+#: path/folders/edit.php:41 path/folders/folder.php:72
+#: path/folders/folder.php:438
+msgid "Disabled"
+msgstr "Выключено"
+
+#: path/blocks/add_tab/html.php:105 path/blocks/edit_tab/html.php:124
+#: path/folders/folder.php:131 path/folders/list.php:72
+#: path/functions/ajax-handlers/folder/update.php:50
+msgid "Delete"
+msgstr "Удалить"
+
+#: path/blocks/add_tab/html.php:119 path/blocks/edit_tab/html.php:138
+msgid "Main ad code"
+msgstr "Основной рекламный код"
+
+#: path/blocks/add_tab/html.php:127 path/blocks/add_tab/html.php:187
+#: path/blocks/edit_tab/html.php:145 path/blocks/edit_tab/html.php:205
+msgid "Show macros"
+msgstr "Показать макросы"
+
+#: path/blocks/add_tab/html.php:128 path/blocks/add_tab/html.php:188
+#: path/blocks/edit_tab/html.php:146 path/blocks/edit_tab/html.php:206
+msgid "Hide macros"
+msgstr "Скрыть макросы"
+
+#: path/blocks/add_tab/html.php:149 path/blocks/add_tab/html.php:150
+#: path/blocks/add_tab/html.php:209 path/blocks/add_tab/html.php:210
+#: path/blocks/edit_tab/html.php:167 path/blocks/edit_tab/html.php:168
+#: path/blocks/edit_tab/html.php:227 path/blocks/edit_tab/html.php:228
+#: path/settings/settings_tab/personalization.php:37
+msgid "Min height"
+msgstr "Минимальная высота"
+
+#: path/blocks/add_tab/html.php:160 path/blocks/add_tab/html.php:161
+#: path/blocks/add_tab/html.php:220 path/blocks/add_tab/html.php:221
+#: path/blocks/edit_tab/html.php:178 path/blocks/edit_tab/html.php:179
+#: path/blocks/edit_tab/html.php:238 path/blocks/edit_tab/html.php:239
+#: path/settings/settings_tab/personalization.php:38
+msgid "Auto-reload"
+msgstr "Автоперезагрузка"
+
+#: path/blocks/add_tab/html.php:171 path/blocks/add_tab/html.php:172
+#: path/blocks/add_tab/html.php:231 path/blocks/add_tab/html.php:232
+#: path/blocks/edit_tab/html.php:189 path/blocks/edit_tab/html.php:190
+#: path/blocks/edit_tab/html.php:249 path/blocks/edit_tab/html.php:250
+#: path/settings/settings_tab/personalization.php:39
+msgid "Code insertion delay"
+msgstr "Задержка вставки кода"
+
+#: path/blocks/add_tab/html.php:180 path/blocks/edit_tab/html.php:198
+msgid "For <span style=\"color:red\">ADblock</span> users"
+msgstr "Для пользователей <span style=\"color:red\">ADblock</span>"
+
+#: path/blocks/add_tab/html.php:244 path/blocks/edit_tab/html.php:266
+msgid "Add another subblock"
+msgstr "Добавить ещё подблок"
+
+#: path/blocks/add_tab/user.php:10 path/blocks/edit_tab/user.php:13
+#: path/folders/edit_tab/user.php:19
+msgid "Chrome"
+msgstr "Chrome"
+
+#: path/blocks/add_tab/user.php:11 path/blocks/edit_tab/user.php:14
+#: path/folders/edit_tab/user.php:20
+msgid "Yandex browser"
+msgstr "Яндекс браузер"
+
+#: path/blocks/add_tab/user.php:12 path/blocks/edit_tab/user.php:15
+#: path/folders/edit_tab/user.php:21
+msgid "Opera"
+msgstr "Opera"
+
+#: path/blocks/add_tab/user.php:13 path/blocks/edit_tab/user.php:16
+#: path/folders/edit_tab/user.php:22
+msgid "Firefox"
+msgstr "Firefox"
+
+#: path/blocks/add_tab/user.php:14 path/blocks/edit_tab/user.php:17
+#: path/folders/edit_tab/user.php:23
+msgid "Edge"
+msgstr "Edge"
+
+#: path/blocks/add_tab/user.php:15 path/blocks/edit_tab/user.php:18
+#: path/folders/edit_tab/user.php:24
+msgid "Safari"
+msgstr "Safari"
+
+#: path/blocks/add_tab/user.php:19 path/blocks/edit_tab/user.php:22
+#: path/folders/edit_tab/user.php:28
+msgid "Windows"
+msgstr "Windows"
+
+#: path/blocks/add_tab/user.php:20 path/blocks/edit_tab/user.php:23
+#: path/folders/edit_tab/user.php:29
+msgid "MacOS"
+msgstr "MacOS"
+
+#: path/blocks/add_tab/user.php:21 path/blocks/edit_tab/user.php:24
+#: path/folders/edit_tab/user.php:30
+msgid "iOS"
+msgstr "iOS"
+
+#: path/blocks/add_tab/user.php:22 path/blocks/edit_tab/user.php:25
+#: path/folders/edit_tab/user.php:31
+msgid "Android / Linux"
+msgstr "Android / Linux"
+
+#: path/blocks/add_tab/user.php:31 path/blocks/edit_tab/user.php:34
+#: path/folders/edit_tab/user.php:40
+msgid "GEO of the country / city:"
+msgstr "ГЕО страны / города:"
+
+#: path/blocks/add_tab/user.php:50 path/blocks/edit_tab/user.php:53
+#: path/folders/edit_tab/user.php:59
+msgid "Countries:"
+msgstr "Страны:"
+
+#: path/blocks/add_tab/user.php:53 path/blocks/add_tab/user.php:75
+#: path/blocks/edit_tab/user.php:56 path/blocks/edit_tab/user.php:78
+#: path/folders/edit_tab/user.php:62 path/folders/edit_tab/user.php:84
+msgid "Enter each country or city on a new line."
+msgstr "Каждую страну или город вводить с новой строки."
+
+#: path/blocks/add_tab/user.php:58 path/blocks/add_tab/user.php:80
+#: path/blocks/add_tab/user.php:146 path/blocks/add_tab/user.php:240
+#: path/blocks/add_tab/user.php:285 path/blocks/add_tab/user.php:337
+#: path/blocks/add_tab/user.php:399 path/blocks/add_tab/user.php:453
+#: path/blocks/add_tab/user.php:590 path/blocks/add_tab/user.php:642
+#: path/blocks/edit_tab/user.php:61 path/blocks/edit_tab/user.php:83
+#: path/blocks/edit_tab/user.php:149 path/blocks/edit_tab/user.php:251
+#: path/blocks/edit_tab/user.php:312 path/blocks/edit_tab/user.php:372
+#: path/blocks/edit_tab/user.php:434 path/blocks/edit_tab/user.php:488
+#: path/blocks/edit_tab/user.php:633 path/blocks/edit_tab/user.php:693
+#: path/folders/edit_tab/user.php:67 path/folders/edit_tab/user.php:89
+#: path/folders/edit_tab/user.php:155 path/folders/edit_tab/user.php:257
+#: path/folders/edit_tab/user.php:318 path/folders/edit_tab/user.php:378
+#: path/folders/edit_tab/user.php:440 path/folders/edit_tab/user.php:494
+#: path/folders/edit_tab/user.php:639 path/folders/edit_tab/user.php:699
+msgid "Show from:"
+msgstr "Вывести для:"
+
+#: path/blocks/add_tab/user.php:60 path/blocks/add_tab/user.php:65
+#: path/blocks/edit_tab/user.php:63 path/blocks/edit_tab/user.php:68
+#: path/folders/edit_tab/user.php:69 path/folders/edit_tab/user.php:74
+msgid "For example: United Kingdom or GB"
+msgstr "Например: Россия или RU"
+
+#: path/blocks/add_tab/user.php:63 path/blocks/add_tab/user.php:85
+#: path/blocks/add_tab/user.php:178 path/blocks/add_tab/user.php:252
+#: path/blocks/add_tab/user.php:297 path/blocks/add_tab/user.php:342
+#: path/blocks/add_tab/user.php:404 path/blocks/add_tab/user.php:458
+#: path/blocks/add_tab/user.php:602 path/blocks/add_tab/user.php:647
+#: path/blocks/edit_tab/user.php:66 path/blocks/edit_tab/user.php:88
+#: path/blocks/edit_tab/user.php:181 path/blocks/edit_tab/user.php:271
+#: path/blocks/edit_tab/user.php:332 path/blocks/edit_tab/user.php:377
+#: path/blocks/edit_tab/user.php:439 path/blocks/edit_tab/user.php:493
+#: path/blocks/edit_tab/user.php:653 path/blocks/edit_tab/user.php:698
+#: path/folders/edit_tab/user.php:72 path/folders/edit_tab/user.php:94
+#: path/folders/edit_tab/user.php:187 path/folders/edit_tab/user.php:277
+#: path/folders/edit_tab/user.php:338 path/folders/edit_tab/user.php:383
+#: path/folders/edit_tab/user.php:445 path/folders/edit_tab/user.php:499
+#: path/folders/edit_tab/user.php:659 path/folders/edit_tab/user.php:704
+msgid "Hide from:"
+msgstr "Скрыть для:"
+
+#: path/blocks/add_tab/user.php:72 path/blocks/edit_tab/user.php:75
+#: path/folders/edit_tab/user.php:81
+msgid "Cities:"
+msgstr "Города:"
+
+#: path/blocks/add_tab/user.php:82 path/blocks/add_tab/user.php:87
+#: path/blocks/edit_tab/user.php:85 path/blocks/edit_tab/user.php:90
+#: path/folders/edit_tab/user.php:91 path/folders/edit_tab/user.php:96
+msgid "For example: London"
+msgstr "Например: Москва"
+
+#: path/blocks/add_tab/user.php:93 path/blocks/edit_tab/user.php:96
+#: path/folders/edit_tab/user.php:102
+msgid "Your country:"
+msgstr "Ваша страна:"
+
+#: path/blocks/add_tab/user.php:95 path/blocks/edit_tab/user.php:98
+#: path/folders/edit_tab/user.php:104
+msgid "Your city:"
+msgstr "Ваш город:"
+
+#: path/blocks/add_tab/user.php:97 path/blocks/edit_tab/user.php:100
+#: path/folders/edit_tab/user.php:106
+msgid "Check geolocation by ip: http://ip-api.com/json/"
+msgstr "Узнать геолокацию по ip: http://ip-api.com/json/?lang=ru"
+
+#: path/blocks/add_tab/user.php:105 path/blocks/edit_tab/user.php:108
+#: path/folders/edit_tab/user.php:114
+msgid "REFERER referral source:"
+msgstr "REFERER источник перехода:"
+
+#: path/blocks/add_tab/user.php:123 path/blocks/edit_tab/user.php:126
+#: path/folders/edit_tab/user.php:132 path/folders/folder.php:44
+msgid "REFERER"
+msgstr "REFERER"
+
+#: path/blocks/add_tab/user.php:128 path/blocks/edit_tab/user.php:131
+#: path/folders/edit_tab/user.php:137
+msgid "Enter each REFERER on a new line."
+msgstr "Каждый REFERER вводить с новой строки."
+
+#: path/blocks/add_tab/user.php:131 path/blocks/edit_tab/user.php:134
+#: path/folders/edit_tab/user.php:140
+msgid ""
+"The definition occurs in part of the string, i.e. you can enter only part of "
+"the domain<br>for example: <code>google.</code>, instead of listing all: "
+"<code>google.com, google.fr, google.de</code>"
+msgstr ""
+"Определение происходит по части строки, т.е. вы можете ввести только часть "
+"домена,<br>например: <code>google.</code>, вместо того, чтобы перечислять "
+"все: <code>google.com, google.fr, google.de</code>"
+
+#: path/blocks/add_tab/user.php:134 path/blocks/edit_tab/user.php:137
+#: path/folders/edit_tab/user.php:143
+msgid "for users without a referrer (direct referrals)."
+msgstr "для пользователей без рефёрера (прямые переходы)."
+
+#: path/blocks/add_tab/user.php:136 path/blocks/edit_tab/user.php:139
+#: path/folders/edit_tab/user.php:145
+msgid "for iframes (when the site is viewed through iframes)."
+msgstr "для iframe'ов (когда сайт просматривается через iframe)."
+
+#: path/blocks/add_tab/user.php:138 path/blocks/edit_tab/user.php:141
+#: path/folders/edit_tab/user.php:147
+msgid "for transitions from Yandex.Zen"
+msgstr "для переходов из Яндекс.Дзена"
+
+#: path/blocks/add_tab/user.php:140 path/blocks/edit_tab/user.php:143
+#: path/folders/edit_tab/user.php:149
+msgid "for tolokers"
+msgstr "для толокеров"
+
+#: path/blocks/add_tab/user.php:150 path/blocks/add_tab/user.php:182
+#: path/blocks/edit_tab/user.php:153 path/blocks/edit_tab/user.php:185
+#: path/folders/edit_tab/user.php:159 path/folders/edit_tab/user.php:191
+msgid "Direct"
+msgstr "Прямые"
+
+#: path/blocks/add_tab/user.php:153 path/blocks/add_tab/user.php:185
+#: path/blocks/edit_tab/user.php:156 path/blocks/edit_tab/user.php:188
+#: path/folders/edit_tab/user.php:162 path/folders/edit_tab/user.php:194
+msgid "Google"
+msgstr "Google"
+
+#: path/blocks/add_tab/user.php:156 path/blocks/add_tab/user.php:188
+#: path/blocks/edit_tab/user.php:159 path/blocks/edit_tab/user.php:191
+#: path/folders/edit_tab/user.php:165 path/folders/edit_tab/user.php:197
+msgid "Yandex"
+msgstr "Яндекс"
+
+#: path/blocks/add_tab/user.php:159 path/blocks/add_tab/user.php:191
+#: path/blocks/edit_tab/user.php:162 path/blocks/edit_tab/user.php:194
+#: path/folders/edit_tab/user.php:168 path/folders/edit_tab/user.php:200
+msgid "Bing"
+msgstr "Bing"
+
+#: path/blocks/add_tab/user.php:162 path/blocks/add_tab/user.php:194
+#: path/blocks/edit_tab/user.php:165 path/blocks/edit_tab/user.php:197
+#: path/folders/edit_tab/user.php:171 path/folders/edit_tab/user.php:203
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#: path/blocks/add_tab/user.php:165 path/blocks/add_tab/user.php:197
+#: path/blocks/edit_tab/user.php:168 path/blocks/edit_tab/user.php:200
+#: path/folders/edit_tab/user.php:174 path/folders/edit_tab/user.php:206
+msgid "iFrame"
+msgstr "iFrame"
+
+#: path/blocks/add_tab/user.php:168 path/blocks/add_tab/user.php:200
+#: path/blocks/edit_tab/user.php:171 path/blocks/edit_tab/user.php:203
+#: path/folders/edit_tab/user.php:177 path/folders/edit_tab/user.php:209
+msgid "Yandex.Zen"
+msgstr "Яндекс Дзен"
+
+#: path/blocks/add_tab/user.php:171 path/blocks/add_tab/user.php:203
+#: path/blocks/edit_tab/user.php:174 path/blocks/edit_tab/user.php:206
+#: path/folders/edit_tab/user.php:180 path/folders/edit_tab/user.php:212
+msgid "Tolokers"
+msgstr "Толокеры"
+
+#: path/blocks/add_tab/user.php:175 path/blocks/add_tab/user.php:207
+#: path/blocks/edit_tab/user.php:178 path/blocks/edit_tab/user.php:210
+#: path/folders/edit_tab/user.php:184 path/folders/edit_tab/user.php:216
+msgid "For example: google.com"
+msgstr "Например: google.com"
+
+#: path/blocks/add_tab/user.php:215 path/blocks/edit_tab/user.php:218
+#: path/folders/edit_tab/user.php:224
+msgid "User's browser:"
+msgstr "Браузер пользователя:"
+
+#: path/blocks/add_tab/user.php:233 path/blocks/add_tab/user.php:245
+#: path/blocks/edit_tab/user.php:236 path/blocks/edit_tab/user.php:256
+#: path/folders/edit_tab/user.php:242 path/folders/edit_tab/user.php:262
+msgid "Select browsers"
+msgstr "Выберите браузеры"
+
+#: path/blocks/add_tab/user.php:260 path/blocks/edit_tab/user.php:279
+#: path/folders/edit_tab/user.php:285
+msgid "Operating system:"
+msgstr "Операционная система:"
+
+#: path/blocks/add_tab/user.php:278 path/blocks/add_tab/user.php:290
+#: path/blocks/edit_tab/user.php:297 path/blocks/edit_tab/user.php:317
+#: path/folders/edit_tab/user.php:303 path/folders/edit_tab/user.php:323
+msgid "Select OS"
+msgstr "Выберите ОС"
+
+#: path/blocks/add_tab/user.php:305 path/blocks/edit_tab/user.php:340
+#: path/folders/edit_tab/user.php:346
+msgid "ISP - Internet Service Provider:"
+msgstr "ISP - поставщик интернет-услуг:"
+
+#: path/blocks/add_tab/user.php:323 path/blocks/edit_tab/user.php:358
+#: path/folders/edit_tab/user.php:364 path/folders/folder.php:47
+msgid "ISP"
+msgstr "ISP"
+
+#: path/blocks/add_tab/user.php:328 path/blocks/edit_tab/user.php:363
+#: path/folders/edit_tab/user.php:369
+msgid "Enter each ISP on a new line."
+msgstr "Каждый ISP вводить с новой строки."
+
+#: path/blocks/add_tab/user.php:331 path/blocks/edit_tab/user.php:366
+#: path/folders/edit_tab/user.php:372
+msgid ""
+"The definition occurs in part of the string, i.e. you can enter only a "
+"part<br>for example: <code>SpaceX</code>"
+msgstr ""
+"Определение происходит по части строки, т.е. вы можете ввести только часть,"
+"<br>например: <code>SpaceX</code>"
+
+#: path/blocks/add_tab/user.php:339 path/blocks/add_tab/user.php:344
+#: path/blocks/edit_tab/user.php:374 path/blocks/edit_tab/user.php:379
+#: path/folders/edit_tab/user.php:380 path/folders/edit_tab/user.php:385
+msgid "For example: SpaceX Starlink"
+msgstr "Например: SpaceX Starlink"
+
+#: path/blocks/add_tab/user.php:350 path/blocks/edit_tab/user.php:385
+#: path/folders/edit_tab/user.php:391
+msgid "Your ISP:"
+msgstr "Ваш ISP:"
+
+#: path/blocks/add_tab/user.php:352 path/blocks/edit_tab/user.php:387
+#: path/folders/edit_tab/user.php:393
+msgid "Check ISP by ip: http://ip-api.com/json/"
+msgstr "Узнать ISP по ip: http://ip-api.com/json/?lang=ru"
+
+#: path/blocks/add_tab/user.php:360 path/blocks/edit_tab/user.php:395
+#: path/folders/edit_tab/user.php:401
+msgid "UTM - get request in address bar:"
+msgstr "UTM - get-запрос в адресной строке:"
+
+#: path/blocks/add_tab/user.php:378 path/blocks/edit_tab/user.php:413
+#: path/folders/edit_tab/user.php:419
+msgid "GET-request"
+msgstr "GET-request"
+
+#: path/blocks/add_tab/user.php:383 path/blocks/edit_tab/user.php:418
+#: path/folders/edit_tab/user.php:424
+msgid "Enter each get-request on a new line."
+msgstr "Каждый get-запрос вводить с новой строки."
+
+#: path/blocks/add_tab/user.php:386 path/blocks/edit_tab/user.php:421
+#: path/folders/edit_tab/user.php:427
+msgid "Separate the name of the get parameter and its value with a equal sign"
+msgstr "Имя get-параметра и его значение разделяйте знаком равно"
+
+#: path/blocks/add_tab/user.php:388 path/blocks/add_tab/user.php:442
+#: path/blocks/edit_tab/user.php:423 path/blocks/edit_tab/user.php:477
+#: path/folders/edit_tab/user.php:429 path/folders/edit_tab/user.php:483
+msgid ""
+"The equal sign can be <code><</code> or <code>></code> for integer values. "
+"And also <code>*</code> for substring search."
+msgstr ""
+"Знак равенства может быть знаками <code><</code> или <code>></code> для "
+"целых значений. А также <code>*</code> для поиска подстроки."
+
+#: path/blocks/add_tab/user.php:391 path/blocks/edit_tab/user.php:426
+#: path/folders/edit_tab/user.php:432
+msgid ""
+"If the value of the get parameter must be empty, do not write anything after "
+"the equal sign, but the equal sign itself is needed!"
+msgstr ""
+"Если значение get-параметра должно быть пустым, после знака равенства ничего "
+"не пишите, но сам знак нужен!"
+
+#: path/blocks/add_tab/user.php:393 path/blocks/edit_tab/user.php:428
+#: path/folders/edit_tab/user.php:434
+msgid ""
+"If it doesn't matter what value the get-parameter takes, then you don't need "
+"to put a equal sign!"
+msgstr ""
+"Если не важно какое значение принимает get-параметр, то знак равенства "
+"ставить не нужно!"
+
+#: path/blocks/add_tab/user.php:401 path/blocks/add_tab/user.php:406
+#: path/blocks/edit_tab/user.php:436 path/blocks/edit_tab/user.php:441
+#: path/folders/edit_tab/user.php:442 path/folders/edit_tab/user.php:447
+msgid "For example: utm_campaign = direct"
+msgstr "Например: utm_campaign = direct"
+
+#: path/blocks/add_tab/user.php:414 path/blocks/edit_tab/user.php:449
+#: path/folders/edit_tab/user.php:455
+msgid "Cookies:"
+msgstr "Cookies:"
+
+#: path/blocks/add_tab/user.php:432 path/blocks/edit_tab/user.php:467
+#: path/folders/edit_tab/user.php:473
+msgid "Cookie"
+msgstr "Cookie"
+
+#: path/blocks/add_tab/user.php:437 path/blocks/edit_tab/user.php:472
+#: path/folders/edit_tab/user.php:478
+msgid "Enter each cookie on a new line."
+msgstr "Каждый cookies вводить с новой строки."
+
+#: path/blocks/add_tab/user.php:440 path/blocks/edit_tab/user.php:475
+#: path/folders/edit_tab/user.php:481
+msgid "Separate the cookie key and its value with a equal sign"
+msgstr "Ключ cookies и его значение разделяйте знаком равенства"
+
+#: path/blocks/add_tab/user.php:445 path/blocks/edit_tab/user.php:480
+#: path/folders/edit_tab/user.php:486
+msgid ""
+"If the value of cookies should be empty, do not write anything after the "
+"equal sign, but the equal sign itself is needed!"
+msgstr ""
+"Если значение cookies должно быть пустым, после знака равенства ничего не "
+"пишите, но сам знак нужен!"
+
+#: path/blocks/add_tab/user.php:447 path/blocks/edit_tab/user.php:482
+#: path/folders/edit_tab/user.php:488
+msgid ""
+"If it doesn't matter what value cookies take, then you don't need to put a "
+"equal sign!"
+msgstr ""
+"Если не важно какое значение принимает cookies, то знак равенства ставить не "
+"нужно!"
+
+#: path/blocks/add_tab/user.php:455 path/blocks/add_tab/user.php:460
+#: path/blocks/edit_tab/user.php:490 path/blocks/edit_tab/user.php:495
+#: path/folders/edit_tab/user.php:496 path/folders/edit_tab/user.php:501
+msgid "For example: key = value"
+msgstr "Например: key = value"
+
+#: path/blocks/add_tab/user.php:468 path/blocks/edit_tab/user.php:503
+#: path/folders/edit_tab/user.php:509
+msgid "Date:"
+msgstr "Дата:"
+
+#: path/blocks/add_tab/user.php:486 path/blocks/add_tab/user.php:516
+#: path/blocks/edit_tab/user.php:521 path/blocks/edit_tab/user.php:551
+#: path/folders/edit_tab/user.php:527 path/folders/edit_tab/user.php:557
+msgid "Start from:"
+msgstr "Начинать c:"
+
+#: path/blocks/add_tab/user.php:490 path/blocks/add_tab/user.php:520
+#: path/blocks/edit_tab/user.php:525 path/blocks/edit_tab/user.php:555
+#: path/folders/edit_tab/user.php:531 path/folders/edit_tab/user.php:561
+msgid "Finish in:"
+msgstr "Заканчивать в:"
+
+#: path/blocks/add_tab/user.php:498 path/blocks/edit_tab/user.php:533
+#: path/folders/edit_tab/user.php:539
+msgid "Time:"
+msgstr "Время:"
+
+#: path/blocks/add_tab/user.php:528 path/blocks/edit_tab/user.php:563
+#: path/folders/edit_tab/user.php:569
+msgid "Schedule:"
+msgstr "Расписание:"
+
+#: path/blocks/add_tab/user.php:545 path/blocks/edit_tab/user.php:580
+#: path/folders/edit_tab/user.php:586
+msgid ""
+"When enabled, this ad will be shown on the selected days of the week at the "
+"selected time in the GMT+0 time zone."
+msgstr ""
+"При включении, данное рекламное объявление будет показываться в выбранные "
+"дни недели в выбранное время в часовом поясе GMT+0."
+
+#: path/blocks/add_tab/user.php:547 path/blocks/edit_tab/user.php:582
+#: path/folders/edit_tab/user.php:588
+msgid ""
+"Please note that 1 box is 1 hour, if, for example, the box Mon 00 is "
+"selected, then the message will be displayed on Monday from 00 to 01 am."
+msgstr ""
+"Обратите внимание 1 квадратик это 1 час, если выбран, например, квадратик ПН "
+"00, то сообщение будет показываться в понедельник с 00 до 01 часа ночи."
+
+#: path/blocks/add_tab/user.php:565 path/blocks/edit_tab/user.php:600
+#: path/folders/edit_tab/user.php:606
+msgid "User role on the site:"
+msgstr "Роль пользователя на сайте:"
+
+#: path/blocks/add_tab/user.php:583 path/blocks/add_tab/user.php:595
+#: path/blocks/edit_tab/user.php:618 path/blocks/edit_tab/user.php:638
+#: path/folders/edit_tab/user.php:624 path/folders/edit_tab/user.php:644
+msgid "Select Roles"
+msgstr "Выберите роли"
+
+#: path/blocks/add_tab/user.php:610 path/blocks/edit_tab/user.php:661
+#: path/folders/edit_tab/user.php:667
+msgid "User-agent:"
+msgstr "User-agent:"
+
+#: path/blocks/add_tab/user.php:628 path/blocks/edit_tab/user.php:679
+#: path/folders/edit_tab/user.php:685 path/folders/folder.php:54
+#: path/settings/settings_tab/personalization.php:21
+msgid "User-agent"
+msgstr "User-agent"
+
+#: path/blocks/add_tab/user.php:633 path/blocks/edit_tab/user.php:684
+#: path/folders/edit_tab/user.php:690
+msgid "Enter each User-agent on a new line."
+msgstr "Каждый User-agent вводить с новой строки."
+
+#: path/blocks/add_tab/user.php:636 path/blocks/edit_tab/user.php:687
+#: path/folders/edit_tab/user.php:693
+msgid ""
+"The definition occurs in part of the string, i.e. you can enter only part of "
+"the user agent<br>for example:"
+msgstr ""
+"Определение происходит по части строки, т.е. вы можете ввести только часть "
+"юзер-агента,<br>например:"
+
+#: path/blocks/add_tab/user.php:644 path/blocks/add_tab/user.php:649
+#: path/blocks/edit_tab/user.php:695 path/blocks/edit_tab/user.php:700
+#: path/folders/edit_tab/user.php:701 path/folders/edit_tab/user.php:706
+msgid ""
+"For example: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like "
+"Gecko) Chrome/77.0.3865.90 Safari/537.36"
+msgstr ""
+"Например: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like "
+"Gecko) Chrome/77.0.3865.90 Safari/537.36"
+
+#: path/blocks/add_tab/user.php:657 path/blocks/edit_tab/user.php:708
+#: path/folders/edit_tab/user.php:714
+msgid "Blocking by IP:"
+msgstr "Блокировка по IP:"
+
+#: path/blocks/add_tab/user.php:674 path/blocks/edit_tab/user.php:725
+#: path/folders/edit_tab/user.php:731
+msgid ""
+"The list of ips to block is filled in the <code>Blacklist IP</code> section "
+"or in the file"
+msgstr ""
+"Список ip для блокировки заполняется в разделе <code>Блокировка ip</code> "
+"или в файле"
+
+#: path/blocks/add_tab/user.php:675 path/blocks/edit_tab/user.php:726
+#: path/folders/edit_tab/user.php:732 path/settings/block_ip.php:37
+msgid "You can also use a range for the IP address, for example:"
+msgstr "Вы также можете использовать диапазон IP-адресов, например:"
+
+#: path/blocks/add_tab/user.php:677 path/blocks/edit_tab/user.php:728
+#: path/folders/edit_tab/user.php:734 path/settings/block_ip.php:38
+msgid "Your IP:"
+msgstr "Ваш IP:"
+
+#: path/blocks/add_tab/view.php:19 path/blocks/edit_tab/view.php:22
+msgid "Please select at least one block output option:"
+msgstr "Выберите как минимум один вариант вывода блока:"
+
+#: path/blocks/add_tab/view.php:20 path/blocks/edit_tab/view.php:23
+msgid "You can choose from several different types."
+msgstr "Вы можете выбрать несколько типов одновременно."
+
+#: path/blocks/add_tab/view/hoverroll.php:7
+#: path/blocks/edit_tab/view/hoverroll.php:13
+msgid "Hover-roll:"
+msgstr "Hover-roll:"
+
+#: path/blocks/add_tab/view/hoverroll.php:25
+#: path/blocks/edit_tab/view/hoverroll.php:31
+msgid ""
+"Hover-roll is an ad that appears above an image when the user hovers over it."
+msgstr ""
+"Hover-roll — это реклама, которая появляется над изображением, когда "
+"пользователь наводит на него курсор."
+
+#: path/blocks/add_tab/view/hoverroll.php:26
+#: path/blocks/edit_tab/view/hoverroll.php:32
+msgid ""
+"This ad format is ideal for image sites. Ads are hidden and do not clutter "
+"up the look of the site."
+msgstr ""
+"Этот формат рекламы идеально подходит для сайтов с изображениями. Объявления "
+"скрыты и не загромождают внешний вид сайта."
+
+#: path/blocks/add_tab/view/hoverroll.php:36
+#: path/blocks/edit_tab/view/hoverroll.php:42
+msgid ""
+"Specify container selectors, default is:<br><code>.fpm_start ~ p > img, ."
+"fpm_start ~ a:has(img)</code>"
+msgstr ""
+"Укажите селекторы контейнеров, по умолчанию:<br><code>.fpm_start ~ p > img, ."
+"fpm_start ~ a:has(img)</code>"
+
+#: path/blocks/add_tab/view/hoverroll.php:38
+#: path/blocks/edit_tab/view/hoverroll.php:44
+msgid "Selector for containers"
+msgstr "Селектор для контейнеров"
+
+#: path/blocks/add_tab/view/hoverroll.php:40
+#: path/blocks/add_tab/view/outgoing.php:236
+#: path/blocks/add_tab/view/pixels.php:157
+#: path/blocks/add_tab/view/preroll.php:40
+#: path/blocks/add_tab/view/symbols.php:146
+#: path/blocks/add_tab/view/vignette.php:37
+#: path/blocks/edit_tab/view/hoverroll.php:46
+#: path/blocks/edit_tab/view/outgoing.php:287
+#: path/blocks/edit_tab/view/pixels.php:163
+#: path/blocks/edit_tab/view/preroll.php:51
+#: path/blocks/edit_tab/view/symbols.php:156
+#: path/blocks/edit_tab/view/vignette.php:43
+msgid "Wrong selector"
+msgstr "В селекторе ошибка"
+
+#: path/blocks/add_tab/view/hoverroll.php:45
+#: path/blocks/add_tab/view/iterable.php:106
+#: path/blocks/add_tab/view/iterable.php:112
+#: path/blocks/add_tab/view/once.php:111 path/blocks/add_tab/view/once.php:117
+#: path/blocks/add_tab/view/outgoing.php:235
+#: path/blocks/add_tab/view/preroll.php:45
+#: path/blocks/edit_tab/view/hoverroll.php:51
+#: path/blocks/edit_tab/view/iterable.php:129
+#: path/blocks/edit_tab/view/iterable.php:135
+#: path/blocks/edit_tab/view/once.php:135
+#: path/blocks/edit_tab/view/once.php:141
+#: path/blocks/edit_tab/view/outgoing.php:286
+#: path/blocks/edit_tab/view/preroll.php:50
+#: path/settings/settings_tab/advanced.php:43
+msgid "Selector"
+msgstr "Селектор"
+
+#: path/blocks/add_tab/view/hoverroll.php:54
+#: path/blocks/add_tab/view/preroll.php:76
+#: path/blocks/edit_tab/view/hoverroll.php:60
+#: path/blocks/edit_tab/view/preroll.php:85
+msgid "Show close cross"
+msgstr "Выводить крестик закрытия"
+
+#: path/blocks/add_tab/view/hoverroll.php:57
+#: path/blocks/edit_tab/view/hoverroll.php:63
+msgid "Enable this option to give the user the option to close the ad."
+msgstr ""
+"Включите этот параметр, чтобы дать пользователю возможность закрыть "
+"объявление."
+
+#: path/blocks/add_tab/view/iterable.php:7
+#: path/blocks/edit_tab/view/iterable.php:13
+msgid "Based on selectors (Iterable):"
+msgstr "Основано на селекторах (Повторяющийся):"
+
+#: path/blocks/add_tab/view/iterable.php:25
+#: path/blocks/add_tab/view/once.php:25
+#: path/blocks/edit_tab/view/iterable.php:31
+#: path/blocks/edit_tab/view/once.php:31
+msgid "Search direction by article:"
+msgstr "Направление поиска по статье:"
+
+#: path/blocks/add_tab/view/iterable.php:30
+#: path/blocks/add_tab/view/once.php:31
+#: path/blocks/edit_tab/view/iterable.php:38
+#: path/blocks/edit_tab/view/once.php:40
+msgid "From the start"
+msgstr "С начала статьи"
+
+#: path/blocks/add_tab/view/iterable.php:34
+#: path/blocks/add_tab/view/once.php:35
+#: path/blocks/edit_tab/view/iterable.php:45
+#: path/blocks/edit_tab/view/once.php:47
+msgid "From the end"
+msgstr "С конца статьи"
+
+#: path/blocks/add_tab/view/iterable.php:41
+#: path/blocks/add_tab/view/once.php:42 path/blocks/add_tab/view/pixels.php:25
+#: path/blocks/add_tab/view/symbols.php:25
+#: path/blocks/edit_tab/view/iterable.php:52
+#: path/blocks/edit_tab/view/once.php:54
+#: path/blocks/edit_tab/view/pixels.php:31
+#: path/blocks/edit_tab/view/symbols.php:31
+msgid "Insert type:"
+msgstr "Тип вывода блока:"
+
+#: path/blocks/add_tab/view/iterable.php:46
+#: path/blocks/add_tab/view/once.php:48
+#: path/blocks/edit_tab/view/iterable.php:60
+#: path/blocks/edit_tab/view/once.php:63
+msgid "Before"
+msgstr "Вывести перед"
+
+#: path/blocks/add_tab/view/iterable.php:50
+#: path/blocks/add_tab/view/once.php:52
+#: path/blocks/edit_tab/view/iterable.php:67
+#: path/blocks/edit_tab/view/once.php:70
+msgid "After"
+msgstr "Вывести после"
+
+#: path/blocks/add_tab/view/iterable.php:54
+#: path/blocks/add_tab/view/once.php:56
+#: path/blocks/edit_tab/view/iterable.php:74
+#: path/blocks/edit_tab/view/once.php:77
+msgid "Prepend"
+msgstr "Добавить в начало"
+
+#: path/blocks/add_tab/view/iterable.php:58
+#: path/blocks/add_tab/view/once.php:60
+#: path/blocks/edit_tab/view/iterable.php:81
+#: path/blocks/edit_tab/view/once.php:84
+msgid "Append"
+msgstr "Добавить в конец"
+
+#: path/blocks/add_tab/view/iterable.php:65
+#: path/blocks/add_tab/view/once.php:67
+#: path/blocks/edit_tab/view/iterable.php:88
+#: path/blocks/edit_tab/view/once.php:91
+msgid "The element with respect to which the output will occur:"
+msgstr "Элемент, относительно которого, произойдёт вывод:"
+
+#: path/blocks/add_tab/view/iterable.php:75
+#: path/blocks/add_tab/view/once.php:80
+#: path/blocks/edit_tab/view/iterable.php:98
+#: path/blocks/edit_tab/view/once.php:104
+msgid "Paragraph"
+msgstr "Параграф"
+
+#: path/blocks/add_tab/view/iterable.php:78
+#: path/blocks/add_tab/view/once.php:83
+#: path/blocks/edit_tab/view/iterable.php:101
+#: path/blocks/edit_tab/view/once.php:107
+msgid "Image in the link"
+msgstr "Картинка в ссылке"
+
+#: path/blocks/add_tab/view/iterable.php:79
+#: path/blocks/add_tab/view/once.php:84
+#: path/blocks/edit_tab/view/iterable.php:102
+#: path/blocks/edit_tab/view/once.php:108
+msgid "Video"
+msgstr "Видео"
+
+#: path/blocks/add_tab/view/iterable.php:80
+#: path/blocks/add_tab/view/once.php:85
+#: path/blocks/edit_tab/view/iterable.php:103
+#: path/blocks/edit_tab/view/once.php:109
+msgid "Quote"
+msgstr "Цитата"
+
+#: path/blocks/add_tab/view/iterable.php:81
+#: path/blocks/add_tab/view/iterable.php:82
+#: path/blocks/add_tab/view/once.php:86 path/blocks/add_tab/view/once.php:87
+#: path/blocks/edit_tab/view/iterable.php:104
+#: path/blocks/edit_tab/view/iterable.php:105
+#: path/blocks/edit_tab/view/once.php:110
+#: path/blocks/edit_tab/view/once.php:111
+msgid "List"
+msgstr "Список"
+
+#: path/blocks/add_tab/view/iterable.php:83
+#: path/blocks/add_tab/view/once.php:88
+#: path/blocks/edit_tab/view/iterable.php:106
+#: path/blocks/edit_tab/view/once.php:112
+msgid "Tag"
+msgstr "Тег"
+
+#: path/blocks/add_tab/view/iterable.php:84
+#: path/blocks/add_tab/view/once.php:89
+#: path/blocks/edit_tab/view/iterable.php:107
+#: path/blocks/edit_tab/view/once.php:113
+msgid "Custom"
+msgstr "Свой вариант"
+
+#: path/blocks/add_tab/view/iterable.php:96
+#: path/blocks/add_tab/view/once.php:101
+#: path/blocks/edit_tab/view/iterable.php:119
+#: path/blocks/edit_tab/view/once.php:125
+msgid "Select an element"
+msgstr "Выберите элемент"
+
+#: path/blocks/add_tab/view/iterable.php:104
+#: path/blocks/add_tab/view/once.php:109
+#: path/blocks/edit_tab/view/iterable.php:127
+#: path/blocks/edit_tab/view/once.php:133
+msgid "Xpath supported"
+msgstr "Xpath поддерживается"
+
+#: path/blocks/add_tab/view/iterable.php:117
+#: path/blocks/edit_tab/view/iterable.php:140
+msgid "Each number"
+msgstr "Каждый номер"
+
+#: path/blocks/add_tab/view/iterable.php:126
+#: path/blocks/add_tab/view/pixels.php:95
+#: path/blocks/add_tab/view/symbols.php:86
+#: path/blocks/edit_tab/view/iterable.php:149
+#: path/blocks/edit_tab/view/pixels.php:101
+#: path/blocks/edit_tab/view/symbols.php:94
+msgid "Start from"
+msgstr "Начинать c"
+
+#: path/blocks/add_tab/view/iterable.php:131
+#: path/blocks/add_tab/view/pixels.php:118
+#: path/blocks/add_tab/view/symbols.php:108
+#: path/blocks/edit_tab/view/iterable.php:154
+#: path/blocks/edit_tab/view/pixels.php:124
+#: path/blocks/edit_tab/view/symbols.php:117
+msgid "Iterations count"
+msgstr "Количество итераций"
+
+#: path/blocks/add_tab/view/iterable.php:135
+#: path/blocks/add_tab/view/once.php:126
+#: path/blocks/edit_tab/view/iterable.php:158
+#: path/blocks/edit_tab/view/once.php:150
+msgid ""
+"You can read more about selectors on the Internet or on <a href=\"https://"
+"mehanoid.pro/css-selektory-kotorye-vy-dolzhny-znat/\" target=\"_blank\">our "
+"blog</a>."
+msgstr ""
+"Более подробно о селекторах можно почитать в интернете или у <a "
+"href=\"https://mehanoid.pro/css-selektory-kotorye-vy-dolzhny-znat/\" "
+"target=\"_blank\">нас в блоге</a>."
+
+#: path/blocks/add_tab/view/iterable.php:144
+#: path/blocks/add_tab/view/once.php:135
+#: path/blocks/edit_tab/view/iterable.php:167
+#: path/blocks/edit_tab/view/once.php:159
+msgid "Enable search throughout the document"
+msgstr "Включить поиск по всему документу"
+
+#: path/blocks/add_tab/view/iterable.php:147
+#: path/blocks/add_tab/view/once.php:138
+#: path/blocks/edit_tab/view/iterable.php:170
+#: path/blocks/edit_tab/view/once.php:162
+msgid ""
+"Enable this option to search not only for the content of the article: the "
+"part that is displayed by the_content() function. Keep in mind that the H1 "
+"tag is usually outside of the article."
+msgstr ""
+"Включите этот параметр, чтобы поиск происходил не только по контенту статьи: "
+"та часть, которая выводится функцией the_content(). Имейте ввиду, что тег H1 "
+"как правило находится за пределами статьи."
+
+#: path/blocks/add_tab/view/once.php:7 path/blocks/edit_tab/view/once.php:13
+msgid "Based on selectors (Once):"
+msgstr "Основано на селекторах (Один раз):"
+
+#: path/blocks/add_tab/view/once.php:72 path/blocks/edit_tab/view/once.php:96
+msgid "Top of post"
+msgstr "В начале статьи"
+
+#: path/blocks/add_tab/view/once.php:73 path/blocks/edit_tab/view/once.php:97
+msgid "End of post"
+msgstr "В конце статьи"
+
+#: path/blocks/add_tab/view/once.php:122 path/blocks/edit_tab/view/once.php:146
+msgid "Order number"
+msgstr "Порядковый номер"
+
+#: path/blocks/add_tab/view/outgoing.php:7
+#: path/blocks/edit_tab/view/outgoing.php:13
+msgid "Popup / Sticky side:"
+msgstr "Попап / выезжающий:"
+
+#: path/blocks/add_tab/view/outgoing.php:28
+#: path/blocks/edit_tab/view/outgoing.php:37
+msgid "Left-top"
+msgstr "Слева сверху"
+
+#: path/blocks/add_tab/view/outgoing.php:34
+#: path/blocks/edit_tab/view/outgoing.php:46
+msgid "Top-center"
+msgstr "Сверху по центру"
+
+#: path/blocks/add_tab/view/outgoing.php:40
+#: path/blocks/edit_tab/view/outgoing.php:55
+msgid "Right-top"
+msgstr "Справа сверху"
+
+#: path/blocks/add_tab/view/outgoing.php:55
+#: path/blocks/edit_tab/view/outgoing.php:73
+msgid "Left-center"
+msgstr "Слева по центру"
+
+#: path/blocks/add_tab/view/outgoing.php:61
+#: path/blocks/edit_tab/view/outgoing.php:82
+msgid "In the center"
+msgstr "По центру"
+
+#: path/blocks/add_tab/view/outgoing.php:67
+#: path/blocks/edit_tab/view/outgoing.php:91
+msgid "Right-center"
+msgstr "Справа по центру"
+
+#: path/blocks/add_tab/view/outgoing.php:82
+#: path/blocks/edit_tab/view/outgoing.php:109
+msgid "Left-bottom"
+msgstr "Слева снизу"
+
+#: path/blocks/add_tab/view/outgoing.php:88
+#: path/blocks/edit_tab/view/outgoing.php:118
+msgid "Bottom-center"
+msgstr "Снизу по центру"
+
+#: path/blocks/add_tab/view/outgoing.php:94
+#: path/blocks/edit_tab/view/outgoing.php:127
+msgid "Right-bottom"
+msgstr "Справа снизу"
+
+#: path/blocks/add_tab/view/outgoing.php:103
+#: path/blocks/edit_tab/view/outgoing.php:139
+msgid "Show after"
+msgstr "Вывести через"
+
+#: path/blocks/add_tab/view/outgoing.php:107
+#: path/blocks/edit_tab/view/outgoing.php:146
+msgid "Hide after"
+msgstr "Скрыть через"
+
+#: path/blocks/add_tab/view/outgoing.php:111
+#: path/blocks/edit_tab/view/outgoing.php:150
+msgid "Seconds"
+msgstr "Секунд"
+
+#: path/blocks/add_tab/view/outgoing.php:115
+#: path/blocks/edit_tab/view/outgoing.php:154
+msgid "Pixels"
+msgstr "Пикселей"
+
+#: path/blocks/add_tab/view/outgoing.php:119
+#: path/blocks/edit_tab/view/outgoing.php:158
+msgid "Vh"
+msgstr "Vh"
+
+#: path/blocks/add_tab/view/outgoing.php:123
+#: path/blocks/edit_tab/view/outgoing.php:162
+msgid "%"
+msgstr "%"
+
+#: path/blocks/add_tab/view/outgoing.php:132
+#: path/blocks/edit_tab/view/outgoing.php:171
+msgid "Display a cross"
+msgstr "Выводить крестик"
+
+#: path/blocks/add_tab/view/outgoing.php:142
+#: path/blocks/add_tab/view/preroll.php:54
+#: path/blocks/edit_tab/view/outgoing.php:181
+#: path/blocks/edit_tab/view/preroll.php:60
+msgid "Display close timer"
+msgstr "Выводить таймер закрытия"
+
+#: path/blocks/add_tab/view/outgoing.php:145
+#: path/blocks/add_tab/view/preroll.php:57
+#: path/blocks/edit_tab/view/outgoing.php:184
+#: path/blocks/edit_tab/view/preroll.php:63
+msgid ""
+"Before the appearance of the cross, a timer with a countdown of N seconds "
+"will be displayed. As soon as the timer ends, a cross will be displayed."
+msgstr ""
+"Перед появлением крестика будет выведен таймер с обратным отсчётом N секунд. "
+"Как только таймер закончится, будет выведен крестик."
+
+#: path/blocks/add_tab/view/outgoing.php:154
+#: path/blocks/add_tab/view/outgoing.php:172
+#: path/blocks/add_tab/view/preroll.php:66
+#: path/blocks/edit_tab/view/outgoing.php:196
+#: path/blocks/edit_tab/view/outgoing.php:217
+#: path/blocks/edit_tab/view/preroll.php:75
+msgid "Time in seconds"
+msgstr "Время в секундах"
+
+#: path/blocks/add_tab/view/outgoing.php:164
+#: path/blocks/edit_tab/view/outgoing.php:206
+msgid "Display the block again after closing after N seconds"
+msgstr "Вывести блок повторно после закрытия через N секунд"
+
+#: path/blocks/add_tab/view/outgoing.php:180
+#: path/blocks/edit_tab/view/outgoing.php:228
+msgid "Leave blank or set 0 to remove the restriction."
+msgstr "Оставьте пустым или установите 0, чтобы убрать ограничение."
+
+#: path/blocks/add_tab/view/outgoing.php:182
+#: path/blocks/edit_tab/view/outgoing.php:230
+msgid "How many times"
+msgstr "Сколько раз"
+
+#: path/blocks/add_tab/view/outgoing.php:193
+#: path/blocks/edit_tab/view/outgoing.php:241
+msgid ""
+"Display the block after closing it (click on the cross) when the user "
+"revisits the site"
+msgstr ""
+"Вывести блок после его закрытия (нажатия на крестик) при повторном посещении "
+"сайта пользователем"
+
+#: path/blocks/add_tab/view/outgoing.php:196
+#: path/blocks/edit_tab/view/outgoing.php:244
+msgid ""
+"If the option is disabled, then when the user visits the site again, this "
+"block will not be displayed for the user."
+msgstr ""
+"Если опция выключена, то при повторном посещении сайта, для пользователя не "
+"будет выведен этот блок."
+
+#: path/blocks/add_tab/view/outgoing.php:208
+#: path/blocks/edit_tab/view/outgoing.php:256
+msgid "Display the block immediately if the user tries to close the page"
+msgstr "Вывести блок немедленно, если пользователь попытается закрыть страницу"
+
+#: path/blocks/add_tab/view/outgoing.php:211
+#: path/blocks/edit_tab/view/outgoing.php:259
+msgid "Fires on window.onblur, document.onvisibilitychange event."
+msgstr "Сработает при событии window.onblur, document.onvisibilitychange."
+
+#: path/blocks/add_tab/view/outgoing.php:223
+#: path/blocks/edit_tab/view/outgoing.php:271
+msgid ""
+"Display the block immediately if the user clicks on an element with a "
+"selector"
+msgstr ""
+"Вывести блок немедленно, если пользователь нажмёт на элемент с селектором"
+
+#: path/blocks/add_tab/view/outgoing.php:226
+#: path/blocks/edit_tab/view/outgoing.php:274
+msgid ""
+"For example: you can implement the display of a contact form by clicking on "
+"a button."
+msgstr "Например: можно реализовать вывод контактной формы по клику на кнопку."
+
+#: path/blocks/add_tab/view/pixels.php:7
+#: path/blocks/edit_tab/view/pixels.php:13
+msgid "Based on pixels:"
+msgstr "Основанные на пикселях:"
+
+#: path/blocks/add_tab/view/pixels.php:33
+#: path/blocks/edit_tab/view/pixels.php:39
+msgid "Through percentage (%) of screens"
+msgstr "Через процент (%) экранов"
+
+#: path/blocks/add_tab/view/pixels.php:37
+#: path/blocks/edit_tab/view/pixels.php:43
+msgid "Each percentage (%) of screens"
+msgstr "Каждый процент (%) экранов"
+
+#: path/blocks/add_tab/view/pixels.php:41
+#: path/blocks/add_tab/view/symbols.php:41
+#: path/blocks/edit_tab/view/pixels.php:47
+#: path/blocks/edit_tab/view/symbols.php:47
+msgid "In the center of the article"
+msgstr "В центре статьи"
+
+#: path/blocks/add_tab/view/pixels.php:48
+#: path/blocks/edit_tab/view/pixels.php:54
+msgid "Through N pixels"
+msgstr "Через N пикселей"
+
+#: path/blocks/add_tab/view/pixels.php:52
+#: path/blocks/edit_tab/view/pixels.php:58
+msgid "Every N pixels"
+msgstr "Каждые N пикселей"
+
+#: path/blocks/add_tab/view/pixels.php:59
+#: path/blocks/add_tab/view/symbols.php:59
+#: path/blocks/edit_tab/view/pixels.php:65
+#: path/blocks/edit_tab/view/symbols.php:65
+msgid "Settings:"
+msgstr "Настройки:"
+
+#: path/blocks/add_tab/view/pixels.php:73
+#: path/blocks/edit_tab/view/pixels.php:79
+msgid ""
+"The spacing is defined in number of pixels (percentage or fixed spacing N)."
+msgstr ""
+"Интервал определяется количеством пикселей (в процентах или фиксированным "
+"интервалом N)."
+
+#: path/blocks/add_tab/view/pixels.php:76
+#: path/blocks/edit_tab/view/pixels.php:82
+msgid ""
+"The percentage will be the screen height of the user's device and is "
+"measured in vh units."
+msgstr ""
+"Процент будет высотой экрана устройства пользователя и измеряется в единицах "
+"vh."
+
+#: path/blocks/add_tab/view/pixels.php:80
+#: path/blocks/add_tab/view/symbols.php:72
+#: path/blocks/edit_tab/view/pixels.php:86
+#: path/blocks/edit_tab/view/symbols.php:79
+msgid "Percent or N"
+msgstr "Процент или N"
+
+#: path/blocks/add_tab/view/pixels.php:93
+#: path/blocks/add_tab/view/symbols.php:84
+#: path/blocks/edit_tab/view/pixels.php:99
+#: path/blocks/edit_tab/view/symbols.php:92
+msgid "From which iteration to start"
+msgstr "С какой итерации начинать"
+
+#: path/blocks/add_tab/view/pixels.php:116
+#: path/blocks/add_tab/view/symbols.php:106
+#: path/blocks/edit_tab/view/pixels.php:122
+#: path/blocks/edit_tab/view/symbols.php:115
+msgid "How many iterations there will be"
+msgstr "Сколько повторений будет"
+
+#: path/blocks/add_tab/view/pixels.php:131
+#: path/blocks/edit_tab/view/pixels.php:137
+msgid ""
+"If there are fewer characters between blocks than M, then the block will not "
+"be displayed."
+msgstr ""
+"Если между блоками меньше символов, чем M, то блок не будет отображаться."
+
+#: path/blocks/add_tab/view/pixels.php:133
+#: path/blocks/add_tab/view/symbols.php:122
+#: path/blocks/edit_tab/view/pixels.php:139
+#: path/blocks/edit_tab/view/symbols.php:132
+msgid "Min. interval M"
+msgstr "Мин. интервал M"
+
+#: path/blocks/add_tab/view/pixels.php:153
+#: path/blocks/add_tab/view/symbols.php:142
+#: path/blocks/edit_tab/view/pixels.php:159
+#: path/blocks/edit_tab/view/symbols.php:152
+msgid ""
+"Selectors to be ignored on inserts. This is useful if you don't want ads to "
+"appear in blockquotes, lists or tables, default is:"
+msgstr ""
+"Селекторы, которые следует игнорировать при вставках. Это полезно, если вы "
+"не хотите, чтобы реклама появлялась в цитатах, списках или таблицах. По "
+"умолчанию:"
+
+#: path/blocks/add_tab/view/pixels.php:155
+#: path/blocks/add_tab/view/symbols.php:144
+#: path/blocks/edit_tab/view/pixels.php:161
+#: path/blocks/edit_tab/view/symbols.php:154
+msgid "Exceptions"
+msgstr "Исключения"
+
+#: path/blocks/add_tab/view/preroll.php:7
+#: path/blocks/edit_tab/view/preroll.php:13
+msgid "Video pre-roll:"
+msgstr "Видео преролл:"
+
+#: path/blocks/add_tab/view/preroll.php:25
+#: path/blocks/edit_tab/view/preroll.php:31
+msgid ""
+"Pre-rolls are ads that are shown before you start watching videos on your "
+"site."
+msgstr ""
+"Прероллы - это реклама, которая показывается перед началом просмотра роликов "
+"на вашем сайте."
+
+#: path/blocks/add_tab/view/preroll.php:26
+#: path/blocks/edit_tab/view/preroll.php:32
+msgid ""
+"But this functionality can also be used for other purposes, such as before "
+"viewing a full size image or gallery on your site."
+msgstr ""
+"Но этот функционал можно использовать и для других целей, например перед "
+"просмотром полноразмерной картинки или галереи на вашем сайте."
+
+#: path/blocks/add_tab/view/preroll.php:36
+#: path/blocks/edit_tab/view/preroll.php:42
+msgid ""
+"Specify video container selectors, default is: <code>iframe[src*=\"youtu\"], "
+"iframe[data-lazy-src*=\"youtu\"], .rll-youtube-player</code>"
+msgstr ""
+"Укажите селекторы видеоконтейнеров, по умолчанию: "
+"<code>iframe[src*=\"youtu\"], iframe[data-lazy-src*=\"youtu\"], .rll-youtube-"
+"player</code>"
+
+#: path/blocks/add_tab/view/preroll.php:38
+#: path/blocks/edit_tab/view/preroll.php:44
+msgid "Selector for iframes or video containers"
+msgstr "Селектор iframe'ов или контейнеров с видео"
+
+#: path/blocks/add_tab/view/preroll.php:79
+#: path/blocks/edit_tab/view/preroll.php:88
+msgid "Enable this option so that the user has to close the ad himself."
+msgstr "Включите эту опцию, чтобы пользователь должен был сам закрыть рекламу."
+
+#: path/blocks/add_tab/view/preroll.php:91
+#: path/blocks/edit_tab/view/preroll.php:100
+msgid "Show only for the first video"
+msgstr "Показывать только для первого просматриваемого видео"
+
+#: path/blocks/add_tab/view/preroll.php:94
+#: path/blocks/edit_tab/view/preroll.php:103
+msgid ""
+"Enable this option to have the user see ads before watching only the first "
+"video on the page."
+msgstr ""
+"Включите эту опцию, чтобы пользователь видел рекламу перед просмотром только "
+"первого видео на странице."
+
+#: path/blocks/add_tab/view/symbols.php:7
+#: path/blocks/edit_tab/view/symbols.php:13
+msgid "Based on symbols:"
+msgstr "Основанные на символах:"
+
+#: path/blocks/add_tab/view/symbols.php:33
+#: path/blocks/edit_tab/view/symbols.php:39
+msgid "Through percentage (%) characters"
+msgstr "Через процент (%) символов"
+
+#: path/blocks/add_tab/view/symbols.php:37
+#: path/blocks/edit_tab/view/symbols.php:43
+msgid "Each percentage (%) of characters"
+msgstr "Каждый процент (%) символов"
+
+#: path/blocks/add_tab/view/symbols.php:48
+#: path/blocks/edit_tab/view/symbols.php:54
+msgid "Through N characters"
+msgstr "Через N символов"
+
+#: path/blocks/add_tab/view/symbols.php:52
+#: path/blocks/edit_tab/view/symbols.php:58
+msgid "Every N characters"
+msgstr "Каждые N символов"
+
+#: path/blocks/add_tab/view/symbols.php:70
+#: path/blocks/edit_tab/view/symbols.php:77
+msgid "The interval is defined in the number of characters (percentage or N)"
+msgstr "Интервал определяется количеством символов (в процентах или N)."
+
+#: path/blocks/add_tab/view/symbols.php:120
+#: path/blocks/edit_tab/view/symbols.php:130
+msgid ""
+"If there are fewer characters between blocks than M, then the block will not "
+"be displayed"
+msgstr ""
+"Если между блоками меньше символов, чем M, то блок не будет отображаться"
+
+#: path/blocks/add_tab/view/vignette.php:7
+#: path/blocks/edit_tab/view/vignette.php:13
+msgid "Follow links (Adsense vignette ads):"
+msgstr "Переход по ссылкам (Adsense vignette ads):"
+
+#: path/blocks/add_tab/view/vignette.php:26
+#: path/blocks/edit_tab/view/vignette.php:32
+#: path/settings/settings_tab/styles.php:139
+msgid ""
+"An analogue of advertising from Adsense vignette ads is full-screen ads when "
+"switching between pages. The user sees them when they leave the page."
+msgstr ""
+"Аналог рекламы от Adsense vignette ads – полноэкранные объявления при "
+"переходе между страницами. Пользователь видит их, когда покидает страницу."
+
+#: path/blocks/add_tab/view/vignette.php:27
+#: path/blocks/edit_tab/view/vignette.php:33
+msgid ""
+"You can customize the display in \"Plugin settings -> Stylization -> Style "
+"of pop-up block when clicking on a link\"."
+msgstr ""
+"Настроить отображение можно в \"Настройки плагина -> Стилизация -> Стиль "
+"всплывающего блока при переходе по ссылке\"."
+
+#: path/blocks/add_tab/view/vignette.php:29
+#: path/blocks/edit_tab/view/vignette.php:35
+msgid ""
+"It is recommended not to include more than one of these formats per page."
+msgstr "Рекомендуется не включать больше одного подобного формата на страницу."
+
+#: path/blocks/add_tab/view/vignette.php:36
+#: path/blocks/edit_tab/view/vignette.php:42
+msgid "You can specify link selectors to exclude"
+msgstr "Вы можете указать селекторы ссылок для исключения"
+
+#: path/blocks/add_tab/view/vignette.php:40
+#: path/blocks/edit_tab/view/vignette.php:46
+msgid "URL exclusion example:"
+msgstr "Пример исключения URL:"
+
+#: path/blocks/edit.php:27
+msgid "Edit block"
+msgstr "Редактировать блок"
+
+#: path/blocks/edit.php:114 path/folders/edit.php:58
+#: path/folders/folder.php:452
+msgid "Delete block"
+msgstr "Удалить блок"
+
+#: path/blocks/edit.php:157
+msgid "Save block settings"
+msgstr "Сохранить настройки блока"
+
+#: path/blocks/edit.php:234 path/folders/edit.php:162
+#: path/folders/folder.php:500
+msgid "Confirm deleting the block"
+msgstr "Подтвердить удаление блока"
+
+#: path/folders/edit.php:14
+msgid "Edit folder filter"
+msgstr "Редактировать папку"
+
+#: path/folders/edit.php:66
+msgid "Folder name"
+msgstr "Название новой папки"
+
+#: path/folders/edit.php:93
+msgid "Save folder settings"
+msgstr "Сохранить настройки папки"
+
+#: path/folders/folder.php:43
+msgid "GEO"
+msgstr "ГЕО"
+
+#: path/folders/folder.php:45
+msgid "Browser"
+msgstr "Браузер"
+
+#: path/folders/folder.php:46
+msgid "OS"
+msgstr "ОС"
+
+#: path/folders/folder.php:48
+msgid "UTM"
+msgstr "UTM"
+
+#: path/folders/folder.php:49 path/settings/settings_tab/personalization.php:16
+msgid "Cookies"
+msgstr "Cookies"
+
+#: path/folders/folder.php:50 path/settings/settings_tab/personalization.php:17
+msgid "Date"
+msgstr "Дата"
+
+#: path/folders/folder.php:51 path/settings/settings_tab/pagespeed.php:69
+#: path/settings/settings_tab/personalization.php:18
+msgid "Time"
+msgstr "Время"
+
+#: path/folders/folder.php:52 path/settings/settings_tab/personalization.php:19
+msgid "Schedule"
+msgstr "Расписание"
+
+#: path/folders/folder.php:53
+msgid "Roles"
+msgstr "Роли"
+
+#: path/folders/folder.php:55 path/settings/settings_tab/personalization.php:22
+msgid "Blocking by IP"
+msgstr "Блокировка по IP"
+
+#: path/folders/folder.php:56
+msgid "A/B test"
+msgstr "A/B тест"
+
+#: path/folders/folder.php:60
+msgid "By pixels"
+msgstr "На пикселях"
+
+#: path/folders/folder.php:61
+msgid "By symbols"
+msgstr "На символах"
+
+#: path/folders/folder.php:62
+msgid "Once"
+msgstr "Единичный"
+
+#: path/folders/folder.php:63
+msgid "Iterable"
+msgstr "Повторяющийся"
+
+#: path/folders/folder.php:64
+msgid "Outgoing"
+msgstr "Выезжающий"
+
+#: path/folders/folder.php:65
+msgid "Pre-roll"
+msgstr "Преролл"
+
+#: path/folders/folder.php:66 path/settings/settings_tab/personalization.php:32
+msgid "Hover-roll"
+msgstr "Hover-roll"
+
+#: path/folders/folder.php:77
+msgid "Your ad blocks"
+msgstr "Ваши блоки рекламы"
+
+#: path/folders/folder.php:91
+msgid "CREATE A NEW BLOCK"
+msgstr "СОЗДАТЬ НОВЫЙ БЛОК"
+
+#: path/folders/folder.php:96
+msgid "Search a block by code, title or description"
+msgstr "Поиск блока по коду, названию или описанию"
+
+#: path/folders/folder.php:102
+msgid "Switch view:"
+msgstr "Переключить вид:"
+
+#: path/folders/folder.php:103
+msgid "Compact"
+msgstr "Компактный"
+
+#: path/folders/folder.php:107 path/settings/settings.php:33
+msgid "Advanced"
+msgstr "Расширенный"
+
+#: path/folders/folder.php:115 path/settings/export_import_tab/export.php:42
+#: path/settings/export_import_tab/export.php:94
+msgid "Select all"
+msgstr "Выделить все"
+
+#: path/folders/folder.php:121
+msgid "Select"
+msgstr "Выберите"
+
+#: path/folders/folder.php:123
+msgid "Show statistics"
+msgstr "Показать статистику"
+
+#: path/folders/folder.php:124
+msgid "Hide statistics"
+msgstr "Спрятать статистику"
+
+#: path/folders/folder.php:126
+msgid "Activate"
+msgstr "Активировать"
+
+#: path/folders/folder.php:127
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: path/folders/folder.php:128 path/folders/folder.php:444
+msgid "Copy"
+msgstr "Копировать"
+
+#: path/folders/folder.php:129
+msgid "Copy to folder"
+msgstr "Скопировать в папку"
+
+#: path/folders/folder.php:130
+msgid "Move to folder"
+msgstr "Переместить в папку"
+
+#: path/folders/folder.php:133
+msgid "Actions:"
+msgstr "Действия:"
+
+#: path/folders/folder.php:135
+msgid "Apply"
+msgstr "Применить"
+
+#: path/folders/folder.php:140
+msgid "Select devices"
+msgstr "Выберите девайсы"
+
+#: path/folders/folder.php:153
+msgid "Sort by device:"
+msgstr "Разбивка по девайсам:"
+
+#: path/folders/folder.php:158
+msgid "Select filters"
+msgstr "Выберите фильтры"
+
+#: path/folders/folder.php:173
+msgid "Sort by filters:"
+msgstr "Разбивка по фильтрам:"
+
+#: path/folders/folder.php:178
+msgid "Select types"
+msgstr "Выберите тип"
+
+#: path/folders/folder.php:193
+msgid "Sort by types:"
+msgstr "Разбивка по типам:"
+
+#: path/folders/folder.php:209
+msgid "Sort by status:"
+msgstr "Разбивка по статусу:"
+
+#: path/folders/folder.php:216
+msgid "Clear filters"
+msgstr "Очистить фильтры"
+
+#: path/folders/folder.php:385
+msgid "Statistics"
+msgstr "Статистика"
+
+#: path/folders/folder.php:396
+msgid "Sub-blocks:"
+msgstr "Подблоки:"
+
+#: path/folders/folder.php:405
+msgid "Impressions:"
+msgstr "Показы:"
+
+#: path/folders/folder.php:406
+msgid "Clicks:"
+msgstr "Клики:"
+
+#: path/folders/folder.php:407
+msgid "CTR:"
+msgstr "CTR:"
+
+#: path/folders/folder.php:421
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: path/folders/list.php:56 path/folders/list.php:178
+#: path/functions/ajax-handlers/folder/update.php:44
+msgid "Rename"
+msgstr "Переименовать"
+
+#: path/folders/list.php:64 path/functions/ajax-handlers/folder/update.php:47
+#: path/settings/export_import_tab/export.php:140
+#: path/settings/export_import_tab/import.php:76
+msgid "Settings"
+msgstr "Настройки"
+
+#: path/folders/list.php:90 path/settings/settings_tab/personalization.php:89
+msgid "No folder"
+msgstr "Без папки"
+
+#: path/folders/list.php:99
+msgid "Create a folder"
+msgstr "Создать папку"
+
+#: path/folders/list.php:112
+msgid "Select a folder to move"
+msgstr "Выберите папку для перемещения"
+
+#: path/folders/list.php:126 path/folders/list.php:155
+msgid "Select a folder:"
+msgstr "Выберите папку:"
+
+#: path/folders/list.php:141
+msgid "Select a folder to copy"
+msgstr "Выберите папку для копирования"
+
+#: path/folders/list.php:170
+msgid "Rename folder"
+msgstr "Переименовать папку"
+
+#: path/folders/list.php:174
+msgid "New name of folder"
+msgstr "Новое название папки"
+
+#: path/folders/list.php:190
+msgid "Create new folder"
+msgstr "Создать новую папку"
+
+#: path/folders/list.php:194 path/functions/flat-core.php:68
+msgid "New folder name"
+msgstr "Название новой папки"
+
+#: path/folders/list.php:198
+msgid "Create folder"
+msgstr "Создать папку"
+
+#: path/folders/list.php:210
+msgid "Confirm deleting the folder"
+msgstr "Подтвердите удаление папки"
+
+#: path/functions/ajax-handlers/actions/search_publish.php:19
+msgid "Query is empty"
+msgstr "Запрос пуст"
+
+#: path/functions/ajax-handlers/actions/search_publish.php:88
+#: path/functions/ajax-handlers/actions/search_taxonomy.php:79
+msgid "Nothing found"
+msgstr "Ничего не найдено"
+
+#: path/functions/ajax-handlers/actions/search_taxonomy.php:18
+msgid "Search query is empty"
+msgstr "Поисковый запрос пуст"
+
+#: path/functions/ajax-handlers/block/abgroup.php:16
+#: path/functions/ajax-handlers/folder/delete.php:15
+msgid "ID is missing"
+msgstr "ID отсутствует"
+
+#: path/functions/ajax-handlers/block/abgroup.php:29
+msgid "AB group updated"
+msgstr "Группа AB обновлена"
+
+#: path/functions/ajax-handlers/block/copy.php:16
+#: path/functions/ajax-handlers/block/copy_to_folder.php:17
+msgid "Please select at least one block to copy"
+msgstr "Выберите хотя бы один блок для копирования"
+
+#: path/functions/ajax-handlers/block/copy.php:29
+#: path/functions/ajax-handlers/block/copy_to_folder.php:30
+msgid "Can`t find the block"
+msgstr "Не могу найти блок"
+
+#: path/functions/ajax-handlers/block/copy.php:44
+#: path/functions/ajax-handlers/block/copy_to_folder.php:45
+msgid "(copy)"
+msgstr "(копия)"
+
+#: path/functions/ajax-handlers/block/copy.php:56
+#: path/functions/ajax-handlers/block/copy_to_folder.php:57
+#: path/functions/ajax-handlers/settings/clear_all_html.php:42
+msgid "Something went wrong"
+msgstr "Что-то пошло не так"
+
+#: path/functions/ajax-handlers/block/copy.php:114
+msgid "Block has been copied"
+msgstr "Блок был скопирован"
+
+#: path/functions/ajax-handlers/block/copy_to_folder.php:118
+msgid "Block has been copied and moved to the folder"
+msgstr "Блок скопирован и перемещен в папку"
+
+#: path/functions/ajax-handlers/block/delete.php:14
+msgid "IDs missing"
+msgstr "ID отсутствует"
+
+#: path/functions/ajax-handlers/block/move_to_folder.php:16
+msgid "Please select at least one block to transfer"
+msgstr "Выберите хотя бы один блок для переноса"
+
+#: path/functions/ajax-handlers/block/move_to_folder.php:33
+msgid "Blocks have been moved to the folder"
+msgstr "Блоки перемещены в папку"
+
+#: path/functions/ajax-handlers/block/update.php:49
+#: path/functions/ajax-handlers/block/update_order.php:15
+#: path/functions/ajax-handlers/folder/update.php:62
+msgid "Something went wrong..."
+msgstr "Что-то пошло не так..."
+
+#: path/functions/ajax-handlers/block/update.php:110
+#: path/functions/ajax-handlers/block/update_order.php:30
+#: path/functions/ajax-handlers/folder/update.php:94
+#: path/functions/ajax-handlers/settings/blacklist_ip.php:16
+#: path/functions/ajax-handlers/settings/css_editor_update.php:23
+#: path/functions/ajax-handlers/settings/header_footer.php:23
+#: path/functions/ajax-handlers/settings/settings.php:27
+msgid "Settings updated"
+msgstr "Настройки обновлены"
+
+#: path/functions/ajax-handlers/folder/delete.php:30
+msgid "Folder deleted"
+msgstr "Папка удалена"
+
+#: path/functions/ajax-handlers/folder/rename.php:16
+msgid "ID or name is missing"
+msgstr "ID или имя отсутствует"
+
+#: path/functions/ajax-handlers/folder/rename.php:27
+msgid "Folder name updated"
+msgstr "Имя папки обновлено"
+
+#: path/functions/ajax-handlers/folder/update.php:19
+#: path/functions/ajax-handlers/settings/export.php:13
+#: path/functions/ajax-handlers/settings/import.php:13
+msgid "You don't have PRO version"
+msgstr "У вас нет PRO версии"
+
+#: path/functions/ajax-handlers/settings/clear_all_html.php:33
+msgid "HTML cleaned up"
+msgstr "HTML очищен"
+
+#: path/functions/ajax-handlers/settings/export.php:119
+msgid "Export file ready"
+msgstr "Файл экспорта готов"
+
+#: path/functions/ajax-handlers/settings/import.php:27
+msgid "Your data is broken"
+msgstr "Ваши данные повреждены"
+
+#: path/functions/ajax-handlers/settings/import.php:129
+msgid "Import completed successfully!"
+msgstr "Импорт успешно завершен!"
+
+#: path/functions/ajax-handlers/settings/license.php:22
+msgid "License updated!"
+msgstr "Лицензия обновлена!"
+
+#: path/functions/ajax-handlers/settings/migration.php:82
+msgid "Preroll video block (created during migration)"
+msgstr "Видео блок с прероллом (создан во время миграции)"
+
+#: path/functions/ajax-handlers/settings/migration.php:627
+msgid "Something went wrong while migrating a block!"
+msgstr "Что-то пошло не так при переносе блока!"
+
+#: path/functions/ajax-handlers/settings/migration.php:838
+msgid "Something went wrong while migrating a folder!"
+msgstr "Что-то пошло не так при переносе папки!"
+
+#: path/functions/ajax-handlers/settings/migration.php:852
+msgid "Wrong migration type!"
+msgstr "Неверный тип миграции!"
+
+#: path/functions/ajax-handlers/settings/migration.php:862
+msgid "The migration process is complete!"
+msgstr "Процесс миграции завершен!"
+
+#: path/functions/flat-ajax_admin.php:95 path/functions/flat-ajax_front.php:37
+msgid "Wrong method"
+msgstr "Неверный метод"
+
+#: path/functions/flat-ajax_admin.php:105
+msgid "Nonce check failed"
+msgstr "Проверка nonce не пройдена"
+
+#: path/functions/flat-ajax_admin.php:118
+msgid "User does not have appropriate rights"
+msgstr "У пользователя нет соответствующих прав"
+
+#: path/functions/flat-core.php:34 path/functions/flat-core.php:35
+#: path/functions/flat-core.php:45 path/functions/flat-core.php:47
+msgid "Advertising blocks"
+msgstr "Блоки рекламы"
+
+#: path/functions/flat-core.php:36
+msgid "Add ad block"
+msgstr "Добавить блок рекламы"
+
+#: path/functions/flat-core.php:37
+msgid "Adding an ad block"
+msgstr "Добавление блока рекламы"
+
+#: path/functions/flat-core.php:38
+msgid "Editing an ad block"
+msgstr "Редактирование блока рекламы"
+
+#: path/functions/flat-core.php:39
+msgid "New ad block"
+msgstr "Новый блок рекламы"
+
+#: path/functions/flat-core.php:40
+msgid "View ad block"
+msgstr "Смотреть блок рекламы"
+
+#: path/functions/flat-core.php:41
+msgid "Search ad block"
+msgstr "Искать блок рекламы"
+
+#: path/functions/flat-core.php:42
+msgid "Not found"
+msgstr "Не найдено"
+
+#: path/functions/flat-core.php:43
+msgid "Not found in tresh"
+msgstr "Не найдено в корзине"
+
+#: path/functions/flat-core.php:58 path/functions/flat-core.php:59
+#: path/functions/flat-core.php:69 path/functions/flat-core.php:71
+#: path/settings/export_import_tab/export.php:86
+#: path/settings/export_import_tab/import.php:58
+#: path/settings/migration.php:161
+msgid "Folders"
+msgstr "Папки"
+
+#: path/functions/flat-core.php:60
+msgid "Find folder"
+msgstr "Найти папку"
+
+#: path/functions/flat-core.php:61
+msgid "All folders"
+msgstr "Все папки"
+
+#: path/functions/flat-core.php:62
+msgid "View folder"
+msgstr "Смотреть папку"
+
+#: path/functions/flat-core.php:63
+msgid "Parent folder"
+msgstr "Родительская папка"
+
+#: path/functions/flat-core.php:64
+msgid "Parent folder:"
+msgstr "Родительская папка:"
+
+#: path/functions/flat-core.php:65
+msgid "Edit folder"
+msgstr "Редактировать папку"
+
+#: path/functions/flat-core.php:66
+msgid "Update Folder"
+msgstr "Обновить папку"
+
+#: path/functions/flat-core.php:67
+msgid "Add new folder"
+msgstr "Добавить новую папку"
+
+#: path/functions/flat-core.php:133
+msgid "FlatPM, display blocks?"
+msgstr "FlatPM, выводить блоки?"
+
+#: path/functions/flat-core.php:149
+msgid "Yes"
+msgstr "Да"
+
+#: path/functions/flat-core.php:154
+msgid "No"
+msgstr "Нет"
+
+#: path/functions/flat-core.php:432
+msgid "Click to switch"
+msgstr "Нажмите, чтобы переключить"
+
+#: path/functions/flat-core.php:468
+msgid ""
+"<p style=\"margin:0\">You have a free version, <a href=\"https://mehanoid."
+"pro/flat-pm/kupit-flatpm/\" target=\"_blank\" class=\" tooltipped\" data-"
+"position =\"bottom\" data-tooltip=\"GEO, ISP, Folders and more\">buy a PRO</"
+"a>?</p>"
+msgstr ""
+"<p style=\"margin:0\">У вас бесплатная версия, <a href=\"https://mehanoid."
+"pro/flat-pm/kupit-flatpm/\" target=\"_blank\" class=\" tooltipped\" data-"
+"position=\"bottom\" data-tooltip=\"ГЕО, ISP, Папки и многое другое\">купить "
+"PRO</a>?</p>"
+
+#: path/functions/flat-core.php:470
+msgid ""
+"<p style=\"margin:0 0 0 3px\">You have a PRO version. You are awesome!</p>"
+msgstr "<p style=\"margin:0 0 0 3px\">У вас PRO-версия. Вы восхитительны!</p>"
+
+#: path/functions/flat-core.php:477
+msgid "data-position=\"top\" data-tooltip=\"Available in PRO version\""
+msgstr "data-position=\"top\" data-tooltip=\"Доступно в PRO версии\""
+
+#: path/functions/flat-core.php:604
+msgid "Flat PM:"
+msgstr "Flat PM:"
+
+#: path/functions/flat-core.php:606 path/settings/migration.php:41
+msgid "You have outdated data."
+msgstr "У вас устаревшие данные."
+
+#: path/functions/flat-core.php:607 path/settings/migration.php:44
+msgid "Probably you used the plugin before version 3.0.0"
+msgstr "Вероятно, вы использовали плагин до версии 3.0.0"
+
+#: path/functions/flat-core.php:608 path/settings/migration.php:45
+msgid ""
+"The old settings are not supported by the new version, so you need to start "
+"the data migration process!"
+msgstr ""
+"Старые настройки не поддерживаются новой версией, поэтому необходимо "
+"запустить процесс переноса данных!"
+
+#: path/functions/flat-core.php:611
+msgid "Please start the migration process immediately!"
+msgstr "Пожалуйста, начните процесс миграции немедленно!"
+
+#: path/functions/flat-scripts.php:15
+msgid "Close in"
+msgstr "Закрыть через"
+
+#: path/news/news.php:15
+msgid "https://mehanoid.pro/micro-services/news/flatpm/en.html"
+msgstr "https://mehanoid.pro/micro-services/news/flatpm/ru.html"
+
+#: path/settings/block_ip.php:32
+msgid "For example: 37.146.224.246"
+msgstr "Например: 37.146.224.246"
+
+#: path/settings/block_ip.php:35
+msgid ""
+"Enter each ip address on a new line. <br>Targeting is enabled in the block "
+"settings, for each one individually, or in the folder settings."
+msgstr ""
+"Вводите каждый ip адрес с новой строки. <br>Таргетирование включается в "
+"настройках блока, для каждого в отдельности, или в настройках папки."
+
+#: path/settings/block_ip.php:36
+msgid "The entire list is saved not in the database, but in a file"
+msgstr "Весь список сохраняется не в базу, а в файл"
+
+#: path/settings/block_ip.php:49 path/settings/css_editor.php:137
+#: path/settings/header_footer.php:96 path/settings/license.php:45
+#: path/settings/settings.php:54
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: path/settings/css_editor.php:26
+msgid "Paste your custom css here"
+msgstr "Вставьте свой css сюда"
+
+#: path/settings/css_editor.php:30
+msgid "Usage examples:"
+msgstr "Примеры использования:"
+
+#: path/settings/css_editor.php:35
+msgid "styles for the timeline in the slider"
+msgstr "стили для временной шкалы в слайдере"
+
+#: path/settings/css_editor.php:39
+msgid "styles for the slider"
+msgstr "стили для слайдера"
+
+#: path/settings/css_editor.php:43
+msgid "styles for show class"
+msgstr "стили для класса show"
+
+#: path/settings/css_editor.php:47
+msgid "styles for hide class"
+msgstr "стили для класса hide"
+
+#: path/settings/css_editor.php:51
+msgid "styles for hoverroll block"
+msgstr "стили для hoverroll блока"
+
+#: path/settings/css_editor.php:55
+msgid "styles for preroll block"
+msgstr "стили для preroll блока"
+
+#: path/settings/css_editor.php:59
+msgid "cross stitch styles"
+msgstr "стили для крестика"
+
+#: path/settings/css_editor.php:63
+msgid "timer styles"
+msgstr "стили для таймера"
+
+#: path/settings/css_editor.php:67
+msgid "styles for stop class in sticky sidebar"
+msgstr "стили для класса stop в прилипающем сайдбаре"
+
+#: path/settings/css_editor.php:71
+msgid "styles for fixed class in sticky sidebar"
+msgstr "стили для класса fixed в прилипающем сайдбаре"
+
+#: path/settings/css_editor.php:75
+msgid "popup background overlay styles"
+msgstr "стили для заднего оверлея попапа"
+
+#: path/settings/css_editor.php:79
+msgid "styles for outgoing blocks, including popup"
+msgstr "стили для выезжающих блоков, включая попап"
+
+#: path/settings/css_editor.php:83
+msgid ""
+"styles for blocks in different states, can take the value: \"processing\" "
+"and \"complite\""
+msgstr ""
+"стили для блоков в разных состояниях, могут принимать значения: "
+"\"processing\" и \"complite\""
+
+#: path/settings/css_editor.php:87
+msgid ""
+"styles for blocks of the async class, these are blocks that have "
+"restrictions on GEO, ISP, role or ip"
+msgstr ""
+"стили для блоков класса async, это блоки, которые имеют ограничения по GEO, "
+"ISP, роли или ip"
+
+#: path/settings/css_editor.php:104
+msgid ""
+"This style editor supports special variables. These variables are needed in "
+"order to prevent the adblock blocking the display of popups and overlay "
+"blocks."
+msgstr ""
+"Этот редактор стилей поддерживает специальные переменные. Эти переменные "
+"нужны для того, чтобы ADblock не блокировал отображение попапов и оверлейных "
+"блоков."
+
+#: path/settings/css_editor.php:105
+msgid "Supported variables:"
+msgstr "Поддерживаемые переменные:"
+
+#: path/settings/css_editor.php:126
+msgid ""
+"More information can be found in the <a href=\"https://mehanoid.pro/flat-pm/"
+"faq-po-plaginu-flat-pm/\" target=\"_blank\">documentation</a>."
+msgstr ""
+"Дополнительную информацию можно найти в <a href=\"https://mehanoid.pro/flat-"
+"pm/faq-po-plaginu-flat-pm/\" target=\"_blank\">документации</a>."
+
+#: path/settings/export_import.php:20
+msgid "Import"
+msgstr "Импорт"
+
+#: path/settings/export_import.php:23
+msgid "Export"
+msgstr "Экспорт"
+
+#: path/settings/export_import.php:41 path/settings/settings.php:65
+msgid "Confirm HTML cleanup"
+msgstr "Подтвердите очистку HTML"
+
+#: path/settings/export_import.php:42 path/settings/settings.php:66
+msgid ""
+"This action will permanently clear all HTML in your blocks. (only if you "
+"didn't make a backup beforehand)"
+msgstr ""
+"Это действие навсегда очистит весь HTML в ваших блоках. (только если вы не "
+"сделали предварительно бекап)"
+
+#: path/settings/export_import_tab/export.php:12
+msgid "Export Settings:"
+msgstr "Настройки экспорта:"
+
+#: path/settings/export_import_tab/export.php:16
+msgid "What exactly do you want to export?"
+msgstr "Что именно вы хотите экспортировать?"
+
+#: path/settings/export_import_tab/export.php:34
+#: path/settings/export_import_tab/import.php:52 path/settings/migration.php:91
+msgid "Blocks"
+msgstr "Блоки"
+
+#: path/settings/export_import_tab/export.php:50
+#: path/settings/export_import_tab/export.php:102
+msgid "Cancel all"
+msgstr "Отменить все"
+
+#: path/settings/export_import_tab/export.php:146
+#: path/settings/export_import_tab/import.php:82
+msgid "Styles"
+msgstr "Стили"
+
+#: path/settings/export_import_tab/export.php:155
+msgid ""
+"Disconnect the license in your <a href=\"https://mehanoid.pro/lk/login/\" "
+"target=\"_blank\">personal account</a> from the current site so that the "
+"license can be activated on the new domain during import."
+msgstr ""
+"Отключите лицензию в вашем <a href=\"https://mehanoid.pro/lk/login/\" "
+"target=\"_blank\">личном кабинете</a> от текущего сайта, чтобы лицензию "
+"можно было активировать на новом домене во время импорта."
+
+#: path/settings/export_import_tab/export.php:163
+msgid "Create export file"
+msgstr "Создать файл экспорта"
+
+#: path/settings/export_import_tab/export.php:166
+msgid "Export is available only for users of the PRO version."
+msgstr "Экспорт доступен только для пользователей версии PRO."
+
+#: path/settings/export_import_tab/import.php:12
+msgid "Import Settings:"
+msgstr "Настройки импорта:"
+
+#: path/settings/export_import_tab/import.php:19
+msgid "Do not delete existing blocks and folders before import"
+msgstr "Не удалять существующие блоки и папки перед импортом"
+
+#: path/settings/export_import_tab/import.php:25
+msgid "Delete all existing blocks and folders before import"
+msgstr "Удалить все существующие блоки и папки перед импортом"
+
+#: path/settings/export_import_tab/import.php:33
+msgid "Choose file"
+msgstr "Выберите файл"
+
+#: path/settings/export_import_tab/import.php:37
+msgid "Only .json supported"
+msgstr "Поддерживается только .json"
+
+#: path/settings/export_import_tab/import.php:45
+msgid "What exactly needs to be imported?"
+msgstr "Что именно нужно импортировать?"
+
+#: path/settings/export_import_tab/import.php:95
+msgid "Please be careful and check everything before starting the import!"
+msgstr "Пожалуйста, будьте внимательны и проверьте все перед началом импорта!"
+
+#: path/settings/export_import_tab/import.php:96
+msgid "The import process may take a long time."
+msgstr "Процесс импорта может занять много времени."
+
+#: path/settings/export_import_tab/import.php:103
+msgid "Start the import process"
+msgstr "Начать процесс импорта"
+
+#: path/settings/export_import_tab/import.php:106
+msgid "Import is available only for users of the PRO version."
+msgstr "Импорт доступен только для пользователей PRO версии."
+
+#: path/settings/header_footer.php:10
+msgid "Header and footer inserting code"
+msgstr "Вставка кода в шапку и в подвал сайта"
+
+#: path/settings/header_footer.php:25
+msgid "Code in"
+msgstr "Код в"
+
+#: path/settings/header_footer.php:41 path/settings/header_footer.php:66
+msgid "Paste code here"
+msgstr "Вставьте код сюда"
+
+#: path/settings/header_footer.php:47 path/settings/header_footer.php:72
+msgid "Defer the output of this code"
+msgstr "Отложить вывод этого кода"
+
+#: path/settings/header_footer.php:51
+msgid "Code before"
+msgstr "Код перед"
+
+#: path/settings/header_footer.php:79
+msgid ""
+"Do not use the deferred output option if the code contains the noscript tag "
+"or meta tags confirming the site ownership, for example:"
+msgstr ""
+"Не используйте опцию отложенного вывода, если в коде присутствуют тег-"
+"noscript или мета-теги подтверждающие владение сайтом, например:"
+
+#: path/settings/header_footer.php:85
+msgid "With this option enabled, they will not work."
+msgstr "С включенной опцией они не будут работать."
+
+#: path/settings/license.php:10
+msgid "License management"
+msgstr "Управление лицензией"
+
+#: path/settings/license.php:25
+msgid "Your license key"
+msgstr "Ваш ключ лицензии"
+
+#: path/settings/license.php:27
+msgid ""
+"To activate all the functionality of the PRO version, paste your key in the "
+"field below."
+msgstr ""
+"Чтобы активировать весь функционал PRO версии, вставьте ваш ключ в поле ниже."
+
+#: path/settings/license.php:33
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+#: path/settings/migration.php:8
+msgid "Database update"
+msgstr "Обновление базы данных"
+
+#: path/settings/migration.php:48
+msgid ""
+"Some features are now completely unavailable. Blocks of this type will be "
+"disabled."
+msgstr ""
+"Некоторые функции теперь полностью недоступны. Блоки этого типа будут "
+"отключены."
+
+#: path/settings/migration.php:51
+msgid "Plugin options"
+msgstr "Настройки плагина"
+
+#: path/settings/migration.php:74
+msgid "Option needs to be updated"
+msgstr "Опцию нужно обновить"
+
+#: path/settings/migration.php:77 path/settings/migration.php:148
+#: path/settings/migration.php:186
+msgid "Data"
+msgstr "Данные"
+
+#: path/settings/migration.php:84 path/settings/migration.php:154
+#: path/settings/migration.php:192
+msgid "No options for migration"
+msgstr "Нет опций для миграции"
+
+#: path/settings/migration.php:145
+msgid "Block needs to be updated"
+msgstr "Блок нужно обновить"
+
+#: path/settings/migration.php:183
+msgid "Folder needs to be updated"
+msgstr "Папка должна быть обновлена"
+
+#: path/settings/migration.php:206
+msgid ""
+"After the operation has started, do not close this page and do not reload it "
+"until the migration is complete."
+msgstr ""
+"После начала операции не закрывайте эту страницу и не перезагружайте ее до "
+"завершения миграции."
+
+#: path/settings/migration.php:209
+msgid "Progress"
+msgstr "Прогресс"
+
+#: path/settings/migration.php:216
+msgid "Start migration process"
+msgstr "Начать процесс миграции"
+
+#: path/settings/settings.php:24
+msgid "Main Settings"
+msgstr "Основные"
+
+#: path/settings/settings.php:27
+msgid "PageSpeed Insights"
+msgstr "PageSpeed Insights"
+
+#: path/settings/settings.php:30
+msgid "Stylization"
+msgstr "Стилизация"
+
+#: path/settings/settings.php:36
+msgid "Personalization"
+msgstr "Персонализация"
+
+#: path/settings/settings_tab/advanced.php:10
+msgid "Advanced Settings:"
+msgstr "Дополнительные настройки:"
+
+#: path/settings/settings_tab/advanced.php:17
+msgid "Enable Fast Mode programmatically"
+msgstr "Включить быстрый режим программно"
+
+#: path/settings/settings_tab/advanced.php:21
+msgid ""
+"By default, the plugin adds a quick start script to the article after the "
+"9th paragraph tag (only works on pages with content)."
+msgstr ""
+"По умолчанию плагин добавляет скрипт быстрого старта в статью после тега 9-"
+"го абзаца (работает только на страницах с контентом)."
+
+#: path/settings/settings_tab/advanced.php:23
+msgid ""
+"Disable this setting if you want to set up the quick start script manually."
+msgstr ""
+"Отключите этот параметр, если хотите настроить сценарий быстрого запуска "
+"вручную."
+
+#: path/settings/settings_tab/advanced.php:23
+msgid "Read more in the <a href=\"https://mehanoid.pro/\">documentation</a>."
+msgstr ""
+"Подробнее читайте в <a href=\"https://mehanoid.pro/\">документации</a>."
+
+#: path/settings/settings_tab/advanced.php:33
+msgid "Scroll flatPM_sidebar to the specified selector"
+msgstr "Скролить flatPM_sidebar до указанного селектора"
+
+#: path/settings/settings_tab/advanced.php:37
+msgid ""
+"By default, the plugin provides for sticking the block in the sidebar only "
+"until the end of the article."
+msgstr ""
+"По умолчанию в плагине предусмотрено прилипание блока в сайдбаре только до "
+"конца статьи."
+
+#: path/settings/settings_tab/advanced.php:39
+msgid ""
+"Specify the block selector to which the block in the sidebar should scroll, "
+"by default - <code>.fpm_end</code>"
+msgstr ""
+"Укажите селектор блока, до которого должен скролиться блок в сайдбаре, по "
+"умолчанию - <code>.fpm_end</code>"
+
+#: path/settings/settings_tab/advanced.php:47
+msgid "Bottom padding"
+msgstr "Отступ снизу"
+
+#: path/settings/settings_tab/advanced.php:56
+msgid "Disable automatic change of RTB codes"
+msgstr "Отключить автоматическое изменение RTB-кодов"
+
+#: path/settings/settings_tab/advanced.php:60
+msgid ""
+"By default, the plugin modifies the RTB (РСЯ Yandex) codes so that one code "
+"can be used more than once per page."
+msgstr ""
+"По умолчанию плагин модифицирует коды RTB (РСЯ Яндекс) таким образом, чтобы "
+"один код можно было использовать более одного раза на странице."
+
+#: path/settings/settings_tab/advanced.php:64
+msgid "Default code:"
+msgstr "Код по умолчанию:"
+
+#: path/settings/settings_tab/advanced.php:76
+msgid "Code after FlatPM processing:"
+msgstr "Код после обработки FlatPM:"
+
+#: path/settings/settings_tab/advanced.php:92
+msgid ""
+"This button will clear all HTML data from all blocks, but will not remove "
+"the blocks themselves."
+msgstr "Эта кнопка очистит весь HTML из всех блоков, но не удалит сами блоки."
+
+#: path/settings/settings_tab/advanced.php:94
+msgid "Clear all HTML"
+msgstr "Очистить весь HTML"
+
+#: path/settings/settings_tab/main.php:10
+msgid "Main Settings:"
+msgstr "Основные настройки:"
+
+#: path/settings/settings_tab/main.php:15
+msgid "Will be available in the next patch"
+msgstr "Будет доступно в следующем патче"
+
+#: path/settings/settings_tab/main.php:17
+msgid "Collect statistics on impressions and clicks"
+msgstr "Собирать статистику по показам и кликам"
+
+#: path/settings/settings_tab/main.php:22
+msgid "On the list page of all blocks, show in charts:"
+msgstr "На странице списка всех блоков показывать в графиках:"
+
+#: path/settings/settings_tab/main.php:29
+msgid "Impressions"
+msgstr "Показы"
+
+#: path/settings/settings_tab/main.php:35
+msgid "Clicks"
+msgstr "Клики"
+
+#: path/settings/settings_tab/main.php:41
+msgid "CTR"
+msgstr "CTR"
+
+#: path/settings/settings_tab/main.php:53
+msgid ""
+"Duplicate main code to code for users <span style=\"color:red\">ADblock</"
+"span>"
+msgstr ""
+"Дублировать основной код в код для пользователей <span style=\"color:"
+"red\">ADblock</span>"
+
+#: path/settings/settings_tab/main.php:57
+msgid ""
+"To avoid filling in the same code in both boxes, you can enable this option. "
+"Due to this, less json code will be output in the html of your page."
+msgstr ""
+"Чтобы не заполнять одинаковый код в оба окошка, можете включить эту опцию. "
+"Благодаря этому в html вашей страницы будет выводиться меньше json кода."
+
+#: path/settings/settings_tab/main.php:67
+msgid "Allow users with the editor role to manage the plugin"
+msgstr "Позволить управлять плагином пользователям с ролью редактор"
+
+#: path/settings/settings_tab/main.php:71
+msgid ""
+"If you want to grant access to the plugin, but not give administrator rights "
+"- enable this setting, then users with the \"Editor\" status will get these "
+"privileges."
+msgstr ""
+"Если вы хотите предоставить доступ к плагину, но не выдавать права "
+"администратора - включите эту настройку, тогда прользователи со статусом "
+"\"Редактор\" получат эти привилегии."
+
+#: path/settings/settings_tab/main.php:81
+msgid "Enable auto flush cache"
+msgstr "Включить авто сброс кеша"
+
+#: path/settings/settings_tab/main.php:85
+msgid ""
+"Auto reset cache on significant actions in the plugin: adding/editing a "
+"block/folder, moving blocks to folders."
+msgstr ""
+"Авто сброс кеша при значимых действиях в плагине: добавление/редактирования "
+"блока/папки, перемещение блоков в папки."
+
+#: path/settings/settings_tab/main.php:87
+msgid "Supported caching plugins:"
+msgstr "Поддерживаемые плагины кеширования:"
+
+#: path/settings/settings_tab/pagespeed.php:10
+msgid "PageSpeed Insights settings:"
+msgstr "Настройки PageSpeed Insights:"
+
+#: path/settings/settings_tab/pagespeed.php:17
+msgid "LazyLoad for blocks"
+msgstr "LazyLoad для блоков"
+
+#: path/settings/settings_tab/pagespeed.php:21
+msgid ""
+"A complete LazyLoad. Blocks will be displayed as you scroll down the page."
+msgstr ""
+"Полноценный LazyLoad. Блоки будут выводится по мере скроллинга страницы вниз."
+
+#: path/settings/settings_tab/pagespeed.php:23
+msgid "Specify trashhold in pixels. Default - <code>300</code>"
+msgstr "Укажите трешхолд в пикселях. По умолчанию - <code>300</code>"
+
+#: path/settings/settings_tab/pagespeed.php:27
+msgid "Threshold"
+msgstr "Трешхолд"
+
+#: path/settings/settings_tab/pagespeed.php:37
+msgid "Postpone ads until you interact with the site"
+msgstr "Отложить вывод рекламы до взаимодействия с сайтом"
+
+#: path/settings/settings_tab/pagespeed.php:41
+msgid ""
+"Blocks will be displayed only after the user interacts with the site: "
+"mousemove, touch-event for smartphones, etc."
+msgstr ""
+"Блоки выведутся лишь после взаимодействия пользователя с сайтом: движение "
+"мышкой, touch-эвент для смартфонов и т.д."
+
+#: path/settings/settings_tab/pagespeed.php:43
+msgid ""
+"Specify your events with a space. Default - <code>touchstart mousemove</code>"
+msgstr ""
+"Укажите свои события через пробел. По умолчанию - <code>touchstart "
+"mousemove</code>"
+
+#: path/settings/settings_tab/pagespeed.php:47
+msgid "Events"
+msgstr "События"
+
+#: path/settings/settings_tab/pagespeed.php:57
+msgid "Postpone ads in milliseconds"
+msgstr "Отложить вывод рекламы в миллисекундах"
+
+#: path/settings/settings_tab/pagespeed.php:61
+msgid ""
+"This option is useful if the user opened the site in a new tab and viewed it "
+"later."
+msgstr ""
+"Эта опция полезна для случаев, если пользователь открыл сайт в новой "
+"вкладке, а просмотрел её позже."
+
+#: path/settings/settings_tab/pagespeed.php:63
+msgid ""
+"Blocks will be displayed after the specified time or after user interaction "
+"with the site (for this, the option above must be enabled)."
+msgstr ""
+"Блоки выведутся спустя указанное время или после пользовательского "
+"взаимодействия с сайтом (для этого должна быть включена опция выше)."
+
+#: path/settings/settings_tab/pagespeed.php:65
+msgid "Specify the time in milliseconds. The default time is <code>800</code>"
+msgstr "Укажите время в миллисекундах. Время по умолчанию - <code>800</code>"
+
+#: path/settings/settings_tab/pagespeed.php:79
+msgid "Do not display blocks for PageSpeed Insights"
+msgstr "Не выводить блоки для PageSpeed Insights"
+
+#: path/settings/settings_tab/pagespeed.php:83
+msgid ""
+"This option disables the display of ads for Google PageSpeed Insights "
+"crawlers. Blocks will be displayed only for real site visitors."
+msgstr ""
+"Эта опция отключает вывод рекламы для роботов проверки Google PageSpeed "
+"Insights. Блоки выведутся лишь для реальных посетителей сайта."
+
+#: path/settings/settings_tab/personalization.php:10
+msgid "GEO of the country / city"
+msgstr "ГЕО страны / города"
+
+#: path/settings/settings_tab/personalization.php:11
+msgid "REFERER referral source"
+msgstr "REFERER источник перехода"
+
+#: path/settings/settings_tab/personalization.php:12
+msgid "User's browser"
+msgstr "Браузер пользователя"
+
+#: path/settings/settings_tab/personalization.php:13
+msgid "Operating system"
+msgstr "Операционная система"
+
+#: path/settings/settings_tab/personalization.php:14
+msgid "ISP - Internet Service Provider"
+msgstr "ISP - поставщик интернет-услуг"
+
+#: path/settings/settings_tab/personalization.php:15
+msgid "UTM - get request in address bar"
+msgstr "UTM - get-запрос в адресной строке"
+
+#: path/settings/settings_tab/personalization.php:20
+msgid "User role on the site"
+msgstr "Роль пользователя на сайте"
+
+#: path/settings/settings_tab/personalization.php:26
+msgid "Based on pixels"
+msgstr "Основанные на пикселях"
+
+#: path/settings/settings_tab/personalization.php:27
+msgid "Based on symbols"
+msgstr "Основанные на символах"
+
+#: path/settings/settings_tab/personalization.php:28
+msgid "Based on selectors (Once)"
+msgstr "Основано на селекторах (Один раз)"
+
+#: path/settings/settings_tab/personalization.php:29
+msgid "Based on selectors (Iterable)"
+msgstr "Основано на селекторах (Повторяющийся)"
+
+#: path/settings/settings_tab/personalization.php:30
+msgid "Popup / Sticky side"
+msgstr "Попапы / выезжающих блоки"
+
+#: path/settings/settings_tab/personalization.php:31
+msgid "Video pre-roll"
+msgstr "Видео преролл"
+
+#: path/settings/settings_tab/personalization.php:40
+msgid "Adblock field"
+msgstr "Поле для Adblock"
+
+#: path/settings/settings_tab/personalization.php:45
+msgid "Personalization:"
+msgstr "Персонализация:"
+
+#: path/settings/settings_tab/personalization.php:49
+msgid ""
+"FlatPM is a plugin to improve the comfort of managing ads. We understand "
+"that some targeting methods will interfere with your management."
+msgstr ""
+"FlatPM — это плагин для повышения удобства управления рекламой. Мы понимаем, "
+"что некоторые методы таргетинга будут мешать вашему управлению."
+
+#: path/settings/settings_tab/personalization.php:50
+msgid ""
+"Here you can hide some controls in the plugin to improve your ad management "
+"experience."
+msgstr ""
+"Здесь вы можете скрыть некоторые элементы управления в плагине, чтобы "
+"улучшить управление рекламой."
+
+#: path/settings/settings_tab/personalization.php:57
+msgid "Disable tooltips"
+msgstr "Отключить тултипы"
+
+#: path/settings/settings_tab/personalization.php:61
+msgid "Disable plugin tooltips"
+msgstr "Отключить всплывающие подсказки в плагине"
+
+#: path/settings/settings_tab/personalization.php:70
+msgid ""
+"You can select a default folder that will open automatically on the all "
+"blocks page."
+msgstr ""
+"Вы можете выбрать папку по умолчанию, которая будет автоматически "
+"открываться на странице всех блоков."
+
+#: path/settings/settings_tab/personalization.php:93
+msgid "Default folder"
+msgstr "Папка по умолчанию"
+
+#: path/settings/settings_tab/personalization.php:99
+msgid "Blocks:"
+msgstr "Блоки:"
+
+#: path/settings/settings_tab/personalization.php:133
+msgid "HTML advanced options"
+msgstr "Дополнительные настройки"
+
+#: path/settings/settings_tab/personalization.php:151
+msgid "Folders:"
+msgstr "Папки:"
+
+#: path/settings/settings_tab/styles.php:13
+msgid "Styling settings:"
+msgstr "Стилизация:"
+
+#: path/settings/settings_tab/styles.php:17
+msgid "Cross for all types of blocks:"
+msgstr "Крестик закрытия для всех типов блоков:"
+
+#: path/settings/settings_tab/styles.php:22
+msgid "Display a cross and a timer outside the block"
+msgstr "Выводить крестик и таймер за пределами блока"
+
+#: path/settings/settings_tab/styles.php:25
+msgid ""
+"By default, the cross and the timer are displayed inside the pop-up block."
+msgstr ""
+"По умолчанию крестик и таймер выводится внутри выезжающего и всплывающего "
+"блока."
+
+#: path/settings/settings_tab/styles.php:35
+msgid "Cross background color"
+msgstr "Цвет фона крестика"
+
+#: path/settings/settings_tab/styles.php:41
+msgid "Crosshair color"
+msgstr "Цвет перекрестия"
+
+#: path/settings/settings_tab/styles.php:47
+msgid "Timer text color"
+msgstr "Цвет текста таймера"
+
+#: path/settings/settings_tab/styles.php:56
+msgid "Width in pixels"
+msgstr "Ширина в пикселях"
+
+#: path/settings/settings_tab/styles.php:61
+msgid "Height in pixels"
+msgstr "Высота в пикселях"
+
+#: path/settings/settings_tab/styles.php:66
+msgid "Thickness in pixels"
+msgstr "Толщина в пикселях"
+
+#: path/settings/settings_tab/styles.php:78
+msgid "Popup / Sticky side style:"
+msgstr "Стиль попапов / выезжающих блоков:"
+
+#: path/settings/settings_tab/styles.php:85
+#: path/settings/settings_tab/styles.php:95
+msgid "Without animation"
+msgstr "Без анимации"
+
+#: path/settings/settings_tab/styles.php:86
+#: path/settings/settings_tab/styles.php:96
+msgid "Fade in &amp; Scale"
+msgstr "Fade in &amp; Scale"
+
+#: path/settings/settings_tab/styles.php:87
+#: path/settings/settings_tab/styles.php:97
+msgid "Slide in"
+msgstr "Slide in"
+
+#: path/settings/settings_tab/styles.php:88
+#: path/settings/settings_tab/styles.php:98
+msgid "Newspaper"
+msgstr "Newspaper"
+
+#: path/settings/settings_tab/styles.php:89
+#: path/settings/settings_tab/styles.php:99
+msgid "Super Scaled"
+msgstr "Super Scaled"
+
+#: path/settings/settings_tab/styles.php:91
+msgid "Popup animation"
+msgstr "Стиль анимации попапов"
+
+#: path/settings/settings_tab/styles.php:101
+msgid "Sticky side animation"
+msgstr "Анимация выезжающих блоков"
+
+#: path/settings/settings_tab/styles.php:105
+msgid "Animation speed in ms"
+msgstr "Скорость анимации в мс"
+
+#: path/settings/settings_tab/styles.php:113
+msgid "Background color"
+msgstr "Цвет заднего фона"
+
+#: path/settings/settings_tab/styles.php:118
+msgid "Overlay color"
+msgstr "Цвет оверлэя"
+
+#: path/settings/settings_tab/styles.php:122
+msgid "Background blur"
+msgstr "Размытие фона"
+
+#: path/settings/settings_tab/styles.php:125
+msgid ""
+"It is recommended not to set a value greater than 30 to blur the background."
+msgstr "Рекомендуется не ставить значение больше 30 для размытия фона."
+
+#: path/settings/settings_tab/styles.php:137
+msgid "Style of pop-up block when clicking on a link:"
+msgstr "Стиль всплывающего блока при переходе по ссылке:"
+
+#: path/settings/settings_tab/styles.php:149
+msgid "Ad preloader style:"
+msgstr "Стиль прелоадера:"
+
+#: path/settings/settings_tab/styles.php:157
+msgid "Preloader background/border color"
+msgstr "Цвет фона/рамки прелоадера"
+
+#: path/settings/settings_tab/styles.php:163
+msgid "Preloader text color"
+msgstr "Цвет текста прелоадера"
+
+#: path/settings/settings_tab/styles.php:168
+msgid "Preloader text"
+msgstr "Текст прелоадера"
+
+#: path/settings/settings_tab/styles.php:180
+msgid "Without style"
+msgstr "Без стиля"
+
+#: path/settings/settings_tab/styles.php:194
+msgid "Skeleton animation"
+msgstr "Skeleton анимация"
+
+#: path/settings/settings_tab/styles.php:208
+msgid "Background"
+msgstr "Фон"
+
+#: path/settings/settings_tab/styles.php:222
+msgid "Border"
+msgstr "Рамка"
+
+#: path/settings/settings_tab/styles.php:236
+msgid "Text"
+msgstr "Текст"
+
+#: path/settings/shortcodes.php:8
+msgid "Plugin shortcodes"
+msgstr "Список шорткодов"
+
+#: path/settings/shortcodes.php:22
+msgid "Registered by FlatPM"
+msgstr "Зарегистрировано FlatPM"
+
+#: path/settings/shortcodes.php:25
+msgid "Other available shortcodes"
+msgstr "Другие доступные шорткоды"
+
+#: path/settings/shortcodes_tab/flatpm.php:8
+#: path/settings/shortcodes_tab/other.php:8
+msgid "List of shortcodes:"
+msgstr "Список шорткодов:"
+
+#: path/settings/shortcodes_tab/flatpm.php:14
+msgid ""
+"Displays the country code (like UK, US, FR) of the current user, the value "
+"is taken from the cookie - fpm_ccode"
+msgstr ""
+"Выведет код страны (например, UK, US, FR) текущего пользователя, значение "
+"берется из куки - fpm_ccode"
+
+#: path/settings/shortcodes_tab/flatpm.php:18
+msgid ""
+"Displays the country of the current user, the value is taken from the cookie "
+"- fpm_country"
+msgstr ""
+"Выведет страну текущего пользователя, значение берется из куки - fpm_country"
+
+#: path/settings/shortcodes_tab/flatpm.php:22
+msgid ""
+"Displays the city of the current user, the value is taken from the cookie - "
+"fpm_city"
+msgstr ""
+"Выведет город текущего пользователя, значение берется из куки - fpm_city"
+
+#: path/settings/shortcodes_tab/flatpm.php:26
+msgid ""
+"Displays the role of the current user, the value is taken from the cookie - "
+"fpm_role"
+msgstr ""
+"Выведет роль текущего пользователя, значение берется из куки - fpm_role"
+
+#: path/settings/shortcodes_tab/flatpm.php:30
+msgid ""
+"Displays the ISP (Internet Service Provider) of the current user, the value "
+"is taken from the cookie - fpm_isp"
+msgstr ""
+"Выведет ISP (Internet Service Provider) текущего пользователя, значение "
+"берется из куки - fpm_isp"
+
+#: path/settings/shortcodes_tab/flatpm.php:34
+msgid ""
+"Displays the visit number of the current user, the value is taken from the "
+"cookie - fpm_visit"
+msgstr ""
+"Выведет количество посещений текущего пользователя, значение берется из куки "
+"- fpm_visit"
+
+#: path/settings/shortcodes_tab/flatpm.php:39
+msgid "Displays the user's current year"
+msgstr "Выведет текущий год пользователя"
+
+#: path/settings/shortcodes_tab/flatpm.php:43
+msgid "Displays the user's current month"
+msgstr "Выведет текущий месяц пользователя"
+
+#: path/settings/shortcodes_tab/flatpm.php:47
+msgid "Displays the user's current day"
+msgstr "Выведет текущий день месяца пользователя"
+
+#: path/settings/shortcodes_tab/flatpm.php:51
+msgid "Displays the user's current hours"
+msgstr "Выведет текущий час пользователя"
+
+#: path/settings/shortcodes_tab/flatpm.php:55
+msgid "Displays the user's current minutes"
+msgstr "Выведет текущие минуты пользователя"
+
+#: path/settings/shortcodes_tab/flatpm.php:60
+msgid ""
+"Will output a random number. Within one block, the random number will not be "
+"unique, and will be repeated."
+msgstr ""
+"Выведет случайное число. В пределах одного блока случайное число не будет "
+"уникальным и будет повторяться."
+
+#: path/settings/shortcodes_tab/flatpm.php:62
+msgid "To display two or more different random numbers, use groups"
+msgstr ""
+"Чтобы отобразить два или более разных случайных числа, используйте группы"
+
+#: path/settings/shortcodes_tab/flatpm.php:63
+msgid "If you want to get a random number from the min-max interval"
+msgstr "Если вы хотите получить случайное число из интервала min-max"
+
+#: path/settings/shortcodes_tab/flatpm.php:64
+msgid "You can combine these two properties"
+msgstr "Вы можете комбинировать эти два свойства"
+
+#: path/settings/shortcodes_tab/flatpm.php:72
+msgid "Displays the id of the current ad block"
+msgstr "Выведет id текущего рекламного блока"
+
+#: path/settings/shortcodes_tab/flatpm.php:76
+msgid "Displays the id of the current post"
+msgstr "Выведет id текущего поста"
+
+#: path/settings/shortcodes_tab/flatpm.php:80
+msgid "Displays the type of the current post"
+msgstr "Выведет тип текущего поста"
+
+#: path/settings/shortcodes_tab/flatpm.php:84
+msgid "Displays the publication date of the current post"
+msgstr "Выведет дату публикации текущего поста"
+
+#: path/settings/shortcodes_tab/flatpm.php:88
+msgid "Displays the publication time of the current post"
+msgstr "Выведет время публикации текущего поста"
+
+#: path/settings/shortcodes_tab/flatpm.php:92
+msgid "Displays when the publication was last modified"
+msgstr "Выведет, когда публикация была изменена в последний раз"
+
+#: path/settings/shortcodes_tab/flatpm.php:96
+msgid "Displays the slug of the current post"
+msgstr "Выведет slug текущего поста"
+
+#: path/settings/shortcodes_tab/flatpm.php:100
+msgid "Displays the title of the current post &lt;h1&gt;&lt;/h1&gt;"
+msgstr "Выведет название текущего поста &lt;h1&gt;&lt;/h1&gt;"
+
+#: path/settings/shortcodes_tab/flatpm.php:104
+msgid "Displays the current url"
+msgstr "Выведет текущий url"
+
+#: path/settings/shortcodes_tab/flatpm.php:108
+msgid "Displays the current title of the page &lt;title&gt;&lt;/title&gt;"
+msgstr "Выведет текущий title страницы &lt;title&gt;&lt;/title&gt;"
+
+#: path/settings/shortcodes_tab/flatpm.php:112
+msgid ""
+"Displays the current description of the page &lt;meta name=&quot;"
+"description&quot; content=&quot;&quot;&gt;"
+msgstr ""
+"Выведет текущий description страницы &lt;meta name=&quot;description&quot; "
+"content=&quot;&quot;&gt;"
+
+#: path/settings/shortcodes_tab/flatpm.php:116
+msgid "Displays the id of the current term"
+msgstr "Выведет id текущего термина"
+
+#: path/settings/shortcodes_tab/flatpm.php:120
+msgid "Displays the name of the current term"
+msgstr "Выведет имя текущего термина"
+
+#: path/settings/shortcodes_tab/flatpm.php:124
+msgid "Displays the slug of the current term"
+msgstr "Выведет slug текущего термина"
+
+#: path/settings/shortcodes_tab/flatpm.php:129
+msgid ""
+"Shortcodes in curly braces <b>{{shortcode}}</b> - processed on the <b>js</b> "
+"side."
+msgstr ""
+"Шорткоды в фигурных скобках <b>{{shortcode}}</b> – обрабатываются на стороне "
+"<b>js</b>."
+
+#: path/settings/shortcodes_tab/flatpm.php:130
+msgid ""
+"Shortcodes in square brackets <b>[shortcode]</b> - processed on the <b>php</"
+"b> side."
+msgstr ""
+"Шорткоды в квадратных скобках <b>[shortcode]</b> — обрабатываются на стороне "
+"<b>php</b>."
+
+#~ msgid "Vignette"
+#~ msgstr "Vignette"
+
+#~ msgid "Follow links (Adsense vignette ads)"
+#~ msgstr "Переход по ссылкам (Adsense vignette ads)"
+
+#~ msgid ""
+#~ "Will display in place of this shortcode the class of a cross for closing "
+#~ "popups and sticky slide blocks"
+#~ msgstr ""
+#~ "Выведет этого шорткода будет отображаться класс крестика для закрытия "
+#~ "всплывающих окон и липких слайд-блоков"
+
+#~ msgid "Sliders"
+#~ msgstr "Слайдеры"
+
+#~ msgid "Add Slider"
+#~ msgstr "Добавить слайдер"
+
+#~ msgid "Adding a slider"
+#~ msgstr "Добавление слайдера"
+
+#~ msgid "Slider editing"
+#~ msgstr "Редактирование слайдера"
+
+#~ msgid "New slider"
+#~ msgstr "Новый слайдер"
+
+#~ msgid "View slider"
+#~ msgstr "Смотреть слайдер"
+
+#~ msgid "Search slider"
+#~ msgstr "Искать слайдер"
+
+#~ msgid "Export/import of blocks and folders"
+#~ msgstr "Экспорт/импорт блоков и папок"
+
+#~ msgid "Copy this code to any text file to save all current state settings."
+#~ msgstr ""
+#~ "Скопируйте этот код в любой текстовый файл, чтобы сохранить все настройки "
+#~ "текущего состояния."
+
+#~ msgid "Export code"
+#~ msgstr "Код экспорта"
+
+#~ msgid "Paste your block and folder configuration here."
+#~ msgstr "Вставьте сюда свою конфигурацию блоков и папок."
+
+#~ msgid "Import code"
+#~ msgstr "Код для импорта"
+
+#~ msgid ""
+#~ "<span class=\"red\">Warning!</span> Current blocks will be removed before "
+#~ "import."
+#~ msgstr ""
+#~ "<span class=\"red\">Внимание!</span> Текущие блоки будут удалены перед "
+#~ "импортом."
+
+#~ msgid "Begin import"
+#~ msgstr "Импортировать"
+
+#~ msgid "Deprecated"
+#~ msgstr "Устаревший"
+
+#~ msgid "More tags"
+#~ msgstr "Больше тегов"
+
+#~ msgid "Less tags"
+#~ msgstr "Меньше тегов"
+
+#~ msgid "Flat PM"
+#~ msgstr "Flat PM"
+
+#~ msgid ""
+#~ "<span>Be careful!<br><span>Fast Mode only supports \"Based on selectors "
+#~ "(Once)\"</span></span>"
+#~ msgstr ""
+#~ "<span>Будьте осторожны!<br><span>Fast mode поддерживает только \"Основано "
+#~ "на селекторах (Один раз)\"</span></span>"
+
+#~ msgid "Internet Explorer"
+#~ msgstr "Internet Explorer"
+
+#~ msgid "OmniWeb"
+#~ msgstr "OmniWeb"
+
+#~ msgid "iCab"
+#~ msgstr "iCab"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Camino"
+#~ msgstr "Camino"
+
+#~ msgid "Netscape"
+#~ msgstr "Netscape"
+
+#~ msgid "Sticky side / top / bottom:"
+#~ msgstr "Выезжающий сбоку / сверху / снизу:"
+
+#~ msgid "Seconds (N)"
+#~ msgstr "Секунды (N)"
+
+#~ msgid "Pop-up in the center:"
+#~ msgstr "Всплывающий по центру:"
+
+#~ msgid ""
+#~ "If the option is, then when the user visits the site again, this block "
+#~ "will not be displayed for the user."
+#~ msgstr ""
+#~ "Если опция включена, то при повторном посещении сайта этот блок не будет "
+#~ "отображаться для пользователя."
+
+#~ msgid ""
+#~ "The time in seconds after which it will be possible to close the ad and "
+#~ "continue watching the video. If you leave 0, the closing cross will be "
+#~ "displayed immediately."
+#~ msgstr ""
+#~ "Время в секундах, по истечении которого можно будет закрыть рекламу и "
+#~ "продолжить просмотр видео. Если вы оставите 0, сразу же отобразится "
+#~ "закрывающий крестик."
+
+#~ msgid "Closing timer time:"
+#~ msgstr "Время таймера закрытия:"
+
+#~ msgid "Display ads once"
+#~ msgstr "Выводить рекламу один раз"
+
+#~ msgid "Selectors that will be ignored when counting characters"
+#~ msgstr "Селекторы, которые будут игнорироваться при подсчете символов"
+
+#~ msgid "Popup"
+#~ msgstr "Попап"
+
+#~ msgid "Deferred"
+#~ msgstr "Отложить вывод рекламы"
+
+#~ msgid "Disable jquery-migrate.min.js"
+#~ msgstr "Отключить jquery-migrate.min.js"
+
+#~ msgid ""
+#~ "Often, <code>jquery-migrate.min.js</code> in combination with the old "
+#~ "version of <code>jquery.min.js</code> can break the execution of scripts "
+#~ "on the site, to help such users, this option is needed in the settings."
+#~ msgstr ""
+#~ "Зачастую <code>jquery-migrate.min.js</code> в совокупности с старой "
+#~ "версией <code>jquery.min.js</code> может ломать выполнение скриптов на "
+#~ "сайте, чтобы помочь таким пользователям, нужна эта опция в настройках."
+
+#~ msgid ""
+#~ "Among other things, jquery-migrate.min.js is generally not used in the "
+#~ "modern web, so it hangs like a dead weight."
+#~ msgstr ""
+#~ "Помимо прочего, jquery-migrate.min.js, как правило, не используется в "
+#~ "современном web, поэтому он висит мёртвым грузом."
+
+#~ msgid "Sticky side / top / bottom"
+#~ msgstr "Выезжающий сбоку / сверху / снизу"
+
+#~ msgid "Sticky style side / top / bottom:"
+#~ msgstr "Стиль выезжающего блока сбоку / сверху / снизу:"
+
+#~ msgid "Popup block style in the center:"
+#~ msgstr "Стиль всплывающего блока по центру:"
+
+#~ msgid ""
+#~ "See all <a href=\"https://tympanus.net/Development/ModalWindowEffects/\" "
+#~ "target=\"_blank\">animation examples</a>."
+#~ msgstr ""
+#~ "Посмотрите все <a href=\"https://tympanus.net/Development/"
+#~ "ModalWindowEffects/\" target=\"_blank\">примеры анимаций</a>."
+
+#~ msgid "Category number"
+#~ msgstr "Категория номер"
+
+#~ msgid "Exclusively on the homepage"
+#~ msgstr "Исключительно на главной"
+
+#~ msgid "Exclusively in archives and categories"
+#~ msgstr "Исключительно в архивах и рубриках"
+
+#~ msgid "Exclusively on search page"
+#~ msgstr "Исключительно на странице поиска"
+
+#~ msgid "Exclusively on page 404 errors"
+#~ msgstr "Исключительно на странице 404 ошибки"
+
+#~ msgid "Exclusively on pagination page"
+#~ msgstr "Исключительно на странице пагинации"
+
+#~ msgid ""
+#~ "To resolve <a href=\"https://developers.google.com/publisher-ads-audits/"
+#~ "reference/audits/cumulative-ad-shift\" target=\"_blank\">layout shift "
+#~ "(CLS)</a> , you can set the block's minimum height in pixels."
+#~ msgstr ""
+#~ "Для решения проблемы со <a href=\"https://developers.google.com/publisher-"
+#~ "ads-audits/reference/audits/cumulative-ad-shift\" "
+#~ "target=\"_blank\">сдвигом макета (CLS)</a>, вы можете установить для "
+#~ "блока минимальную высоту в пикселях."
+
+#~ msgid ""
+#~ "You can also set the auto-reload time in seconds for the block, <a "
+#~ "href=\"\" target=\"_blank\">read more in our blog</a>."
+#~ msgstr ""
+#~ "Так же вы можете задать блоку время автоперезагрузки в секундах, <a "
+#~ "href=\"\" target=\"_blank\">подробнее в нашем блоге</a>."
+
+#~ msgid ""
+#~ "You can also set the code to delay insertion in seconds, <a href=\"\" "
+#~ "target=\"_blank\">read more in our blog</a>."
+#~ msgstr ""
+#~ "Ещё вы можете задать коду время на задержку вставки в секундах, <a "
+#~ "href=\"\" target=\"_blank\">подробнее в нашем блоге</a>."
+
+#~ msgid ""
+#~ "You can use shortcodes, incl. special shortcodes from the FlatPM plugin, "
+#~ "<a href=\"\" target=\"_blank\">read more here</a>."
+#~ msgstr ""
+#~ "Вы можете использовать шорткоды, в т.ч. специальные шорткоды от плагина "
+#~ "FlatPM, <a href=\"\" target=\"_blank\">подробнее тут</a>."
+
+#~ msgid "In which countries to show:"
+#~ msgstr "В каких странах показывать:"
+
+#~ msgid "In which countries not to show:"
+#~ msgstr "В каких странах не показывать:"
+
+#~ msgid "In which cities to show:"
+#~ msgstr "В каких городах показывать:"
+
+#~ msgid "In which cities not to show"
+#~ msgstr "В каких городах не показывать"
+
+#~ msgid "From which REFERER's to show:"
+#~ msgstr "С каких REFERER'ов показывать:"
+
+#~ msgid "From which REFERER's not to show:"
+#~ msgstr "С каких REFERER'ов не показывать:"
+
+#~ msgid "For which browsers to show:"
+#~ msgstr "Для каких браузеров показывать:"
+
+#~ msgid "For which browsers do not show:"
+#~ msgstr "Для каких браузеров не показывать:"
+
+#~ msgid "For which OS to show:"
+#~ msgstr "Для каких ОС показывать:"
+
+#~ msgid "For which OS do not show:"
+#~ msgstr "Для каких ОС не показывать:"
+
+#~ msgid "For which ISPs to show:"
+#~ msgstr "При каких ISP показывать:"
+
+#~ msgid "For which ISP do not show:"
+#~ msgstr "При каких ISP не показывать:"
+
+#~ msgid "For which get-requests to show:"
+#~ msgstr "При каких get-запросах показывать:"
+
+#~ msgid "For which get-requests do not show:"
+#~ msgstr "При каких get-запросах не показывать:"
+
+#~ msgid "For which cookies to show:"
+#~ msgstr "При каких cookies'ах показывать:"
+
+#~ msgid "For which cookies do not show:"
+#~ msgstr "При каких cookies'ах не показывать:"
+
+#~ msgid "For which roles to show:"
+#~ msgstr "Для каких ролей показывать:"
+
+#~ msgid "For which roles do not show:"
+#~ msgstr "Для каких ролей не показывать:"
+
+#~ msgid "For which User-agent's to show:"
+#~ msgstr "С каких User-agent'ов показывать:"
+
+#~ msgid "For which User-agent's not to show:"
+#~ msgstr "С каких User-agent'ов не показывать:"
+
+#~ msgid "In the center of the article (based on symbols)"
+#~ msgstr "В центре статьи (основано на символах)"
+
+#~ msgid ""
+#~ "The interval is defined in the number of characters (percentage or N). "
+#~ "<br>If there are fewer characters between blocks than M characters, then "
+#~ "the block will not be displayed. <br>Specify exclusive selectors - "
+#~ "selectors that will be ignored when counting characters."
+#~ msgstr ""
+#~ "Интервал определяется в количестве символов (процент или N). <br>Если "
+#~ "между блоками будет меньше символов, чем M символов, то блок не "
+#~ "выведется. <br>Укажите исключающие селекторы - селекторы которые будут "
+#~ "игнорироваться при подсчёте символов."
+
+#~ msgid ""
+#~ "The spacing is defined in number of pixels (percentage or fixed spacing "
+#~ "N). <br>If there are fewer characters between blocks than M characters, "
+#~ "then the block will not be displayed. <br> The percentage will be the "
+#~ "screen height of the user's device and is measured in vh units."
+#~ msgstr ""
+#~ "Интервал определяется в количестве пикселей (процент или фиксированный "
+#~ "интервал N). <br>Если между блоками будет меньше символов, чем M "
+#~ "символов, то блок не выведется. <br> Процентом будет являтся высота "
+#~ "экрана устройства пользователя и измеряется в единицах vh."
+
+#~ msgid ""
+#~ "<span style=\"color:red\">Important!</span> Any of the methods will not "
+#~ "break the paragraph or any other tag into parts, the output will occur "
+#~ "immediately after the desired tag."
+#~ msgstr ""
+#~ "<span style=\"color:red\">Важно!</span> Любой из способов не будет ломать "
+#~ "параграф или любой другой тег на части, вывод произойдёт сразу после "
+#~ "нужного тега."
+
+#~ msgid "Selector:"
+#~ msgstr "Селектор:"
+
+#~ msgid "Iterable (based on selectors):"
+#~ msgstr "Повторяющийся:"
+
+#~ msgid "Nonstandard"
+#~ msgstr "Нестандартный"
+
+#~ msgid "A/B"
+#~ msgstr "A/B"
+
+#~ msgid "Create your first block"
+#~ msgstr "Создайте свой первый блок"

@@ -1,5 +1,8 @@
 <?php
 
+
+
+
 //deregister unnessosary scripts
 function my_dequeue_scripts()
 {
@@ -352,7 +355,7 @@ function backorder(){
 	$p_name = wc_get_product( $data[0]['value'] )->get_name();
 
 	date_default_timezone_set('Europe/Moscow');
-	$theme = 'Поступил новый предзаказ ('.date("d-m H:i").'): '.$p_name;
+	$theme = 'Поступил предзаказ | '.date("d-m H:i").' | '.$p_name;
 
 	$message = '<p>Товар: '.$p_name;
 	$message .= '<br>Цена: '.$data[1]['value'];
@@ -360,7 +363,7 @@ function backorder(){
 	$message .= '<br>Имя: '.$data[3]['value'];
 	$message .= '<br>Телефон: '.$data[4]['value'].'</p>';
 	
-	wp_mail(['grigiriy.malyshev@gmail.com','info@wollmer.ru','trusovandrey1@gmail.com'], $theme, $message, $headers );
+	wp_mail(['info@wollmer.ru'], $theme, $message, $headers );
 	
 	// create_order_from_oneclick( $data[0]['value'], $data[1]['value'], $data[2]['value'] );
 
@@ -521,3 +524,27 @@ register_block_style(
 	]
   );
 
+// 
+
+//поиск только по заголовкам записей start
+
+//поиск только по заголовкам записей end
+
+//ExternalCode
+class ExternalCode
+{
+    public static function init()
+    {
+        add_filter('wooms_product_save', array(__CLASS__, 'update_product'), 30, 2);
+        add_filter('wooms_variation_save', array(__CLASS__, 'update_product'), 30, 2);
+    }
+
+    public static function update_product($product, $data_api)
+    {
+        $product->update_meta_data('wooms_external_code', $data_api['externalCode']);
+        $product->update_meta_data('wooms_external_id', $data_api['externalCode']);
+        return $product;
+    }
+}
+
+ExternalCode::init();

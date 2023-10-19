@@ -1,6 +1,5 @@
 <script src="https://api-maps.yandex.ru/2.1/?apikey=927a70a9-1768-4f55-bd6a-c2255bf68c98&lang=ru_RU" type="text/javascript"></script>
 <div id="section-map">
-  <h1 class="headline">Наши сервисные центры</h1>
   <div class="taglist">
     <?php
       $areas = [
@@ -25,6 +24,7 @@
           'long' => '54.190826',
           'zoom' => '3',
         ],
+		  /*
         [
           'id' => '4',
           'name' => 'Казахстан',
@@ -32,6 +32,7 @@
           'long' => '73.394297',
           'zoom' => '5',
         ],
+		*/
       ];
       $services = carbon_get_post_meta($post->ID,'sc');
 

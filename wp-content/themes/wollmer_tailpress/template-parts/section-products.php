@@ -1,5 +1,5 @@
 <section id="section-product" class="section-product">
-  <div class="headline">
+  <div>
     <h2>Популярные товары</h2>
     <a class="btn" href="/shop/">Все товары</a>
   </div>

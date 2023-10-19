@@ -5,22 +5,12 @@
 
   $(document).on('click', '.single_add_to_cart_button', function (e) {
     e.preventDefault();
-
-    //temp alt
+	  
     document.querySelector('button[type="submit"].single_add_to_cart_button').disabled = true;
-    document.querySelector('.cart-notice').classList.add('active');
-    setTimeout(() => {
-      document.querySelector('.cart-notice').classList.remove('active');
-    }, 3000); 
-    setTimeout(() => {
-      document.querySelector('button[type="submit"].single_add_to_cart_button').disabled = false;
-    }, 5000); 
-    //temp alt
 
     var badge_count = $('#cart_icon').next('.badge').text() !== '' ? parseInt($('#cart_icon').next('.badge').text()) : '';
     console.log(badge_count);
     if(badge_count !== 0) $('#cart_icon').next('.badge').remove();
-    $('#cart_icon').after('<a href="/cart/" class="badge">'+(badge_count+1)+'</a>');
 
     var $thisbutton = $(this),
       $form = $thisbutton.closest('form.cart'),
@@ -44,15 +34,19 @@
       url: wc_add_to_cart_params.ajax_url,
       data: data,
 
-      //temp
-      // beforeSend: function (response) {
-      //   $thisbutton.removeClass('added').addClass('loading');
-      // },
-      //temp
+      beforeSend: function (response) {
+         $thisbutton.removeClass('added').addClass('loading');
+       },
 
       complete: function (response) {
-        // $thisbutton.addClass('added').removeClass('loading');
+        $thisbutton.addClass('added').removeClass('loading');
         document.querySelector('button[type="submit"].single_add_to_cart_button').disabled = false;
+		document.querySelector('.cart-notice').classList.add('active');
+		setTimeout(() => {
+      	document.querySelector('.cart-notice').classList.remove('active');
+    	}, 3000); 
+		$('#cart_icon').after('<a href="/cart/" class="badge">'+(badge_count+1)+'</a>');
+		
       },
       success: function (response) {
         if (response.error && response.product_url) {

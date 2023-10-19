@@ -35,14 +35,14 @@ $image_src = !empty($product->get_image_id()) ? wp_get_attachment_image_url($pro
       <input id="backorder_url" name="backorder_url" type="hidden" value="<?= $_SERVER['REQUEST_URI']; ?>">
       <div class="form-row">
         <div class="input-wrap">
-          <label for="backorder_name">Имя и Фамилия<span title="Обязательно">*</span></label>
-          <div class="woocommerce-input-wrapper">
-            <input type="text" name="backorder_name" id="backorder_name" required placeholder="Владимир Иванов">
+          <label for="backorder_name">Имя и фамилия<span title="Обязательно">*</span></label>
+          <div class="woocommerce-input-wrapper" id="input-wrapper-name">
+            <input type="text" name="backorder_name" id="backorder_name" class="1112" min="1" required placeholder="Владимир Иванов">
           </div>
         </div>
         <div class="input-wrap">
-          <label for="backorder_phone">Телефон<span title="Обязательно">*</span></label>
-          <div class="woocommerce-input-wrapper">
+          <label for="backorder_phone">Мобильный телефон<span title="Обязательно">*</span></label>
+          <div class="woocommerce-input-wrapper" id="input-wrapper-phone">
             <input type="text" name="backorder_phone" id="backorder_phone" required placeholder="+7 (921) 123-45-67">
           </div>
         </div>
@@ -81,4 +81,93 @@ $image_src = !empty($product->get_image_id()) ? wp_get_attachment_image_url($pro
       }
     });
   })
+
 </script>
+
+<script>
+
+    function initSuggestions() {
+        $(document).ready(function() {
+            var token = '65d58e1f71cb0d914d348a1e59a2ae774c380e44'
+
+            $("#backorder_name").suggestions({
+                token: token,
+                type: "NAME",
+                params: {
+                    parts: ["NAME", "SURNAME"]
+                },
+            });
+        });
+    }
+
+
+    jQuery('#backorder_phone').on('keypress',function(e){
+        setTimeout(() => {
+            console.log('phone:',e.currentTarget.value);
+            if(e.currentTarget.value[4] !== '9'){
+                e.currentTarget.value = '+7 ('
+            }
+        }, 100);
+    })
+
+    initSuggestions("#backorder_name");
+
+    $('input:text').change(function() {
+        if ($(this).is(":invalid")) {
+            $(this).closest('.woocommerce-input-wrapper').addClass("error");
+        } else {
+            $(this).closest('.woocommerce-input-wrapper').removeClass("error");
+        }
+    });
+</script>
+
+<style>
+    .login-modal .modal-form-wrapper .form-row .woocommerce-input-wrapper {
+        position: relative;
+    }
+    .login-modal .modal-form-wrapper .form-row .woocommerce-input-wrapper:focus-within {
+        border-color: #facc15;
+    }
+    .login-modal .modal-form-wrapper .form-row .woocommerce-input-wrapper.error {
+        border-color: red;
+    }
+
+    .woocommerce-input-wrapper.error::before {
+        content: '';
+        position: absolute;
+        /* background: #facc15; */
+        background: red;
+        color: #fff;
+        border-radius: 0.5rem;
+        /* border-radius: 0 0 0.5rem 0.5rem; */
+        padding: 0.2rem 0.4rem;
+        top: 62px;
+        /* bottom: -34px;*/
+        left: 4px;
+        font-size: 12px;
+        max-width: calc(100% - 8px);
+        width: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .woocommerce-input-wrapper.error::after {
+        content:" ";
+        position: absolute; bottom: -10px; left: 50%;
+        margin-left: -5px;
+        width: 0;
+        border-bottom: 5px solid red;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        font-size: 0;
+        line-height: 0;
+    }
+    #input-wrapper-name.error::before {
+        content: 'Введите имя и фамилию';
+    }
+    #input-wrapper-phone.error::before  {
+        content: 'Введите номер мобильного телефона';
+    }
+</style>

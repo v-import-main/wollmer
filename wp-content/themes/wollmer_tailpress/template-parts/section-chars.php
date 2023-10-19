@@ -56,6 +56,7 @@ $preview_image_id = carbon_get_post_meta(get_the_ID(),'scheme');
                 }
             ?>
             </ul>
+			<!-- Кнопка "Инструкция к товару" 
             <?php if(carbon_get_post_meta(get_the_ID(),'pdf')){ ?>
             <a class="btn pdf" href="<?= wp_get_attachment_url(carbon_get_post_meta(get_the_ID(),'pdf')); ?>">
                 <svg width="20px" height="20px" preserveAspectRatio=”none” viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -66,6 +67,7 @@ $preview_image_id = carbon_get_post_meta(get_the_ID(),'scheme');
                 </span>
             </a>
             <?php } ?>
+			-->
         </div>
     </div>
 </section>

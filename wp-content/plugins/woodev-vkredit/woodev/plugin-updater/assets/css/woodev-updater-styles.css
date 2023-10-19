@@ -1,0 +1,155 @@
+.wrap-licenses .form-table,
+.wrap-licenses thead,
+.wrap-licenses tbody,
+.wrap-licenses tfoot,
+.wrap-licenses tr,
+.wrap-licenses td,
+.wrap-licenses th,
+.wrap-licenses caption {
+	display: block;
+}
+.wrap-licenses .form-table tr {
+	float: left;
+	margin: 0 15px 15px 0;
+	background: #fff;
+	border: 1px solid #ccc;
+	width: 30.5%;
+	max-width: 350px;
+	padding: 14px;
+	min-height: 220px;
+	position: relative;
+	box-sizing: border-box;
+}
+.wrap-licenses .form-table th {
+	background: #f9f9f9;
+	padding: 14px !important;
+	border-bottom: 1px solid #ccc;
+	margin: -14px -14px 20px;
+	width: 100%;
+	position: inherit !important;
+}
+.wrap-licenses .form-table td {
+	padding: 0;
+}
+.wrap-licenses td input.regular-text {
+	margin: 0 0 8px !important;
+	width: 100% !important;
+}
+.wrap-licenses .woodev-licenses-data[class*="woodev-licenses-"] {
+	position: absolute;
+	background: #fafafa;
+	padding: 14px;
+	border-top: 1px solid #eee;
+	margin: 20px -14px -14px;
+	min-height: 67px;
+	width: 100%;
+	bottom: 14px;
+	box-sizing: border-box;
+}
+.wrap-licenses .woodev-licenses-data[class*="woodev-licenses-"] a {
+	color: #444;
+}
+.wrap-licenses .woodev-licenses-data[class*="woodev-licenses-"] a:hover {
+	text-decoration: none;
+}
+.wrap-licenses .woodev-licenses-data.license-expires-soon-notice {
+	background-color: #00a0d2;
+	color: #fff;
+	border-color: #00a0d2;
+}
+.wrap-licenses .woodev-licenses-data.woodev-licenses-expired {
+	background-color: #e24e4e;
+	color: #fff;
+	border-color: #e24e4e;
+}
+.wrap-licenses .woodev-licenses-data.woodev-licenses-error,
+.wrap-licenses .woodev-licenses-data.woodev-licenses-missing,
+.wrap-licenses .woodev-licenses-data.woodev-licenses-invalid,
+.wrap-licenses .woodev-licenses-data.woodev-licenses-site_inactive,
+.wrap-licenses .woodev-licenses-data.woodev-licenses-item_name_mismatch {
+	background-color: #ffebcd;
+	border-color: #ffebcd;
+}
+.wrap-licenses .woodev-licenses-data p {
+	font-size: 13px;
+	margin-top: 0;
+}
+.wrap-licenses .woodev-licenses-data.license-expires-soon-notice a,
+.wrap-licenses .woodev-licenses-data.woodev-licenses-expired a {
+	color: #fff;
+}
+.wrap-licenses .woodev-licenses-data.license-expires-soon-notice a:hover,
+.wrap-licenses .woodev-licenses-data.woodev-licenses-expired a:hover {
+	text-decoration: none;
+}
+.wrap-licenses p.submit {
+	clear: both;
+}
+
+.woodev_addons_wrap {
+	max-width: 1200px;
+}
+
+.woodev_addons_wrap .products {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -.5em;
+}
+
+.woodev_addons_wrap .products li {
+    float: left;
+    border: 1px solid #ddd;
+    margin: 0 .5em 1em!important;
+    padding: 0;
+    vertical-align: top;
+    width: 33.3%;
+    min-width: 320px;
+    min-height: 280px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    background: #f5f5f5;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.2), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+.woodev_addons_wrap .products li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+}
+
+.woodev_addons_wrap .products li a .product-img-wrap {
+    background: #fff;
+    display: block;
+	position:relative;
+	padding: 5px 7px;
+}
+
+.woodev_addons_wrap .products li a img {
+    max-width: 100%;
+    height:auto;
+    
+    display: block;
+    margin: 0;
+    background: #fff;
+}
+
+.woodev_addons_wrap .products li a p {
+    padding: 20px!important;
+    margin: 0!important;
+    border-top: 1px solid #f1f1f1;
+}
+
+.woodev_addons_wrap .woodev-addons-footer {
+    padding-top: 10px;
+}

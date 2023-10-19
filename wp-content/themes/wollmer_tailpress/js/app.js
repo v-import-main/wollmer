@@ -3304,7 +3304,67 @@
     t4[t4.Init = 0] = "Init", t4[t4.Error = 1] = "Error", t4[t4.Ready = 2] = "Ready", t4[t4.Panning = 3] = "Panning", t4[t4.Mousemove = 4] = "Mousemove", t4[t4.Destroy = 5] = "Destroy";
   }(f || (f = {}));
   var m = ["a", "b", "c", "d", "e", "f"];
-  var b = { content: null, width: "auto", height: "auto", panMode: "drag", touch: true, dragMinThreshold: 3, lockAxis: false, mouseMoveFactor: 1, mouseMoveFriction: 0.12, zoom: true, pinchToZoom: true, panOnlyZoomed: "auto", minScale: 1, maxScale: 2, friction: 0.25, dragFriction: 0.35, decelFriction: 0.05, click: "toggleZoom", dblClick: false, wheel: "zoom", wheelLimit: 7, spinner: true, bounds: "auto", infinite: false, rubberband: true, bounce: true, maxVelocity: 75, transformParent: false, classes: { content: "f-panzoom__content", isLoading: "is-loading", canZoomIn: "can-zoom_in", canZoomOut: "can-zoom_out", isDraggable: "is-draggable", isDragging: "is-dragging", inFullscreen: "in-fullscreen", htmlHasFullscreen: "with-panzoom-in-fullscreen" }, l10n: { PANUP: "Move up", PANDOWN: "Move down", PANLEFT: "Move left", PANRIGHT: "Move right", ZOOMIN: "Zoom in", ZOOMOUT: "Zoom out", TOGGLEZOOM: "Toggle zoom level", TOGGLE1TO1: "Toggle zoom level", ITERATEZOOM: "Toggle zoom level", ROTATECCW: "Rotate counterclockwise", ROTATECW: "Rotate clockwise", FLIPX: "Flip horizontally", FLIPY: "Flip vertically", FITX: "Fit horizontally", FITY: "Fit vertically", RESET: "Reset", TOGGLEFS: "Toggle fullscreen" } };
+  var b = {
+    content: null,
+    width: "auto",
+    height: "auto",
+    panMode: "drag",
+    touch: true,
+    dragMinThreshold: 3,
+    lockAxis: false,
+    mouseMoveFactor: 1,
+    mouseMoveFriction: 0.12,
+    zoom: true,
+    pinchToZoom: true,
+    panOnlyZoomed: "auto",
+    minScale: 1,
+    maxScale: 2,
+    friction: 0.25,
+    dragFriction: 0.35,
+    decelFriction: 0.05,
+    click: "toggleZoom",
+    dblClick: false,
+    wheel: "zoom",
+    wheelLimit: 70,
+    spinner: true,
+    bounds: "auto",
+    infinite: true,
+    // loop: true,
+    slidesToShow: 5,
+    rubberband: true,
+    bounce: true,
+    maxVelocity: 75,
+    transformParent: false,
+    classes: {
+      content: "f-panzoom__content",
+      isLoading: "is-loading",
+      canZoomIn: "can-zoom_in",
+      canZoomOut: "can-zoom_out",
+      isDraggable: "is-draggable",
+      isDragging: "is-dragging",
+      inFullscreen: "in-fullscreen",
+      htmlHasFullscreen: "with-panzoom-in-fullscreen"
+    },
+    l10n: {
+      PANUP: "Move up",
+      PANDOWN: "Move down",
+      PANLEFT: "Move left",
+      PANRIGHT: "Move right",
+      ZOOMIN: "Zoom in",
+      ZOOMOUT: "Zoom out",
+      TOGGLEZOOM: "Toggle zoom level",
+      TOGGLE1TO1: "Toggle zoom level",
+      ITERATEZOOM: "Toggle zoom level",
+      ROTATECCW: "Rotate counterclockwise",
+      ROTATECW: "Rotate clockwise",
+      FLIPX: "Flip horizontally",
+      FLIPY: "Flip vertically",
+      FITX: "Fit horizontally",
+      FITY: "Fit vertically",
+      RESET: "Reset",
+      TOGGLEFS: "Toggle fullscreen"
+    }
+  };
   var v = '<div class="f-spinner"><svg viewBox="0 0 50 50"><circle cx="25" cy="25" r="20"></circle><circle cx="25" cy="25" r="20"></circle></svg></div>';
   var y = (t4) => t4 && t4 !== null && t4 instanceof Element && "nodeType" in t4;
   var x = (t4, e4) => {
@@ -12969,7 +13029,7 @@
       Dots: true,
       center: false,
       slidesPerPage: "auto",
-      infinite: false,
+      infinite: true,
       clickSlide: true,
       on: {
         refresh: (carousel) => {
@@ -13151,7 +13211,7 @@
     });
     $('form[role="search"] input.search-input').on("keyup", function(e4) {
       console.log(e4.target.value.length, e4.target.value);
-      if (e4.target.value.length > 3) {
+      if (e4.target.value.length > 2) {
         search_suggest(e4.target.value);
       } else {
         $("#modal-suggest").hide();
@@ -13266,7 +13326,7 @@
           Dots: false,
           center: false,
           slidesPerPage: "auto",
-          infinite: false,
+          infinite: true,
           on: {
             refresh: (carousel) => {
               console.log("refreshReels2", carousel.pages.length);

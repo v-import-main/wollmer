@@ -29,8 +29,8 @@ if(is_product()){
 $loop = new WP_Query($args);
 if( !$loop->have_posts() ) return;
 ?>
-<section id="section-reels">
-  <div class="char_headline headline"><h2>Отзывы</h2></div>
+<section id="section-reels" class="product-page-headline">
+  <h2>Отзывы владельцев</h2>
   <?php if (is_front_page()) { ?>
     <div class="reels-cat-list">
     <?php

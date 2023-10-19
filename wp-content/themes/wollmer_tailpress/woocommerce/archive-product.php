@@ -33,7 +33,7 @@
         <div class="headline">
           <h2>Товары для дома</h2>
         </div>
-        <div class="product-list def">
+        <div class="product-list product-list-1 def">
           <?php
           foreach($home as $product) {
             if(wp_get_attachment_image_src( get_post_thumbnail_id( $product->get_ID() ), 'single-post-thumbnail' )) { 
@@ -45,7 +45,7 @@
           <div class="headline">
             <h2>Аксессуары</h2>
           </div>
-          <div class="product-list def">
+          <div class="product-list product-list-2 def">
           <?php
           $i=0;
           foreach($home_acc as $key=>$product_id) {
@@ -71,7 +71,7 @@
         <div class="headline">
           <h2>Товары для кухни</h2>
         </div>
-        <div class="product-list def">
+        <div class="product-list product-list-3 def">
           <?php
           foreach($kitchen as $product) {
             if(wp_get_attachment_image_src( get_post_thumbnail_id( $product->get_ID() ), 'single-post-thumbnail' )) { 
@@ -84,7 +84,7 @@
           <div class="headline">
             <h2>Аксессуары</h2>
           </div>
-          <div class="product-list def">
+          <div class="product-list product-list-4 def">
           <?php
           $i=0;
           foreach($kitchen_acc as $key=>$product_id) {
@@ -107,15 +107,15 @@
         <div class="headline">
           <h2><?= get_queried_object()->name; ?></h2>
         </div>
-        <div class="product-list def">
+        <div class="product-list product-list-5 def">
         <?php
          $args = array(
           'post_type' => 'product',
           'stock' => 1,
           'posts_per_page' => 50,
           'product_cat' => get_queried_object()->slug,
-          'type' => 'simple',
-          'orderby' =>'date',
+//          'type' => 'simple',
+          'orderby' =>'price',
           'order' => 'ASC'
         );
          $loop = new WP_Query( $args );

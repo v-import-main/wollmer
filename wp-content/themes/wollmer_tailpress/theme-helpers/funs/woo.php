@@ -12,7 +12,7 @@ remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0
 remove_action('woocommerce_sidebar', 'woocommerce_get_sidebar', 10);
 
 // ENABLE GUTENBERG FOR PRODUCTS
-// enable gutenberg for woocommerce
+// enable gutenberg for woocommerce</a>
 function activate_gutenberg_product($can_edit, $post_type)
 {
     if ($post_type == 'product') {
@@ -35,7 +35,7 @@ function woocommerce_button_proceed_to_checkout() {
     $checkout_url = WC()->cart->get_checkout_url();
     ?>
     <p>Доступные способы доставки можно выбрать при оформлении заказа</p>
-    <a href="<?php echo $checkout_url; ?>" class="checkout-button button alt wc-forward">Перейти к оформлению</a>
+    <a href="<?php echo $checkout_url; ?>" class="checkout-button button alt wc-forward">Перейти к оформлению →</a>
     <?php
 }
 
@@ -124,7 +124,7 @@ function description_tab() {
     }
     get_template_part('template-parts/section', 'database');
     if(!has_term(['aksessuary','wollmer-care','zapchasti'],'product_cat',get_the_ID())){
-        echo '<div class="char_headline headline"><h2>Характеристики</h2></div>';
+        echo '<div class="product-page-headline"><h2>Характеристики</h2></div>';
         get_template_part('template-parts/section', 'chars');
     }
 }
@@ -253,16 +253,19 @@ if (!function_exists('woocommerce_my_single_title')) {
     {
         $data_price = wc_get_product(get_the_ID())->get_type() === 'bundle' || wc_get_product(get_the_ID())->get_type() === 'woosb' ? wc_get_product(get_the_ID())->get_bundle_price() : wc_get_product(get_the_ID())->get_price();
         ?>
-        <div class="rating-top <?= carbon_get_post_meta(get_the_ID(), 'reviews_count') === '321' ? 'invisible' : '123';?>">
-            <div class="rating-top-stars"></div>
-            <div class="rating-top-count">Отзывы: <?= carbon_get_post_meta(get_the_ID(), 'reviews_count'); ?></div>
+        <div class="rating-top <?= carbon_get_post_meta(get_the_ID(), 'reels') != '' ? 'visible' : 'invisible';?>">
+            <a href="#section-reels">
+			<div class="rating-top-stars"></div>
+            </a>
+			<a href="#section-reels">
+			<div class="rating-top-count">Отзывы: <?= carbon_get_post_meta(get_the_ID(), 'reviews_count'); ?></div>
+			</a>
         </div>
         <div class="links-block">
 
 
             <?php
             if( have_rows('block_links') ):
-//                echo '<h2>Тест</h2>';
                 echo '<ul>';
                 while( have_rows('block_links') ): the_row();
 
@@ -295,13 +298,13 @@ if (!function_exists('woocommerce_my_single_title')) {
 
 
         <h1 data-price="<?= $data_price; ?>"><?= get_the_title(); ?></h1>
-        <!--        <div class="subtitle">--><?php //= get_post(get_the_ID())->post_excerpt ?><!--</div>-->
+        <div class="subtitle"><?= get_post(get_the_ID())->post_excerpt ?></div>
         <?php
         global $product;
         $upsells = $product->get_upsells();
         if(count($upsells)){
 
-            $var_name = ($product->get_type() === 'woosb' || $product->get_type() === 'bundle') ? get_post_meta( $product->get_id(), '_custom_complex_name', true ) : 'Basic1';?>
+            $var_name = ($product->get_type() === 'woosb' || $product->get_type() === 'bundle') ? get_post_meta( $product->get_id(), '_custom_complex_name', true ) : 'Basic';?>
             <div class="buttons-wrapper">
                 <p class="subtitle">Комплектация:</p>
                 <div class="variation-radios">
@@ -312,7 +315,7 @@ if (!function_exists('woocommerce_my_single_title')) {
                     </div>
                     <?php foreach($upsells as $upsell_id) {
                         $upsell = wc_get_product($upsell_id);
-                        $var_name = ($upsell->get_type() === 'woosb' || $upsell->get_type() === 'bundle') ? get_post_meta( $upsell_id, '_custom_complex_name', true ) : 'Basic2';
+                        $var_name = ($upsell->get_type() === 'woosb' || $upsell->get_type() === 'bundle') ? get_post_meta( $upsell_id, '_custom_complex_name', true ) : 'Basic';
                         ?>
                         <div class="radio-wrapper" style="order:<?= ($upsell->get_type() === 'woosb' || $upsell->get_type() === 'bundle') ? $upsell->get_bundle_price() : $upsell->get_price(); ?>">
                             <a class="label" href="<?= $upsell->get_permalink();?>">
@@ -323,7 +326,7 @@ if (!function_exists('woocommerce_my_single_title')) {
                 </div>
 
             </div>
-            <div class="subtitle"><?= get_post(get_the_ID())->post_excerpt ?></div>
+            
             <?php
         }
     }
@@ -343,7 +346,7 @@ function woocommerce_template_single_add_to_cart()
         echo '<button data-fancybox="oneclickmodal" data-src="#oneclickmodal" class="one-click-btn">Заказ в один клик</button>';
     } else {
         echo '<div class="backorder-wrapper">';
-        echo '<p>Товара сейчас нет в наличии, но вы можете сделать предзаказ</p>';
+        echo '<p>Товара сейчас нет в наличии, вы можете оформить предзаказ</p>';
         echo '<button data-fancybox="backordermodal" data-src="#backordermodal" class="backorder-btn">Оформить предзаказ</button>';
         get_template_part('template-parts/modal','backorder',['product' => $product]);
         echo '</div>';
@@ -462,7 +465,7 @@ add_filter('woocommerce_after_cart_totals', 'woocommerce_after_cart_totals_actio
 function woocommerce_after_cart_totals_action()
 {
     if (wc_coupons_enabled()) {
-        echo '<form class="woocommerce-coupon-form" action="' . esc_url(wc_get_cart_url()) . '" method="post">';
+        echo '<form class="woocommerce-coupon-form 33333" action="' . esc_url(wc_get_cart_url()) . '" method="post">';
         echo '<div class="coupon under-proceed">';
         echo '<input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="Промокод" />';
         echo '<button type="submit" class="button" name="apply_coupon" value="' . esc_attr('Apply coupon', 'woocommerce') . '">Применить</button>';
@@ -506,11 +509,11 @@ function fdev_remove_all_checkout_fields($checkout_fields){
     unset($checkout_fields['billing']['billing_address_2']);
     unset($checkout_fields['billing']['billing_postcode']);
     // unset($checkout_fields['billing']['billing_country']);
-    unset($checkout_fields['billing']['postal_code']);
-    unset($checkout_fields['billing']['billing_state']);
-    unset($checkout_fields['billing']['billing_street']);
-    unset($checkout_fields['billing']['billing_house']);
-    unset($checkout_fields['billing']['billing_kv']);
+//    unset($checkout_fields['billing']['postal_code']);
+//    unset($checkout_fields['billing']['billing_state']);
+//    unset($checkout_fields['billing']['billing_street']);
+//    unset($checkout_fields['billing']['billing_house']);
+//    unset($checkout_fields['billing']['billing_kv']);
 //    unset($checkout_fields['billing']['billing_city']);
 
     unset($checkout_fields['shipping']['shipping_first_name']);
@@ -518,74 +521,77 @@ function fdev_remove_all_checkout_fields($checkout_fields){
     unset($checkout_fields['shipping']['shipping_company']);
     unset($checkout_fields['shipping']['shipping_address_1']);
     unset($checkout_fields['shipping']['shipping_address_2']);
-    unset($checkout_fields['shipping']['shipping_city']);
-    unset($checkout_fields['shipping']['shipping_postcode']);
+//    unset($checkout_fields['shipping']['shipping_city']);
+//    unset($checkout_fields['shipping']['shipping_postcode']);
     unset($checkout_fields['shipping']['shipping_country']);
-    unset($checkout_fields['shipping']['shipping_state']);
-    unset($checkout_fields['shipping']['shipping_street']);
-    unset($checkout_fields['shipping']['shipping_kv']);
+//    unset($checkout_fields['shipping']['shipping_state']);
+//    unset($checkout_fields['shipping']['shipping_street']);
+//    unset($checkout_fields['shipping']['shipping_kv']);
 
 
     $checkout_fields[ 'order' ][ 'order_comments' ][ 'label' ] = 'Комментарий к заказу';
-    $checkout_fields[ 'order' ][ 'order_comments' ][ 'placeholder' ] = 'Если есть уточнения по заказу, напишите их тут';
+    $checkout_fields[ 'order' ][ 'order_comments' ][ 'placeholder' ] = 'Например, адрес пункта выдачи или удобное время для звонка';
     $checkout_fields[ 'order' ][ 'order_comments' ][ 'rows' ] = 5;
 
-    $checkout_fields[ 'order' ][ 'postal_code' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
-    $checkout_fields[ 'order' ][ 'billing_state' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
+//    $checkout_fields[ 'order' ][ 'postal_code' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
+//    $checkout_fields[ 'order' ][ 'billing_state' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
     $checkout_fields[ 'order' ][ 'billing_city' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
     $checkout_fields[ 'order' ][ 'billing_address_1' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
-    $checkout_fields[ 'order' ][ 'billing_street' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
-    $checkout_fields[ 'order' ][ 'billing_house' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
-    $checkout_fields[ 'order' ][ 'billing_kv' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
+//    $checkout_fields[ 'order' ][ 'billing_street' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
+//    $checkout_fields[ 'order' ][ 'billing_house' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
+//    $checkout_fields[ 'order' ][ 'billing_kv' ] = $checkout_fields[ 'billing' ][ 'billing_address_1' ];
 
     // unset($checkout_fields[ 'billing '][ 'billing_country' ]);
     $checkout_fields[ 'billing' ][ 'billing_country' ][ 'default' ] = 'RU';
     // $checkout_fields[ 'shipping' ][ 'shipping_country' ][ 'default' ] = 'RU';
 
-    $checkout_fields[ 'order' ][ 'billing_address_1' ][ 'label' ] = 'Населённый пункт';
-    $checkout_fields[ 'order' ][ 'billing_address_1' ][ 'placeholder' ] = 'Номер дома, название улицы, квартира';
+    $checkout_fields[ 'order' ][ 'billing_address_1' ][ 'label' ] = 'Адрес для курьерской доставки';
+    $checkout_fields[ 'order' ][ 'billing_address_1' ][ 'class' ] = 'i11111';
+    $checkout_fields[ 'order' ][ 'billing_address_1' ][ 'placeholder' ] = 'Укажите ваш адрес';
     $checkout_fields[ 'order' ][ 'billing_address_1' ][ 'autocomplete' ] = 'off';
 
-    $checkout_fields[ 'order' ][ 'postal_code' ][ 'label' ] = 'Индекс';
-    $checkout_fields[ 'order' ][ 'postal_code' ][ 'placeholder' ] = '';
+//    $checkout_fields[ 'order' ][ 'postal_code' ][ 'label' ] = 'Индекс';
+//    $checkout_fields[ 'order' ][ 'postal_code' ][ 'placeholder' ] = '';
 
-    $checkout_fields[ 'order' ][ 'billing_state' ][ 'label' ] = 'Регион, область';
+    $checkout_fields[ 'order' ][ 'billing_state' ][ 'label' ] = 'Район';
+    $checkout_fields[ 'order' ][ 'billing_state' ][ 'class' ] = 'i22222';
     $checkout_fields[ 'order' ][ 'billing_state' ][ 'placeholder' ] = 'Укажите ваш регион или область';
-    $checkout_fields[ 'order' ][ 'billing_state' ][ 'autocomplete' ] = 'address-level1';
+//    $checkout_fields[ 'order' ][ 'billing_state' ][ 'autocomplete' ] = 'address-level1';
 
     $checkout_fields[ 'order' ][ 'billing_city' ][ 'label' ] = 'Город';
     $checkout_fields[ 'order' ][ 'billing_city' ][ 'placeholder' ] = 'Укажите ваш город';
+
     $checkout_fields[ 'order' ][ 'billing_city' ][ 'autocomplete' ] = 'address-level2';
 
 
-    $checkout_fields[ 'order' ][ 'billing_street' ][ 'label' ] = 'Улица';
-    $checkout_fields[ 'order' ][ 'billing_street' ][ 'placeholder' ] = 'Название улицы';
+//    $checkout_fields[ 'order' ][ 'billing_street' ][ 'label' ] = 'Улица';
+//    $checkout_fields[ 'order' ][ 'billing_street' ][ 'placeholder' ] = 'Название улицы';
 //    $checkout_fields[ 'order' ][ 'billing_street' ][ 'autocomplete' ] = 'street-address';
-    $checkout_fields[ 'order' ][ 'billing_street' ][ 'autocomplete' ] = 'off';
+//    $checkout_fields[ 'order' ][ 'billing_street' ][ 'autocomplete' ] = 'off';
 
-    $checkout_fields[ 'order' ][ 'billing_house' ][ 'label' ] = 'Дом';
-    $checkout_fields[ 'order' ][ 'billing_house' ][ 'placeholder' ] = 'Номер дома';
-    $checkout_fields[ 'order' ][ 'billing_house' ][ 'autocomplete' ] = 'flate-address';
+//    $checkout_fields[ 'order' ][ 'billing_house' ][ 'label' ] = 'Дом';
+//    $checkout_fields[ 'order' ][ 'billing_house' ][ 'placeholder' ] = 'Номер дома';
+//    $checkout_fields[ 'order' ][ 'billing_house' ][ 'autocomplete' ] = 'flate-address';
 
-    $checkout_fields[ 'order' ][ 'billing_kv' ][ 'label' ] = 'Квартира';
-    $checkout_fields[ 'order' ][ 'billing_kv' ][ 'placeholder' ] = 'Номер квартиры';
-    $checkout_fields[ 'order' ][ 'billing_kv' ][ 'autocomplete' ] = 'flate-address';
+//    $checkout_fields[ 'order' ][ 'billing_kv' ][ 'label' ] = 'Квартира';
+//    $checkout_fields[ 'order' ][ 'billing_kv' ][ 'placeholder' ] = 'Номер квартиры';
+//    $checkout_fields[ 'order' ][ 'billing_kv' ][ 'autocomplete' ] = 'flate-address';
 
-    $checkout_fields[ 'order' ][ 'postal_code' ][ 'priority' ] = 1;
-    $checkout_fields[ 'order' ][ 'billing_state' ][ 'priority' ] = 1;
+//    $checkout_fields[ 'order' ][ 'postal_code' ][ 'priority' ] = 1;
+    $checkout_fields[ 'order' ][ 'billing_state' ][ 'priority' ] = 0;
     $checkout_fields[ 'order' ][ 'billing_city' ][ 'priority' ] = 1;
     $checkout_fields[ 'order' ][ 'billing_address_1' ][ 'priority' ] = 4;
-    $checkout_fields[ 'order' ][ 'billing_street' ][ 'priority' ] = 2;
-    $checkout_fields[ 'order' ][ 'billing_house' ][ 'priority' ] = 2;
-    $checkout_fields[ 'order' ][ 'billing_kv' ][ 'priority' ] = 3;
+//    $checkout_fields[ 'order' ][ 'billing_street' ][ 'priority' ] = 2;
+//    $checkout_fields[ 'order' ][ 'billing_house' ][ 'priority' ] = 2;
+//    $checkout_fields[ 'order' ][ 'billing_kv' ][ 'priority' ] = 3;
 
     unset( $checkout_fields[ 'billing' ][ 'billing_address_1' ] );
     unset( $checkout_fields[ 'billing' ][ 'billing_city' ] );
-    unset( $checkout_fields[ 'billing' ][ 'postal_code' ] );
-    unset( $checkout_fields[ 'billing' ][ 'billing_state' ] );
+//    unset( $checkout_fields[ 'billing' ][ 'postal_code' ] );
+//    unset( $checkout_fields[ 'billing' ][ 'billing_state' ] );
     unset( $checkout_fields[ 'billing' ][ 'billing_street' ] );
-    unset( $checkout_fields[ 'billing' ][ 'billing_house' ] );
-    unset( $checkout_fields[ 'billing' ][ 'billing_kv' ] );
+//    unset( $checkout_fields[ 'billing' ][ 'billing_house' ] );
+//    unset( $checkout_fields[ 'billing' ][ 'billing_kv' ] );
 
     $checkout_fields[ 'billing' ][ 'billing_first_name' ][ 'label' ] = 'Имя и фамилия';
     $checkout_fields[ 'billing' ][ 'billing_first_name' ][ 'priority' ] = 1;
@@ -3324,6 +3330,7 @@ add_action( 'woocommerce_product_options_general_product_data', 'product_custom_
 
 function product_custom_metas() {
     echo '<div class="option_group">';
+	/* Поле для привязки "внешний id" из Моего Склада. Сделал Григорий, не сработало.
     woocommerce_wp_text_input(
         array(
             'id'          => '_custom_product_id',
@@ -3331,6 +3338,8 @@ function product_custom_metas() {
             'value' => get_post_meta( get_the_ID(), '_custom_product_id', true )
         )
     );
+	
+	*/
     if(wc_get_product(get_the_ID())->get_type() == 'bundle'){
         woocommerce_wp_text_input(
             array(
@@ -3453,92 +3462,91 @@ add_filter( 'woocommerce_states', 'awrr_states_russia' );
 function awrr_states_russia( $states ) {
 
     $states['RU'] = array(
-        '01' => 'Республика Адыгея',
-        '02' => 'Республика Башкортостан',
-        '03' => 'Республика Бурятия',
-        '04' => 'Республика Алтай',
-        '05' => 'Республика Дагестан',
-        '06' => 'Республика Ингушетия',
-        '07' => 'Республика Кабардино-Балкария',
-        '08' => 'Республика Калмыкия',
-        '09' => 'Республика Карачаево-Черкессия',
-        '10' => 'Республика Карелия',
-        '11' => 'Республика Коми',
-        '12' => 'Республика Марий Эл',
-        '13' => 'Республика Мордовия',
-        '14' => 'Республика Саха',
-        '15' => 'Республика Северная Осетия — Алания',
-        '16' => 'Республика Татарстан',
-        '17' => 'Республика Тыва',
-        '18' => 'Удмуртская Республика',
-        '19' => 'Республика Хакасия',
-        '20' => 'Чеченская республика',
-        '21' => 'Чувашская Республика',
-        '22' => 'Алтайский край',
-        '23' => 'Краснодарский край',
-        '24' => 'Красноярский край',
-        '25' => 'Приморский край',
-        '26' => 'Ставропольский край',
-        '27' => 'Хабаровский край',
-        '28' => 'Амурская область',
-        '29' => 'Архангельская область',
-        '30' => 'Астраханская область',
-        '31' => 'Белгородская область',
-        '32' => 'Брянская область',
-        '33' => 'Владимирская область',
-        '34' => 'Волгоградская область',
-        '35' => 'Вологодская область',
-        '36' => 'Воронежская область',
-        '37' => 'Ивановская область',
-        '38' => 'Иркутская область',
-        '39' => 'Калининградская область',
-        '40' => 'Калужская область',
-        '41' => 'Камчатский край',
-        '42' => 'Кемеровская область',
-        '43' => 'Кировская область',
-        '44' => 'Костромская область',
-        '45' => 'Курганская область',
-        '46' => 'Курская область',
-        '47' => 'Ленинградская область',
-        '48' => 'Липецкая область',
-        '49' => 'Магаданская область',
-        '50' => 'Московская область',
-        '51' => 'Мурманская область',
-        '52' => 'Нижегородская область',
-        '53' => 'Новгородская область',
-        '54' => 'Новосибирская область',
-        '55' => 'Омская область',
-        '56' => 'Оренбургская область',
-        '57' => 'Орловская область',
-        '58' => 'Пензенская область',
-        '59' => 'Пермский край',
-        '60' => 'Псковская область',
-        '61' => 'Ростовская область',
-        '62' => 'Рязанская область',
-        '63' => 'Самарская область',
-        '64' => 'Саратовская область',
-        '65' => 'Сахалинская область',
-        '66' => 'Свердловская область',
-        '67' => 'Смоленская область',
-        '68' => 'Тамбовская область',
-        '69' => 'Тверская область',
-        '70' => 'Томская область',
-        '71' => 'Тульская область',
-        '72' => 'Тюменская область',
-        '73' => 'Ульяновская область',
-        '74' => 'Челябинская область',
-        '75' => 'Забайкальский край',
-        '76' => 'Ярославская область',
-        '77' => 'Москва',
-        '78' => 'Санкт-Петербург',
-        '79' => 'Еврейская автономная область',
-        '82' => 'Республика Крым',
-        '83' => 'Ненецкий автономный округ',
-        '86' => 'Ханты-Мансийский автономный округ — Югра',
-        '87' => 'Чукотский автономный округ',
-        '89' => 'Ямало-Ненецкий автономный округ',
-        '92' => 'Севастополь',
-
+        'г Москва' => 'Москва',
+        'г Санкт-Петербург' => 'Санкт-Петербург',
+        'Московская обл' => 'Московская область',
+        'Ленинградская обл' => 'Ленинградская область',
+        'Респ Адыгея' => 'Республика Адыгея',
+        'Алтайский край' => 'Алтайский край',
+        'Респ Алтай' => 'Республика Алтай',
+        'Амурская обл' => 'Амурская область',
+        'Архангельская обл' => 'Архангельская область',
+        'Астраханская обл' => 'Астраханская область',
+        'Респ Башкортостан' => 'Республика Башкортостан',
+        'Белгородская обл' => 'Белгородская область',
+        'Брянская обл' => 'Брянская область',
+        'Респ Бурятия' => 'Республика Бурятия',
+        'Владимирская обл' => 'Владимирская область',
+        'Волгоградская обл' => 'Волгоградская область',
+        'Вологодская обл' => 'Вологодская область',
+        'Воронежская обл' => 'Воронежская область',
+        'Респ Дагестан' => 'Республика Дагестан',
+        'Еврейская Аобл' => 'Еврейская автономная область',
+        'Забайкальский край' => 'Забайкальский край',
+        'Ивановская обл' => 'Ивановская область',
+        'Респ Ингушетия' => 'Республика Ингушетия',
+        'Иркутская обл' => 'Иркутская область',
+        'Кабардино-Балкарская Респ' => 'Республика Кабардино-Балкария',
+        'Респ Калмыкия' => 'Республика Калмыкия',
+        'Калининградская обл' => 'Калининградская область',
+        'Карачаево-Черкесская Респ' => 'Республика Карачаево-Черкессия',
+        'Респ Карелия' => 'Республика Карелия',
+        'Калужская обл' => 'Калужская область',
+        'Камчатский край' => 'Камчатский край',
+        'Кемеровская обл' => 'Кемеровская область',
+        'Кировская обл' => 'Кировская область',
+        'Респ Коми' => 'Республика Коми',
+        'Костромская обл' => 'Костромская область',
+        'Краснодарский край' => 'Краснодарский край',
+        'Красноярский край' => 'Красноярский край',
+        'Курганская обл' => 'Курганская область',
+        'Курская обл' => 'Курская область',
+        'Липецкая обл' => 'Липецкая область',
+        'Магаданская обл' => 'Магаданская область',
+        'Респ Марий Эл' => 'Республика Марий Эл',
+        'Респ Мордовия' => 'Республика Мордовия',
+        'Мурманская обл' => 'Мурманская область',
+        'Ненецкий АО' => 'Ненецкий автономный округ',
+        'Нижегородская обл' => 'Нижегородская область',
+        'Новгородская обл' => 'Новгородская область',
+        'Новосибирская обл' => 'Новосибирская область',
+        'Омская обл' => 'Омская область',
+        'Оренбургская обл' => 'Оренбургская область',
+        'Орловская обл' => 'Орловская область',
+        'Пензенская обл' => 'Пензенская область',
+        'Пермский край' => 'Пермский край',
+        'Псковская обл' => 'Псковская область',
+        'Приморский край' => 'Приморский край',
+        'Ростовская обл' => 'Ростовская область',
+        'Рязанская обл' => 'Рязанская область',
+        'Самарская обл' => 'Самарская область',
+        'Саратовская обл' => 'Саратовская область',
+        'Сахалинская обл' => 'Сахалинская область',
+        'Респ Саха /Якутия/' => 'Республика Саха',
+        'Респ Северная Осетия - Алания' => 'Республика Северная Осетия — Алания',
+        'Свердловская обл' => 'Свердловская область',
+        'Смоленская обл' => 'Смоленская область',
+        'Ставропольский край' => 'Ставропольский край',
+        'Тамбовская обл' => 'Тамбовская область',
+        'Респ Татарстан' => 'Республика Татарстан',
+        'Тверская обл' => 'Тверская область',
+        'Томская обл' => 'Томская область',
+        'Тульская обл' => 'Тульская область',
+        'Респ Тыва' => 'Республика Тыва',
+        'Тюменская обл' => 'Тюменская область',
+        'Удмуртская Респ' => 'Удмуртская Республика',
+        'Ульяновская обл' => 'Ульяновская область',
+        'Хабаровский край' => 'Хабаровский край',
+        'Ханты-Мансийский Автономный округ - Югра' => 'Ханты-Мансийский автономный округ — Югра',
+        'Респ Хакасия' => 'Республика Хакасия',
+        'Челябинская обл' => 'Челябинская область',
+        'Чеченская Респ' => 'Чеченская республика',
+        'Чувашская республика - Чувашия' => 'Чувашская Республика',
+        'Чукотский АО' => 'Чукотский автономный округ',
+        'Ярославская обл' => 'Ярославская область',
+        'Ямало-Ненецкий АО' => 'Ямало-Ненецкий автономный округ',
+        'Респ Крым' => 'Республика Крым',
+        'г Севастополь' => 'Севастополь',
     );
 
     return $states;

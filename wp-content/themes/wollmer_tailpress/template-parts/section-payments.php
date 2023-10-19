@@ -1,6 +1,6 @@
 <div class="fields-group section-payments">
   <p class="fields-group-headline">Способ оплаты</p>
-  <div class="fields-wrapper">
+  <div class="fields-wrapper js-update-payment">
     <?php
     $WC_Payment_Gateways = new WC_Payment_Gateways();
     $gateways = $WC_Payment_Gateways->get_available_payment_gateways();

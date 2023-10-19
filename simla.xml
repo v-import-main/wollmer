@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2023-07-02 13:43:17">
+<yml_catalog date="2023-07-18 12:52:12">
   <shop>
     <name>Wollmer.ru</name>
     <categories>
-      <category id="15">
-        <name>Misc</name>
-      </category>
       <category id="186">
         <name>Запчасти</name>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/popular-elements-copy.png</picture>
@@ -13,89 +10,205 @@
       <category id="189">
         <name>Готовая продукция</name>
       </category>
-      <category id="197">
-        <name>Программа Wollmer Care</name>
+      <category id="335">
+        <name>Услуги | Закупки</name>
       </category>
-      <category id="190" parentId="189">
-        <name>Электрические мясорубки</name>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/popular-elements.png</picture>
+      <category id="334">
+        <name>Материалы</name>
       </category>
-      <category id="191" parentId="189">
-        <name>Электрогрили</name>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/popular-elements-copy-2.png</picture>
+      <category id="327">
+        <name>Прочее</name>
       </category>
-      <category id="192" parentId="189">
-        <name>Погружные блендеры</name>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/popular-elements-copy-5.png</picture>
-      </category>
-      <category id="193" parentId="189">
-        <name>Вертикальные пылесосы</name>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/popular-elements-copy-3.png</picture>
-      </category>
-      <category id="194" parentId="189">
-        <name>Аксессуары</name>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/06/dd-3.png</picture>
-      </category>
-      <category id="195" parentId="189">
-        <name>Центробежная соковыжималка</name>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/06/d-3.png</picture>
+      <category id="15">
+        <name>Misc</name>
       </category>
       <category id="198" parentId="189">
         <name>Роботы-мойщики окон</name>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/popular-elements-copy-4.png</picture>
       </category>
-      <category id="199" parentId="189">
-        <name>Электронные кухонные весы</name>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/06/cd-2.png</picture>
+      <category id="236" parentId="189">
+        <name>Шнековая соковыжималка</name>
       </category>
       <category id="228" parentId="189">
         <name>Планетарные миксеры</name>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/12/411.jpg</picture>
       </category>
-      <category id="236" parentId="189">
-        <name>Шнековая соковыжималка</name>
+      <category id="199" parentId="189">
+        <name>Электронные кухонные весы</name>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/06/cd-2.png</picture>
+      </category>
+      <category id="195" parentId="189">
+        <name>Центробежная соковыжималка</name>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/06/d-3.png</picture>
+      </category>
+      <category id="194" parentId="189">
+        <name>Аксессуары</name>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/06/dd-3.png</picture>
+      </category>
+      <category id="193" parentId="189">
+        <name>Вертикальные пылесосы</name>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/popular-elements-copy-3.png</picture>
+      </category>
+      <category id="192" parentId="189">
+        <name>Погружные блендеры</name>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/popular-elements-copy-5.png</picture>
+      </category>
+      <category id="191" parentId="189">
+        <name>Электрогрили</name>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/popular-elements-copy-2.png</picture>
+      </category>
+      <category id="190" parentId="189">
+        <name>Электрические мясорубки</name>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/popular-elements.png</picture>
+      </category>
+      <category id="197" parentId="327">
+        <name>Программа Wollmer Care</name>
+      </category>
+      <category id="336" parentId="334">
+        <name>Полиграфия</name>
+      </category>
+      <category id="337" parentId="334">
+        <name>Запчасти</name>
+      </category>
+      <category id="338" parentId="334">
+        <name>Упаковочные материалы</name>
       </category>
     </categories>
     <offers>
-      <offer id="2935" productId="2935" quantity="11">
-        <categoryId>194</categoryId>
+      <offer id="3141" productId="3141" quantity="0">
         <categoryId>189</categoryId>
-        <name>Аксессуар чистки решеток для мясорубки Wollmer M905</name>
-        <productName>Аксессуар чистки решеток для мясорубки Wollmer M905</productName>
+        <categoryId>190</categoryId>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/909_2.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/07/wollmer_sokovyzhimalka-3.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0053_5.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0057_1.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0054_4.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0051_7.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0050_8.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0052_6.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0056_2.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0055_3.jpg</picture>
+        <name>Мясорубка Wollmer M909 Monolith Profi Plus</name>
+        <productName>Мясорубка Wollmer M909 Monolith Profi Plus</productName>
         <price>0</price>
-        <url>https://shop.wollmer.ru/product/aksessuar-chistki-reshetok-dlya-myasorubki-wollmer-m905/</url>
-        <param code="article" name="Article">ZWLM90552</param>
+        <url>https://shop.wollmer.ru/product/myasorubka-wollmer-m909-monolith-profi-plus/</url>
+        <xmlId>WLM909MPP</xmlId>
+        <param code="pa_maksimalnaya-moshhnost-vt" name="Максимальная мощность, Вт">2500</param>
+        <param code="pa_nominalnaya-moshhnost" name="Номинальная мощность, Вт">800</param>
+        <param code="pa_proizvoditelnost-kg-min" name="Производительность, кг/мин">2,5</param>
+        <param code="pa_kolichestvo-skorostej" name="Количество скоростей">6</param>
+        <param code="pa_diski" name="Диски">3 (3/5/8 мм)</param>
+        <param code="pa_nasadki" name="Насадки">Для кеббе и колбас,3 терки и шинковка (в комплектации profi/profi plus), шнековая соковыжималка (только в комплектации profi plus)</param>
+        <param code="pa_nozh" name="Нож">2 серповидных кованых ножа</param>
+        <param code="pa_reduktor" name="Редуктор">шестерни из металла и современных полимеров</param>
+        <param code="pa_zashhita-ot-peregreva" name="Защита от перегрева">есть</param>
+        <param code="pa_zashhita-ot-peregruzki" name="Защита от перегрузки">есть</param>
+        <param code="pa_revers" name="Реверс">есть</param>
+        <param code="pa_ves-kg" name="Вес, кг">4,85</param>
+        <param code="pa_shirina-upakovki-sm" name="Ширина упаковки, см">25</param>
+        <param code="pa_vysota-upakovki-sm" name="Высота упаковки, см">23</param>
+        <param code="pa_dlina-upakovki-sm" name="Длина упаковки, см">37</param>
+        <param code="article" name="Article">WLM909MPP</param>
+        <param code="description" name="Description">&lt;p&gt;Мясорубка Wollmer M909 Monolith оснащена двигателем мощностью 2500 Вт и цельнометаллическим корпусом. Мясорубка имеет шесть скоростей работы и функцию реверса. Технология Safe Motion сделала мясорубку надежнее и тише.&lt;/p&gt;</param>
+        <weight>6</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="2309" productId="2309" quantity="110">
+      <offer id="3139" productId="3139" quantity="1">
+        <categoryId>189</categoryId>
+        <categoryId>190</categoryId>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/909_2.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/07/wollmer_ovoshherezka-1.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/07/wollmer_ovoshherezka.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0053_5.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0057_1.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0054_4.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0051_7.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0050_8.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0052_6.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0056_2.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0055_3.jpg</picture>
+        <name>Мясорубка Wollmer M909 Monolith Profi</name>
+        <productName>Мясорубка Wollmer M909 Monolith Profi</productName>
+        <price>0</price>
+        <url>https://shop.wollmer.ru/product/myasorubka-wollmer-m909-monolith-profi/</url>
+        <param code="pa_maksimalnaya-moshhnost-vt" name="Максимальная мощность, Вт">2500</param>
+        <param code="pa_nominalnaya-moshhnost" name="Номинальная мощность, Вт">800</param>
+        <param code="pa_proizvoditelnost-kg-min" name="Производительность, кг/мин">2,5</param>
+        <param code="pa_kolichestvo-skorostej" name="Количество скоростей">6</param>
+        <param code="pa_diski" name="Диски">3 (3/5/8 мм)</param>
+        <param code="pa_nasadki" name="Насадки">Для кеббе и колбас,3 терки и шинковка (в комплектации profi/profi plus), шнековая соковыжималка (только в комплектации profi plus)</param>
+        <param code="pa_nozh" name="Нож">2 серповидных кованых ножа</param>
+        <param code="pa_reduktor" name="Редуктор">шестерни из металла и современных полимеров</param>
+        <param code="pa_zashhita-ot-peregreva" name="Защита от перегрева">есть</param>
+        <param code="pa_zashhita-ot-peregruzki" name="Защита от перегрузки">есть</param>
+        <param code="pa_revers" name="Реверс">есть</param>
+        <param code="pa_ves-kg" name="Вес, кг">4,85</param>
+        <param code="pa_shirina-upakovki-sm" name="Ширина упаковки, см">25</param>
+        <param code="pa_vysota-upakovki-sm" name="Высота упаковки, см">23</param>
+        <param code="pa_dlina-upakovki-sm" name="Длина упаковки, см">37</param>
+        <param code="description" name="Description">&lt;p&gt;Мясорубка Wollmer M909 Monolith оснащена двигателем мощностью 2500 Вт и цельнометаллическим корпусом. Мясорубка имеет шесть скоростей работы и функцию реверса. Технология Safe Motion сделала мясорубку надежнее и тише.&lt;/p&gt;</param>
+        <weight>6</weight>
+        <vatRate>none</vatRate>
+      </offer>
+      <offer id="3130" productId="3130" quantity="99">
+        <categoryId>197</categoryId>
+        <categoryId>327</categoryId>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/07/wollmer-care-dlya-m909-monolith.png</picture>
+        <name>Wollmer Care для M909 Monolith</name>
+        <productName>Wollmer Care для M909 Monolith</productName>
+        <price>5900</price>
+        <url>https://shop.wollmer.ru/product/wollmer-care-dlya-m909-monolith/</url>
+        <xmlId>WLCARE909</xmlId>
+        <param code="article" name="Article">WLCARE909</param>
+        <vatRate>none</vatRate>
+      </offer>
+      <offer id="3129" productId="3129" quantity="100">
+        <categoryId>197</categoryId>
+        <categoryId>327</categoryId>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/07/wollmer-care-dlya-j310-extra-fresh.png</picture>
+        <name>Wollmer Care для J310 Extra Fresh</name>
+        <productName>Wollmer Care для J310 Extra Fresh</productName>
+        <price>3900</price>
+        <url>https://shop.wollmer.ru/product/wollmer-care-dlya-j310-extra-fresh/</url>
+        <xmlId>WLCARE310</xmlId>
+        <param code="article" name="Article">WLCARE310</param>
+        <vatRate>none</vatRate>
+      </offer>
+      <offer id="3128" productId="3128" quantity="49">
+        <categoryId>197</categoryId>
+        <categoryId>327</categoryId>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/07/wollmer-care-dlya-wollmer-t1000.png</picture>
+        <name>Wollmer Care для Wollmer T1000</name>
+        <productName>Wollmer Care для Wollmer T1000</productName>
+        <price>5900</price>
+        <url>https://shop.wollmer.ru/product/wollmer-care-dlya-wollmer-t1000/</url>
+        <xmlId>WLCARE1000</xmlId>
+        <param code="article" name="Article">WLCARE1000</param>
+        <vatRate>none</vatRate>
+      </offer>
+      <offer id="2309" productId="2309" quantity="102">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/04/nasadki-ovoshherezki-s-protalkivatelem-dlya-myasorubki-wollmer-m907-belye.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/04/wollmer_0020_p_belyj.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/04/wollmer_0020_p_belyj.jpg</picture>
         <name>Насадки овощерезки с проталкивателем для мясорубки Wollmer M907 (белые)</name>
         <productName>Насадки овощерезки с проталкивателем для мясорубки Wollmer M907 (белые)</productName>
         <price>1000</price>
         <url>https://shop.wollmer.ru/product/nasadki-ovoshherezki-s-protalkivatelem-dlya-myasorubki-wollmer-m907-belye/</url>
+        <xmlId>ZWLM90740</xmlId>
         <param code="article" name="Article">ZWLM90740</param>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="2308" productId="2308" quantity="0">
+      <offer id="2307" productId="2307" quantity="2562">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
-        <name>Насадка-соковыжималка для электрической мясорубки Wollmer MJ905</name>
-        <productName>Насадка-соковыжималка для электрической мясорубки Wollmer MJ905</productName>
-        <price>0</price>
-        <url>https://shop.wollmer.ru/product/nasadka-sokovyzhimalka-dlya-elektricheskoj-myasorubki-wollmer-mj905/</url>
-        <param code="article" name="Article">ZWLM9132</param>
-        <vatRate>none</vatRate>
-      </offer>
-      <offer id="2307" productId="2307" quantity="2682">
-        <categoryId>194</categoryId>
-        <categoryId>189</categoryId>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/05/nasadki-ovoshherezki-s-protalkivatelem-dlya-elektricheskoj-myasorubki-wollmer-ms905.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/04/wollmer_0021_persp.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/04/wollmer_0021_persp.jpg</picture>
         <name>Насадки-овощерезки с проталкивателем Wollmer MS905 для электрической мясорубки</name>
         <productName>Насадки-овощерезки с проталкивателем Wollmer MS905 для электрической мясорубки</productName>
         <price>1500</price>
         <url>https://shop.wollmer.ru/product/nasadki-ovoshherezki-s-protalkivatelem-dlya-elektricheskoj-myasorubki-wollmer-ms905/</url>
+        <xmlId>ZWLM9131</xmlId>
         <param code="article" name="Article">ZWLM9131</param>
         <weight>0.5</weight>
         <vatRate>none</vatRate>
@@ -104,28 +217,92 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2023/03/1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/03/1-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0044_1-1.jpg</picture>
         <name>Насадки кеббе и колбасы для электрической мясорубки Wollmer M901</name>
         <productName>Насадки кеббе и колбасы для электрической мясорубки Wollmer M901</productName>
         <price>600</price>
         <url>https://shop.wollmer.ru/product/nasadki-kebbe-i-kolbasy-dlya-elektricheskoj-myasorubki-wollmer-m901/</url>
+        <xmlId>ZWLM90127</xmlId>
         <param code="article" name="Article">ZWLM90127</param>
         <weight>0.2</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="1617" productId="1617" quantity="77">
-        <categoryId>194</categoryId>
+      <offer id="1447" productId="1447" quantity="1723">
         <categoryId>189</categoryId>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/03/2.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/03/1-2.png</picture>
-        <name>Насадки овощерезки с проталкивателем для мясорубки Wollmer M905 (белые)</name>
-        <productName>Насадки овощерезки с проталкивателем для мясорубки Wollmer M905 (белые)</productName>
-        <price>1150</price>
-        <url>https://shop.wollmer.ru/product/nasadki-ovoshherezki-s-protalkivatelem-dlya-myasorubki-wollmer-m905-belye/</url>
-        <param code="article" name="Article">ZWLM90545</param>
+        <categoryId>190</categoryId>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/909_2.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0053_5.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0057_1.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0054_4.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0051_7.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0050_8.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0052_6.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0056_2.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0055_3.jpg</picture>
+        <name>Мясорубка Wollmer M909 Monolith</name>
+        <productName>Мясорубка Wollmer M909 Monolith</productName>
+        <price>19900</price>
+        <url>https://shop.wollmer.ru/product/myasorubka-wollmer-m909-monolith/</url>
+        <xmlId>WLM909M</xmlId>
+        <param code="pa_maksimalnaya-moshhnost-vt" name="Максимальная мощность, Вт">2500</param>
+        <param code="pa_nominalnaya-moshhnost" name="Номинальная мощность, Вт">800</param>
+        <param code="pa_proizvoditelnost-kg-min" name="Производительность, кг/мин">2,5</param>
+        <param code="pa_kolichestvo-skorostej" name="Количество скоростей">6</param>
+        <param code="pa_diski" name="Диски">3 (3/5/8 мм)</param>
+        <param code="pa_nasadki" name="Насадки">Для кеббе и колбас,3 терки и шинковка (в комплектации profi/profi plus), шнековая соковыжималка (только в комплектации profi plus)</param>
+        <param code="pa_nozh" name="Нож">2 серповидных кованых ножа</param>
+        <param code="pa_reduktor" name="Редуктор">шестерни из металла и современных полимеров</param>
+        <param code="pa_zashhita-ot-peregreva" name="Защита от перегрева">есть</param>
+        <param code="pa_zashhita-ot-peregruzki" name="Защита от перегрузки">есть</param>
+        <param code="pa_revers" name="Реверс">есть</param>
+        <param code="pa_ves-kg" name="Вес, кг">4,85</param>
+        <param code="pa_shirina-upakovki-sm" name="Ширина упаковки, см">25</param>
+        <param code="pa_vysota-upakovki-sm" name="Высота упаковки, см">23</param>
+        <param code="pa_dlina-upakovki-sm" name="Длина упаковки, см">37</param>
+        <param code="article" name="Article">WLM909M</param>
+        <param code="description" name="Description">&lt;p&gt;Мясорубка Wollmer M909 Monolith оснащена двигателем мощностью 2500 Вт и цельнометаллическим корпусом. Мясорубка имеет шесть скоростей работы и функцию реверса. Технология Safe Motion сделала мясорубку надежнее и тише.&lt;/p&gt;</param>
+        <weight>6</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="1329" productId="1329" quantity="35">
+      <offer id="1446" productId="1446" quantity="256">
+        <categoryId>189</categoryId>
+        <categoryId>236</categoryId>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/03/sokovyzhimalka-wollmer-j310-extra-fresh.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0022_r3f.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0023_r2f-1.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0018_r8s1f-2.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0019_r6f.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0021_r4f_mat-2.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0015_setka1f.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0016_r9f.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0024_r1f-1.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2023/01/wollmer_0020_r5f.jpg</picture>
+        <name>Шнековая соковыжималка Wollmer J310 Extra Fresh</name>
+        <productName>Шнековая соковыжималка Wollmer J310 Extra Fresh</productName>
+        <price>14900</price>
+        <url>https://shop.wollmer.ru/product/sokovyzhimalka-wollmer-j310-extra-fresh/</url>
+        <xmlId>WLJ310</xmlId>
+        <param code="pa_moshhnost-vt" name="Мощность, Вт">200</param>
+        <param code="pa_material-korpusa" name="Материал корпуса">пластик</param>
+        <param code="pa_oboroty-v-minutu" name="Обороты в минуту">55-70</param>
+        <param code="pa_revers" name="Реверс">есть</param>
+        <param code="pa_obem-kontejnera-dlya-zhmyha" name="Объем контейнера для жмыха, л">0,9</param>
+        <param code="pa_obem-kuvshina-dlya-soka-l" name="Объем кувшина для сока, л">0,9</param>
+        <param code="pa_kaplya-stop" name="Капля-стоп">есть</param>
+        <param code="pa_razmer-gorloviny-mm" name="Размер горловины, мм">83</param>
+        <param code="pa_ves-kg" name="Вес, кг">4,88</param>
+        <param code="pa_shirina-upakovki-sm" name="Ширина упаковки, см">23,5</param>
+        <param code="pa_vysota-upakovki-sm" name="Высота упаковки, см">48</param>
+        <param code="pa_dlina-upakovki-sm" name="Длина упаковки, см">36,7</param>
+        <param code="pa_zashhita-ot-peregruzki" name="Защита от перегрузки">есть</param>
+        <param code="pa_zashhita-ot-peregreva" name="Защита от перегрева">есть</param>
+        <param code="article" name="Article">WLJ310</param>
+        <param code="description" name="Description">&lt;p&gt;Шнековая соковыжималка Wollmer J310 Extra Fresh имеет 2 загрузочных отсека. Размер отверстий позволит не резать фрукты и овощи перед загрузкой в соковыжималку. Благодаря двухвинтовому шнеку можно выжать максимальное количество сока из фруктов и овощей.&lt;/p&gt;</param>
+        <dimensions>36.7/23.5/48</dimensions>
+        <weight>4.88</weight>
+        <vatRate>none</vatRate>
+      </offer>
+      <offer id="1329" productId="1329" quantity="10000">
         <categoryId>193</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/707-razmer.png</picture>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0083_2.jpg</picture>
@@ -164,20 +341,7 @@
         <dimensions>70/13.4/38.2</dimensions>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="1305" productId="1305" quantity="0">
-        <categoryId>194</categoryId>
-        <categoryId>189</categoryId>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/2-3.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/1-4.png</picture>
-        <name>Насадка-соковыжималка для электрической мясорубки Wollmer M907 (версия 1)</name>
-        <productName>Насадка-соковыжималка для электрической мясорубки Wollmer M907 (версия 1)</productName>
-        <price>750</price>
-        <url>https://shop.wollmer.ru/product/nasadka-sokovyzhimalka-dlya-elektricheskoj-myasorubki-wollmer-m907-versiya-1/</url>
-        <param code="article" name="Article">ZWLM90737</param>
-        <weight>0.5</weight>
-        <vatRate>none</vatRate>
-      </offer>
-      <offer id="1292" productId="1292" quantity="-40">
+      <offer id="1292" productId="1292" quantity="1">
         <categoryId>228</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/11.png</picture>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/wollmer_0049_1t.jpg</picture>
@@ -213,10 +377,10 @@
       <offer id="1244" productId="1244" quantity="130">
         <categoryId>190</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/905-razmer.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/1-242.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/2-5-7-2.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/3-2-3-2.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/4-2-3-2.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/wollmer_sokovyzhimalka-2.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/wollmer_0059_╨t╨╡╨║╤v╨╛╤a╨╜╤l╨╕╠zh-╤b╨╝╨░╤a╤v-╨╛╨▒╤k╨╡╨║╤v.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/wollmer_0058_╨t╨╡╨║╤v╨╛╤a╨╜╤l╨╕╠zh-╤b╨╝╨░╤a╤v-╨╛╨▒╤k╨╡╨║╤v.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/wollmer_0060_╨╕╤b╤e-16-╨║-9.jpg</picture>
         <name>Мясорубка Wollmer M905 X-Power Profi Plus</name>
         <productName>Мясорубка Wollmer M905 X-Power Profi Plus</productName>
         <price>0</price>
@@ -235,10 +399,10 @@
       <offer id="1243" productId="1243" quantity="130">
         <categoryId>190</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/905-razmer.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/1-242.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/2-5-7-2.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/3-2-3-2.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/4-2-3-2.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/wollmer_ovoshherezki-1.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/wollmer_0059_╨t╨╡╨║╤v╨╛╤a╨╜╤l╨╕╠zh-╤b╨╝╨░╤a╤v-╨╛╨▒╤k╨╡╨║╤v.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/wollmer_0058_╨t╨╡╨║╤v╨╛╤a╨╜╤l╨╕╠zh-╤b╨╝╨░╤a╤v-╨╛╨▒╤k╨╡╨║╤v.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/wollmer_0060_╨╕╤b╤e-16-╨║-9.jpg</picture>
         <name>Мясорубка Wollmer M905 X-Power Profi</name>
         <productName>Мясорубка Wollmer M905 X-Power Profi</productName>
         <price>0</price>
@@ -254,7 +418,7 @@
         <param code="pa_ves-kg" name="Вес, кг">5,1</param>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="1195" productId="1195" quantity="752">
+      <offer id="1195" productId="1195" quantity="741">
         <categoryId>228</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/11.png</picture>
@@ -271,6 +435,7 @@
         <productName>Планетарный миксер Wollmer T1000</productName>
         <price>19900</price>
         <url>https://shop.wollmer.ru/product/planetarnyj-mikser-wollmer-t1000/</url>
+        <xmlId>WLT1000</xmlId>
         <param code="pa_maksimalnaya-moshhnost-vt" name="Максимальная мощность, Вт">1300</param>
         <param code="pa_moshhnost-vt" name="Мощность, Вт">1300</param>
         <param code="pa_uroven-shuma-db" name="Уровень шума, дБ">75</param>
@@ -292,70 +457,76 @@
         <weight>6.59</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="1193" productId="1193" quantity="581">
+      <offer id="1193" productId="1193" quantity="565">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/2-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/1-2.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/wollmer_0022_╨╝╤p╤b╨╛╤a╤g╨▒╨║╨░.jpg</picture>
         <name>Насадка-мясорубка для планетарного миксера Wollmer T1000</name>
         <productName>Насадка-мясорубка для планетарного миксера Wollmer T1000</productName>
         <price>4000</price>
         <url>https://shop.wollmer.ru/product/nasadka-myasorubka-dlya-planetarnogo-miksera-wollmer-t1000/</url>
+        <xmlId>KWLTM1000</xmlId>
         <param code="article" name="Article">KWLTM1000</param>
         <weight>0.76</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="1194" productId="1194" quantity="561">
+      <offer id="1194" productId="1194" quantity="540">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/4.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/3.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/11/wollmer_0023_╨▒╨╗╨╡╨╜╨┤╨╡╤a.jpg</picture>
         <name>Насадка-блендер для планетарного миксера Wollmer T1000</name>
         <productName>Насадка-блендер для планетарного миксера Wollmer T1000</productName>
         <price>4000</price>
         <url>https://shop.wollmer.ru/product/nasadka-blender-dlya-planetarnogo-miksera-wollmer-t1000/</url>
+        <xmlId>KWLTB1000</xmlId>
         <param code="article" name="Article">KWLTB1000</param>
         <weight>2.73</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="659" productId="659" quantity="1127">
+      <offer id="659" productId="659" quantity="1082">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/13.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/salfetki-600.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/wollmer_0005_13.jpg</picture>
         <name>Комплект сменных салфеток для Wollmer W600 (12 шт)</name>
         <productName>Комплект сменных салфеток для Wollmer W600 (12 шт)</productName>
         <price>1900</price>
         <url>https://shop.wollmer.ru/product/komplekt-smennyh-salfetok-dlya-wollmer-w600/</url>
+        <xmlId>KWLWM600</xmlId>
         <param code="article" name="Article">KWLWM600</param>
         <weight>0.2</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="656" productId="656" quantity="801">
+      <offer id="656" productId="656" quantity="782">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/2.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/filtr-703.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/10/wollmer_0015_3.jpg</picture>
         <name>HEPA-фильтр для вертикального пылесоса Wollmer D703</name>
         <productName>HEPA-фильтр для вертикального пылесоса Wollmer D703</productName>
         <price>500</price>
         <url>https://shop.wollmer.ru/product/hepa-filtr-dlya-vertikalnogo-pylesosa-wollmer-d703/</url>
+        <xmlId>KWLDH703</xmlId>
         <param code="article" name="Article">KWLDH703</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="317" productId="317" quantity="9998">
+      <offer id="317" productId="317" quantity="9993">
         <categoryId>197</categoryId>
+        <categoryId>327</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/3-1-1.png</picture>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/vollmer-kare.png</picture>
         <name>Wollmer Care для W600 Ultrabot</name>
         <productName>Wollmer Care для W600 Ultrabot</productName>
         <price>5900</price>
         <url>https://shop.wollmer.ru/product/wollmer-care-dlya-w600-ultrabot/</url>
+        <xmlId>WLCARE600</xmlId>
         <param code="article" name="Article">WLCARE600</param>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="315" productId="315" quantity="0">
+      <offer id="315" productId="315" quantity="1267">
         <categoryId>198</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/600-pn-novyj-1.png</picture>
@@ -370,6 +541,7 @@
         <productName>Робот мойщик Wollmer W600 Ultrabot</productName>
         <price>23900</price>
         <url>https://shop.wollmer.ru/product/robot-mojshhik-wollmer-w600-ultrabot/</url>
+        <xmlId>WLW600U</xmlId>
         <param code="pa_komplektacziya" name="Комплектация">салфетки из микрофибры, крепежные диски, адаптер питания с удлинителем, флакон для переливания жидкости, пульт ДУ, страховочный трос</param>
         <param code="pa_upravlenie" name="Управление">на корпусе, пульт ДУ</param>
         <param code="pa_dlina-shnura-m" name="Длина шнура, м">5,5</param>
@@ -382,12 +554,12 @@
         <param code="pa_vremya-raboty-rezervnogo" name="Время работы от резервного аккумулятора, мин">30</param>
         <param code="pa_vakuum" name="Вакуум (Па)">4000</param>
         <param code="article" name="Article">WLW600U</param>
-        <param code="description" name="Description">&lt;p&gt;Умный робот-мойщик окон с автоматическим распылением моющей жидкости. Оснащен интеллектуальной системой очистки Ultraclean, которая имитирует движения руки и не оставляет разводов. Можно управлять со смартфона или пульта ДУ&lt;/p&gt;</param>
+        <param code="description" name="Description">&lt;p&gt;Робот мойщик Wollmer W600&lt;span data-slate-node="text"&gt; Ultrabot - это надежное и эффективное устройство для очистки любых поверхностей. Он оснащен автоматической системой подачи воды Duplex Jet, которая избавляет от необходимости контролировать уровень влажности поверхности. &lt;/span&gt;&lt;span data-slate-node="text"&gt;Обладает одной из самых больших комплектаций на рынке: 14 салфеток в комплекте.&lt;/span&gt;&lt;/p&gt;</param>
         <dimensions>35.4/27.4/14.4</dimensions>
         <weight>2.32</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="316" productId="316" quantity="452">
+      <offer id="316" productId="316" quantity="450">
         <categoryId>199</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/105-razmer.png</picture>
@@ -396,6 +568,7 @@
         <productName>Электронные кухонные весы Wollmer V105</productName>
         <price>1900</price>
         <url>https://shop.wollmer.ru/product/elektronnye-kuhonnye-vesy-wollmer-v105/</url>
+        <xmlId>WLV105</xmlId>
         <param code="article" name="Article">WLV105</param>
         <weight>0.54</weight>
         <vatRate>none</vatRate>
@@ -404,164 +577,186 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/paneli-807-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0000_1.jpg</picture>
         <name>Комплект плоских панелей со встроенным нагревательным элементом для Wollmer S807 New</name>
         <productName>Комплект плоских панелей со встроенным нагревательным элементом для Wollmer S807 New</productName>
         <price>3690</price>
         <url>https://shop.wollmer.ru/product/komplekt-ploskih-panelej-so-vstroennym-nagrevatelnym-elementom-dlya-wollmer-s807-new/</url>
+        <xmlId>KWLSNP807</xmlId>
         <param code="article" name="Article">KWLSNP807</param>
         <weight>2.34</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="313" productId="313" quantity="10000">
+      <offer id="313" productId="313" quantity="9998">
         <categoryId>197</categoryId>
+        <categoryId>327</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/3-1-1.png</picture>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/vollmer-kare.png</picture>
         <name>Wollmer Care для G522 Katana</name>
         <productName>Wollmer Care для G522 Katana</productName>
         <price>2900</price>
         <url>https://shop.wollmer.ru/product/wollmer-care-dlya-g522-katana/</url>
+        <xmlId>WLCARE522</xmlId>
         <param code="article" name="Article">WLCARE522</param>
         <vatRate>none</vatRate>
       </offer>
       <offer id="311" productId="311" quantity="10000">
         <categoryId>197</categoryId>
+        <categoryId>327</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/3-1-1.png</picture>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/vollmer-kare.png</picture>
         <name>Wollmer Care для S807 New</name>
         <productName>Wollmer Care для S807 New</productName>
         <price>5900</price>
         <url>https://shop.wollmer.ru/product/wollmer-care-dlya-s807-new/</url>
+        <xmlId>WLCARE807</xmlId>
         <param code="article" name="Article">WLCARE807</param>
         <vatRate>none</vatRate>
       </offer>
       <offer id="312" productId="312" quantity="10000">
         <categoryId>197</categoryId>
+        <categoryId>327</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/3-1-1.png</picture>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/vollmer-kare.png</picture>
         <name>Wollmer Care для S811</name>
         <productName>Wollmer Care для S811</productName>
         <price>5900</price>
         <url>https://shop.wollmer.ru/product/wollmer-care-dlya-s811/</url>
+        <xmlId>WLCARE811</xmlId>
         <param code="article" name="Article">WLCARE811</param>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="310" productId="310" quantity="9999">
+      <offer id="310" productId="310" quantity="10000">
         <categoryId>197</categoryId>
+        <categoryId>327</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/3-1-1.png</picture>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/vollmer-kare.png</picture>
         <name>Wollmer Care для M907 Strong Steel</name>
         <productName>Wollmer Care для M907 Strong Steel</productName>
         <price>4900</price>
         <url>https://shop.wollmer.ru/product/wollmer-care-dlya-m907-strong-steel/</url>
+        <xmlId>WLCARE907</xmlId>
         <param code="article" name="Article">WLCARE907</param>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="308" productId="308" quantity="9999">
+      <offer id="308" productId="308" quantity="10000">
         <categoryId>197</categoryId>
+        <categoryId>327</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/3-1-1.png</picture>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/vollmer-kare.png</picture>
         <name>Wollmer Care для M901</name>
         <productName>Wollmer Care для M901</productName>
         <price>4900</price>
         <url>https://shop.wollmer.ru/product/wollmer-care-dlya-m901/</url>
+        <xmlId>WLCARE901</xmlId>
         <param code="article" name="Article">WLCARE901</param>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="309" productId="309" quantity="9999">
+      <offer id="309" productId="309" quantity="10000">
         <categoryId>197</categoryId>
+        <categoryId>327</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/3-1-1.png</picture>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/vollmer-kare.png</picture>
         <name>Wollmer Care для M905 X-Power</name>
         <productName>Wollmer Care для M905 X-Power</productName>
         <price>4900</price>
         <url>https://shop.wollmer.ru/product/wollmer-care-dlya-m905-x-power/</url>
+        <xmlId>WLCARE905</xmlId>
         <param code="article" name="Article">WLCARE905</param>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="307" productId="307" quantity="9997">
+      <offer id="307" productId="307" quantity="9982">
         <categoryId>197</categoryId>
+        <categoryId>327</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/3-1-1.png</picture>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/vollmer-kare.png</picture>
         <name>Wollmer Care для D707 Sapphire</name>
         <productName>Wollmer Care для D707 Sapphire</productName>
         <price>5900</price>
         <url>https://shop.wollmer.ru/product/wollmer-care-dlya-d707-sapphire/</url>
+        <xmlId>WLCARE707</xmlId>
         <param code="article" name="Article">WLCARE707</param>
         <vatRate>none</vatRate>
       </offer>
       <offer id="306" productId="306" quantity="10000">
         <categoryId>197</categoryId>
+        <categoryId>327</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/3-1-1.png</picture>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/vollmer-kare.png</picture>
         <name>Wollmer Care для D703 Charoit</name>
         <productName>Wollmer Care для D703 Charoit</productName>
         <price>4900</price>
         <url>https://shop.wollmer.ru/product/wollmer-care-dlya-d703-charoit/</url>
+        <xmlId>WLCARE703</xmlId>
         <param code="article" name="Article">WLCARE703</param>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="301" productId="301" quantity="96">
+      <offer id="301" productId="301" quantity="100">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/trudnodostupnye-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/svetovaya-707-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0012_6.jpg</picture>
         <name>Щелевая насадка с подсветкой для вертикального пылесоса Wollmer D707</name>
         <productName>Щелевая насадка с подсветкой для вертикального пылесоса Wollmer D707</productName>
         <price>2300</price>
         <url>https://shop.wollmer.ru/product/shhelevaya-nasadka-s-podsvetkoj-dlya-vertikalnogo-pylesosa-wollmer-d707/</url>
+        <xmlId>KWLDCI707</xmlId>
         <param code="article" name="Article">KWLDCI707</param>
         <weight>0.16</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="302" productId="302" quantity="3">
+      <offer id="302" productId="302" quantity="3500">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/10-2.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/filtr-707.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0008_10.jpg</picture>
         <name>HEPA-фильтр для вертикального пылесоса Wollmer D707</name>
         <productName>HEPA-фильтр для вертикального пылесоса Wollmer D707</productName>
         <price>500</price>
         <url>https://shop.wollmer.ru/product/hepa-filtr-dlya-vertikalnogo-pylesosa-wollmer-d707/</url>
+        <xmlId>KWLDH707</xmlId>
         <param code="article" name="Article">KWLDH707</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="299" productId="299" quantity="-1">
+      <offer id="299" productId="299" quantity="1783">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/shlang-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/gibkij-707-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0011_7.jpg</picture>
         <name>Гибкий шланг для вертикального пылесоса Wollmer D707</name>
         <productName>Гибкий шланг для вертикального пылесоса Wollmer D707</productName>
         <price>1200</price>
         <url>https://shop.wollmer.ru/product/gibkij-shlang-dlya-vertikalnogo-pylesosa-wollmer-d707/</url>
+        <xmlId>KWLDFX707</xmlId>
         <param code="article" name="Article">KWLDFX707</param>
         <weight>0.38</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="300" productId="300" quantity="0">
+      <offer id="300" productId="300" quantity="2902">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/2.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/1-2.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0043_5.jpg</picture>
         <name>Салфетка из микрофибры для вертикального пылесоса Wollmer D707</name>
         <productName>Салфетка из микрофибры для вертикального пылесоса Wollmer D707</productName>
         <price>300</price>
         <url>https://shop.wollmer.ru/product/salfetka-iz-mikrofibry-dlya-vertikalnogo-pylesosa-wollmer-d707/</url>
+        <xmlId>KWLDM707</xmlId>
         <param code="article" name="Article">KWLDM707</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="298" productId="298" quantity="40">
+      <offer id="298" productId="298" quantity="642">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/shhetka-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/dlya-zhivotnyh-707-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0010_8.jpg</picture>
         <name>Щетка для вычесывания животных для вертикального пылесоса Wollmer D707</name>
         <productName>Щетка для вычесывания животных для вертикального пылесоса Wollmer D707</productName>
         <price>1900</price>
         <url>https://shop.wollmer.ru/product/shhetka-dlya-vychesyvaniya-zhivotnyh-dlya-vertikalnogo-pylesosa-wollmer-d707/</url>
+        <xmlId>KWLDP707</xmlId>
         <param code="article" name="Article">KWLDP707</param>
         <weight>0.3</weight>
         <vatRate>none</vatRate>
@@ -570,42 +765,45 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/9.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/salfetki-707.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0009_9.jpg</picture>
         <name>Комплект салфеток из микрофибры для вертикального пылесоса Wollmer D707 (2 шт)</name>
         <productName>Комплект салфеток из микрофибры для вертикального пылесоса Wollmer D707 (2 шт)</productName>
         <price>500</price>
         <url>https://shop.wollmer.ru/product/komplekt-salfetok-iz-mikrofibry-dlya-vertikalnogo-pylesosa-wollmer-d707-2-sht/</url>
+        <xmlId>KWLDMK707</xmlId>
         <param code="article" name="Article">KWLDMK707</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="297" productId="297" quantity="419">
+      <offer id="297" productId="297" quantity="776">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0013_5.jpg</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0013_5.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0013_5-1.jpg</picture>
         <name>Аккумулятор для вертикального пылесоса Wollmer D707</name>
         <productName>Аккумулятор для вертикального пылесоса Wollmer D707</productName>
         <price>5900</price>
         <url>https://shop.wollmer.ru/product/akkumulyator-dlya-vertikalnogo-pylesosa-wollmer-d707/</url>
+        <xmlId>KWLDA707</xmlId>
         <param code="article" name="Article">KWLDA707</param>
         <weight>0.5</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="294" productId="294" quantity="66">
+      <offer id="294" productId="294" quantity="63">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/1-1-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/smuzi-522.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0001_1.jpg</picture>
         <name>Smoothie Bottle для Wollmer G522 Katana</name>
         <productName>Smoothie Bottle для Wollmer G522 Katana</productName>
         <price>700</price>
         <url>https://shop.wollmer.ru/product/smoothie-bottle-dlya-wollmer-g522-katana/</url>
+        <xmlId>KWLGS522</xmlId>
         <param code="article" name="Article">KWLGS522</param>
         <weight>0.28</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="290" productId="290" quantity="11">
+      <offer id="290" productId="290" quantity="1835">
         <categoryId>193</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/707-razmer.png</picture>
@@ -620,8 +818,9 @@
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0082_7.jpg</picture>
         <name>Вертикальный пылесос Wollmer D707 Sapphire</name>
         <productName>Вертикальный пылесос Wollmer D707 Sapphire</productName>
-        <price>25900</price>
+        <price>26900</price>
         <url>https://shop.wollmer.ru/product/vertikalnyj-pylesos-wollmer-d707-sapphire/</url>
+        <xmlId>WLD707S</xmlId>
         <param code="pa_maksimalnaya-moshhnost-vt" name="Максимальная мощность, Вт">315</param>
         <param code="pa_akkum-time" name="Время работы от аккумулятора, мин">35</param>
         <param code="pa_obem-kontejnera" name="Объем контейнера для пыли, л">0,7</param>
@@ -647,15 +846,16 @@
         <weight>4.8</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="291" productId="291" quantity="2069">
+      <offer id="291" productId="291" quantity="1996">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/sokovyzhimalka-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/sokovyzhimalka-905-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0038_4.62.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0038_4.62.jpg</picture>
         <name>Насадка-соковыжималка Wollmer MJ905 для электрической мясорубки</name>
         <productName>Насадка-соковыжималка Wollmer MJ905 для электрической мясорубки</productName>
         <price>1500</price>
         <url>https://shop.wollmer.ru/product/nasadka-sokovyzhimalka-dlya-elektricheskoj-myasorubki-wollmer-m905/</url>
+        <xmlId>KWLMJ905</xmlId>
         <param code="article" name="Article">KWLMJ905</param>
         <weight>0.42</weight>
         <vatRate>none</vatRate>
@@ -664,11 +864,12 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/dlya-ochistki-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/aksessuar-dlya-ochisti-905-i-907-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0042_8.jpg</picture>
         <name>Аксессуар для очистки решеток Wollmer MA905 для электрической мясорубки</name>
         <productName>Аксессуар для очистки решеток Wollmer MA905 для электрической мясорубки</productName>
         <price>600</price>
         <url>https://shop.wollmer.ru/product/aksessuar-dlya-ochistki-reshetok-myasorubki-wollmer-m905/</url>
+        <xmlId>KWLMA905</xmlId>
         <param code="article" name="Article">KWLMA905</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
@@ -677,16 +878,17 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/kebe-2.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/kebbe-dlya-905-i-907-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0044_1-1.jpg</picture>
         <name>Насадка для кеббе и колбас для электрической мясорубки Wollmer M907</name>
         <productName>Насадка для кеббе и колбас для электрической мясорубки Wollmer M907</productName>
         <price>600</price>
         <url>https://shop.wollmer.ru/product/nasadka-dlya-kebbe-i-kolbas-dlya-elektricheskoj-myasorubki-wollmer-m907/</url>
+        <xmlId>KWLMKK907</xmlId>
         <param code="article" name="Article">KWLMKK907</param>
         <weight>0.2</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="286" productId="286" quantity="3145">
+      <offer id="286" productId="286" quantity="3084">
         <categoryId>190</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/905-razmer.png</picture>
@@ -697,6 +899,7 @@
         <productName>Мясорубка Wollmer M905 X-Power basic</productName>
         <price>17900</price>
         <url>https://shop.wollmer.ru/product/myasorubka-wollmer-m905-x-power-basic/</url>
+        <xmlId>WLM905XP</xmlId>
         <param code="pa_maksimalnaya-moshhnost-vt" name="Максимальная мощность, Вт">2000</param>
         <param code="pa_nominalnaya-moshhnost" name="Номинальная мощность, Вт">800</param>
         <param code="pa_proizvoditelnost-kg-min" name="Производительность, кг/мин">2,7</param>
@@ -710,7 +913,7 @@
         <weight>6.56</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="287" productId="287" quantity="43">
+      <offer id="287" productId="287" quantity="36">
         <categoryId>190</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/907-razmer-1.png</picture>
@@ -722,6 +925,7 @@
         <productName>Мясорубка Wollmer M907 Strong Steel</productName>
         <price>14590</price>
         <url>https://shop.wollmer.ru/product/myasorubka-wollmer-m907-strong-steel/</url>
+        <xmlId>WLM907SS</xmlId>
         <param code="pa_maksimalnaya-moshhnost-vt" name="Максимальная мощность, Вт">1800</param>
         <param code="pa_nominalnaya-moshhnost" name="Номинальная мощность, Вт">800</param>
         <param code="pa_proizvoditelnost-kg-min" name="Производительность, кг/мин">2,5</param>
@@ -740,16 +944,17 @@
         <weight>5.69</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="283" productId="283" quantity="0">
+      <offer id="282" productId="282" quantity="87">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/14.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/ovoshherezki-907.png</picture>
-        <name>Насадки-овощерезки с проталкивателем для электрической мясорубки Wollmer M907</name>
-        <productName>Насадки-овощерезки с проталкивателем для электрической мясорубки Wollmer M907</productName>
-        <price>1000</price>
-        <url>https://shop.wollmer.ru/product/nasadki-ovoshherezki-s-protalkivatelem-dlya-elektricheskoj-myasorubki-wollmer-m907/</url>
-        <param code="article" name="Article">KWLMS907</param>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/13.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0021_persp.jpg</picture>
+        <name>Насадки-овощерезки с проталкивателем для электрической мясорубки Wollmer M905 (2022)</name>
+        <productName>Насадки-овощерезки с проталкивателем для электрической мясорубки Wollmer M905 (2022)</productName>
+        <price>1500</price>
+        <url>https://shop.wollmer.ru/product/nasadki-ovoshherezki-s-protalkivatelem-dlya-elektricheskoj-myasorubki-wollmer-m905/</url>
+        <xmlId>KWLMS905</xmlId>
+        <param code="article" name="Article">KWLMS905</param>
         <weight>0.5</weight>
         <vatRate>none</vatRate>
       </offer>
@@ -757,11 +962,12 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/kebe-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/kebbe-dlya-905-i-907-2.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0044_1.jpg</picture>
         <name>Насадка для кеббе и колбас Wollmer MKK905 для электрической мясорубки</name>
         <productName>Насадка для кеббе и колбас Wollmer MKK905 для электрической мясорубки</productName>
         <price>600</price>
         <url>https://shop.wollmer.ru/product/nasadka-dlya-kebbe-i-kolbas-dlya-elektricheskoj-myasorubki-wollmer-m905/</url>
+        <xmlId>KWLMKK905</xmlId>
         <param code="article" name="Article">KWLMKK905</param>
         <weight>0.2</weight>
         <vatRate>none</vatRate>
@@ -770,11 +976,12 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/2-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/1-3.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/901_reshetki3.jpg</picture>
         <name>Комплект решеток для электрической мясорубки Wollmer M901</name>
         <productName>Комплект решеток для электрической мясорубки Wollmer M901</productName>
         <price>1800</price>
         <url>https://shop.wollmer.ru/product/komplekt-reshetok-dlya-elektricheskoj-myasorubki-wollmer-m901/</url>
+        <xmlId>KWLMGK901</xmlId>
         <param code="article" name="Article">KWLMGK901</param>
         <weight>0.28</weight>
         <vatRate>none</vatRate>
@@ -783,11 +990,12 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/12-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/nabor-905-i-907-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0041_12.jpg</picture>
         <name>Комплект решеток Wollmer MGK905 для электрической мясорубки</name>
         <productName>Комплект решеток Wollmer MGK905 для электрической мясорубки</productName>
         <price>1800</price>
         <url>https://shop.wollmer.ru/product/komplekt-reshetok-dlya-elektricheskoj-myasorubki-wollmer-m905/</url>
+        <xmlId>KWLMGK905</xmlId>
         <param code="article" name="Article">KWLMGK905</param>
         <weight>0.38</weight>
         <vatRate>none</vatRate>
@@ -796,11 +1004,12 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/12.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/nabor-905-i-907-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0041_12.jpg</picture>
         <name>Комплект решеток для электрической мясорубки Wollmer M907</name>
         <productName>Комплект решеток для электрической мясорубки Wollmer M907</productName>
         <price>1600</price>
         <url>https://shop.wollmer.ru/product/komplekt-reshetok-dlya-elektricheskoj-myasorubki-wollmer-m907/</url>
+        <xmlId>KWLMGK907</xmlId>
         <param code="article" name="Article">KWLMGK907</param>
         <weight>0.24</weight>
         <vatRate>none</vatRate>
@@ -809,11 +1018,12 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/9-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/krupnaya-905-i-907-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0047_9.jpg</picture>
         <name>Решетка крупного диаметра для электрической мясорубки Wollmer M907</name>
         <productName>Решетка крупного диаметра для электрической мясорубки Wollmer M907</productName>
         <price>600</price>
         <url>https://shop.wollmer.ru/product/reshetka-krupnogo-diametra-dlya-elektricheskoj-myasorubki-wollmer-m907/</url>
+        <xmlId>KWLMGB907</xmlId>
         <param code="article" name="Article">KWLMGB907</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
@@ -822,11 +1032,12 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/11.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/srednyaya-905-907-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0045_11.jpg</picture>
         <name>Решетка среднего диаметра Wollmer MGM905 для электрической мясорубки</name>
         <productName>Решетка среднего диаметра Wollmer MGM905 для электрической мясорубки</productName>
         <price>700</price>
         <url>https://shop.wollmer.ru/product/reshetka-srednego-diametra-dlya-elektricheskoj-myasorubki-wollmer-m905/</url>
+        <xmlId>KWLMGM905</xmlId>
         <param code="article" name="Article">KWLMGM905</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
@@ -835,11 +1046,12 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/11-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/srednyaya-905-907-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0045_11.jpg</picture>
         <name>Решетка среднего диаметра для электрической мясорубки Wollmer M907</name>
         <productName>Решетка среднего диаметра для электрической мясорубки Wollmer M907</productName>
         <price>600</price>
         <url>https://shop.wollmer.ru/product/reshetka-srednego-diametra-dlya-elektricheskoj-myasorubki-wollmer-m907/</url>
+        <xmlId>KWLMGM907</xmlId>
         <param code="article" name="Article">KWLMGM907</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
@@ -848,11 +1060,12 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/9-2.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/krupnaya-905-i-907-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0047_9.jpg</picture>
         <name>Решетка крупного диаметра Wollmer MGB905 для электрической мясорубки</name>
         <productName>Решетка крупного диаметра Wollmer MGB905 для электрической мясорубки</productName>
         <price>700</price>
         <url>https://shop.wollmer.ru/product/reshetka-krupnogo-diametra-dlya-elektricheskoj-myasorubki-wollmer-m905/</url>
+        <xmlId>KWLMGB905</xmlId>
         <param code="article" name="Article">KWLMGB905</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
@@ -861,11 +1074,12 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/10-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/melkaya-905-i-907-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0046_10.jpg</picture>
         <name>Решетка малого диаметра Wollmer MGS905 для электрической мясорубки</name>
         <productName>Решетка малого диаметра Wollmer MGS905 для электрической мясорубки</productName>
         <price>700</price>
         <url>https://shop.wollmer.ru/product/reshetka-malogo-diametra-dlya-elektricheskoj-myasorubki-wollmer-m905/</url>
+        <xmlId>KWLMGS905</xmlId>
         <param code="article" name="Article">KWLMGS905</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
@@ -874,24 +1088,26 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/10.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/melkaya-905-i-907-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0046_10-1.jpg</picture>
         <name>Решетка малого диаметра для электрической мясорубки Wollmer M907</name>
         <productName>Решетка малого диаметра для электрической мясорубки Wollmer M907</productName>
         <price>600</price>
         <url>https://shop.wollmer.ru/product/reshetka-malogo-diametra-dlya-elektricheskoj-myasorubki-wollmer-m907/</url>
+        <xmlId>KWLMGS907</xmlId>
         <param code="article" name="Article">KWLMGS907</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="274" productId="274" quantity="112">
+      <offer id="274" productId="274" quantity="111">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/2-3.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/1-5.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0047_9.jpg</picture>
         <name>Решетка крупного диаметра для электрической мясорубки Wollmer M901</name>
         <productName>Решетка крупного диаметра для электрической мясорубки Wollmer M901</productName>
         <price>700</price>
         <url>https://shop.wollmer.ru/product/reshetka-krupnogo-diametra-dlya-elektricheskoj-myasorubki-wollmer-m901/</url>
+        <xmlId>KWLMGM901</xmlId>
         <param code="article" name="Article">KWLMGM901</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
@@ -900,24 +1116,26 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/3-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/nozh-906-907-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0043_3.jpg</picture>
         <name>Нож серповидный для электрической мясорубки Wollmer M907</name>
         <productName>Нож серповидный для электрической мясорубки Wollmer M907</productName>
         <price>700</price>
         <url>https://shop.wollmer.ru/product/nozh-serpovidnyj-dlya-elektricheskoj-myasorubki-wollmer-m907/</url>
+        <xmlId>KWLMKN907</xmlId>
         <param code="article" name="Article">KWLMKN907</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="270" productId="270" quantity="63">
+      <offer id="270" productId="270" quantity="61">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/2-5.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/1-7.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/901.jpg</picture>
         <name>Решетка для рубленного мяса для электрической мясорубки Wollmer M901</name>
         <productName>Решетка для рубленного мяса для электрической мясорубки Wollmer M901</productName>
         <price>800</price>
         <url>https://shop.wollmer.ru/product/reshetka-dlya-rublennogo-myasa-dlya-elektricheskoj-myasorubki-wollmer-m901/</url>
+        <xmlId>KWLMGB901</xmlId>
         <param code="article" name="Article">KWLMGB901</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
@@ -926,16 +1144,17 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/2-4.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/1-6.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0046_10.jpg</picture>
         <name>Решетка малого диаметра для электрической мясорубки Wollmer M901</name>
         <productName>Решетка малого диаметра для электрической мясорубки Wollmer M901</productName>
         <price>700</price>
         <url>https://shop.wollmer.ru/product/reshetka-malogo-diametra-dlya-elektricheskoj-myasorubki-wollmer-m901/</url>
+        <xmlId>KWLMGS901</xmlId>
         <param code="article" name="Article">KWLMGS901</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="266" productId="266" quantity="328">
+      <offer id="266" productId="266" quantity="275">
         <categoryId>192</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/522-razmer.png</picture>
@@ -952,6 +1171,7 @@
         <productName>Погружной блендер Wollmer G522 Katana</productName>
         <price>7900</price>
         <url>https://shop.wollmer.ru/product/pogruzhnoj-blender-wollmer-g522-katana/</url>
+        <xmlId>WLG522K</xmlId>
         <param code="pa_maksimalnaya-moshhnost-vt" name="Максимальная мощность, Вт">1200</param>
         <param code="pa_obem-mernogo-stakana-l" name="Объем мерного стакана, л">0,6</param>
         <param code="pa_obem-emkosti-izmelcheniya" name="Объем емкости для измельчения, л">0,5</param>
@@ -971,28 +1191,30 @@
         <weight>2.66</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="267" productId="267" quantity="2">
+      <offer id="267" productId="267" quantity="1">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/2-6.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/1-8.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0043_3.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/901_nozh.jpg</picture>
         <name>Нож серповидный для электрической мясорубки Wollmer M901</name>
         <productName>Нож серповидный для электрической мясорубки Wollmer M901</productName>
         <price>900</price>
         <url>https://shop.wollmer.ru/product/nozh-serpovidnyj-dlya-elektricheskoj-myasorubki-wollmer-m901/</url>
+        <xmlId>KWLMKN901</xmlId>
         <param code="article" name="Article">KWLMKN901</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="268" productId="268" quantity="131">
+      <offer id="268" productId="268" quantity="129">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/3-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/nozh-906-907-1.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0002_19.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0002_19.jpg</picture>
         <name>Нож серповидный Wollmer MKN905 для электрической мясорубки</name>
         <productName>Нож серповидный Wollmer MKN905 для электрической мясорубки</productName>
         <price>900</price>
         <url>https://shop.wollmer.ru/product/nozh-serpovidnyj-dlya-elektricheskoj-myasorubki-wollmer-m905/</url>
+        <xmlId>KWLMKN905</xmlId>
         <param code="article" name="Article">KWLMKN905</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
@@ -1001,11 +1223,12 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/zaryadnaya-stancziya-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/zaryadnaya-stancziya-703.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0016_2.jpg</picture>
         <name>Зарядная станция для вертикального пылесоса Wollmer D703</name>
         <productName>Зарядная станция для вертикального пылесоса Wollmer D703</productName>
         <price>1500</price>
         <url>https://shop.wollmer.ru/product/zaryadnaya-stancziya-dlya-vertikalnogo-pylesosa-wollmer-d703/</url>
+        <xmlId>KWLDCS703</xmlId>
         <param code="article" name="Article">KWLDCS703</param>
         <weight>0.4</weight>
         <vatRate>none</vatRate>
@@ -1013,11 +1236,12 @@
       <offer id="262" productId="262" quantity="9996">
         <categoryId>194</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/chto-to-k-703-1.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/grubyj-filtr-703.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0017_1.jpg</picture>
         <name>Фильтр грубой очистки для вертикального пылесоса Wollmer D703</name>
         <productName>Фильтр грубой очистки для вертикального пылесоса Wollmer D703</productName>
         <price>400</price>
         <url>https://shop.wollmer.ru/product/filtr-gruboj-ochistki-dlya-vertikalnogo-pylesosa-wollmer-d703/</url>
+        <xmlId>KWLDF703</xmlId>
         <param code="article" name="Article">KWLDF703</param>
         <vatRate>none</vatRate>
       </offer>
@@ -1025,11 +1249,12 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/15.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/adapter-703.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0003_15.jpg</picture>
         <name>Сетевой адаптер для вертикального пылесоса Wollmer D703</name>
         <productName>Сетевой адаптер для вертикального пылесоса Wollmer D703</productName>
         <price>900</price>
         <url>https://shop.wollmer.ru/product/setevoj-adapter-dlya-vertikalnogo-pylesosa-wollmer-d703/</url>
+        <xmlId>KWLDA703</xmlId>
         <param code="article" name="Article">KWLDA703</param>
         <weight>0.2</weight>
         <vatRate>none</vatRate>
@@ -1038,16 +1263,17 @@
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/2-2.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/1-4.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0004_14.jpg</picture>
         <name>Вал турбощетки для вертикального пылесоса Wollmer D703</name>
         <productName>Вал турбощетки для вертикального пылесоса Wollmer D703</productName>
         <price>600</price>
         <url>https://shop.wollmer.ru/product/val-turboshhetki-dlya-vertikalnogo-pylesosa-wollmer-d703/</url>
+        <xmlId>KWLDV703</xmlId>
         <param code="article" name="Article">KWLDV703</param>
         <weight>0.1</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="257" productId="257" quantity="7">
+      <offer id="257" productId="257" quantity="6">
         <categoryId>193</categoryId>
         <categoryId>189</categoryId>
         <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/703-razmer.png</picture>
@@ -1060,6 +1286,7 @@
         <productName>Вертикальный пылесос Wollmer D703 Charoit</productName>
         <price>19900</price>
         <url>https://shop.wollmer.ru/product/vertikalnyj-pylesos-wollmer-d703-charoit/</url>
+        <xmlId>WLD703C</xmlId>
         <param code="pa_moshhnost-vsasyvaniya" name="Мощность всасывания, аВт">120</param>
         <param code="pa_akkum-time" name="Время работы от аккумулятора, мин">35</param>
         <param code="pa_obem-kontejnera" name="Объем контейнера для пыли, л">0,8</param>
@@ -1091,6 +1318,7 @@
         <productName>Электрогриль Wollmer S807 New basic</productName>
         <price>21900</price>
         <url>https://shop.wollmer.ru/product/elektrogril-wollmer-s807-new/</url>
+        <xmlId>WLS807N</xmlId>
         <param code="pa_moshhnost-vt" name="Мощность, Вт">2000</param>
         <param code="pa_tajmer-min" name="Таймер, мин">30</param>
         <param code="pa_komplektacziya" name="Комплектация">поддон для жира, съемные рифленые панели со встроенным нагревательным элементом, аксессуар для очистки, съемные плоские панели со встроенным нагревательным элементом (только комплектация profi)</param>
@@ -1108,15 +1336,16 @@
         <weight>8</weight>
         <vatRate>none</vatRate>
       </offer>
-      <offer id="251" productId="251" quantity="77">
+      <offer id="251" productId="251" quantity="74">
         <categoryId>194</categoryId>
         <categoryId>189</categoryId>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/11-3.png</picture>
-        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/aksessuar-dlya-ochistki-703-707.png</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0007_11.jpg</picture>
+        <picture>https://shop.wollmer.ru/wp-content/uploads/2022/08/wollmer_0007_11.jpg</picture>
         <name>Аксессуар для очистки турбощетки и HEPA-фильтра для вертикального пылесоса Wollmer</name>
         <productName>Аксессуар для очистки турбощетки и HEPA-фильтра для вертикального пылесоса Wollmer</productName>
         <price>400</price>
         <url>https://shop.wollmer.ru/product/aksessuar-dlya-ochistki-turboshhetki-i-hepa-filtra-dlya-vertikalnogo-pylesosa-wollmer/</url>
+        <xmlId>ZWLD70322</xmlId>
         <param code="article" name="Article">ZWLD70322</param>
         <vatRate>none</vatRate>
       </offer>
@@ -1130,6 +1359,7 @@
         <productName>Мясорубка Wollmer M901</productName>
         <price>13900</price>
         <url>https://shop.wollmer.ru/product/myasorubka-wollmer-m901/</url>
+        <xmlId>WLM901</xmlId>
         <param code="pa_maksimalnaya-moshhnost-vt" name="Максимальная мощность, Вт">2000</param>
         <param code="pa_nominalnaya-moshhnost" name="Номинальная мощность, Вт">700</param>
         <param code="pa_proizvoditelnost-kg-min" name="Производительность, кг/мин">2,5</param>

@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 */
-
+/*
 let inp = document.querySelectorAll('.radio_option');
 let box_1 = document.querySelectorAll('#curier .address-field:nth-child(9)');
 let box_2 = document.querySelectorAll('#curier .address-field:nth-child(8)');
@@ -141,14 +141,35 @@ for (let i = 0; i < inp.length; i++) {
         box_4[i].classList.add('active');
     });
 }
+*/
+let inp = $('.radio_option:checked');
+let box_1 = $('#billing_address_1_field');
+let box_2 = $('#billing_kv_field');
+let box_3 = $('#billing_house_field');
+let box_4 = $('#billing_street_field');
+console.log("ntcn",inp)
 
+if ($(inp).hasClass("show_params")) {
+    $(box_1).addClass('active')
+    $(box_2).addClass('active')
+    $(box_3).addClass('active')
+    $(box_4).addClass('active')
+}else {
+    $(box_1).removeClass('active')
+    $(box_2).removeClass('active')
+    $(box_3).removeClass('active')
+    $(box_4).removeClass('active')
+}
 $(document).ready(function() {
-    var token = 'c5148ad3b5c68eaebc9bf5c1258f90af442e05bc'
+    // var token = 'c5148ad3b5c68eaebc9bf5c1258f90af442e05bc'
+    var token = '65d58e1f71cb0d914d348a1e59a2ae774c380e44'
     var type = "ADDRESS";
-    var $region = $("#billing_address_1");
+    var $city = $("#billing_address_1");
     var $street = $("#billing_street");
     var $house = $("#billing_house");
-    var $city   = $("#billing_city");
+    // var $city   = $("#billing_city");
+    var $state   = $("#select2-billing_state-container");
+    var $region   = $(".i22222 input");
 
     function showPostalCode(suggestion) {
         $("#postal_code").val(suggestion.data.postal_code);
@@ -159,27 +180,43 @@ $(document).ready(function() {
     }
 
 // регион и район
+    $state.suggestions({
+        token: token,
+        type: type,
+        // hint: false,
+        bounds: "region-area"
+    });
+
     $region.suggestions({
         token: token,
         type: type,
-        hint: false,
-        bounds: "region-city"
+        // hint: false,
+        count: 15,
+        bounds: "region-area"
+    });
+
+    $city.suggestions({
+        token: token,
+        type: "ADDRESS",
+        // hint: false,
+        // bounds: "city-settlement",
+        // constraints: $region
     });
 
 // город и населенный пункт
-    $city.suggestions({
-        token: token,
-        type: type,
-        hint: false,
-        bounds: "city-settlement",
-        constraints: $region
-    });
+//     $city2.suggestions({
+//         token: token,
+//         type: type,
+//         hint: false,
+//         bounds: "city-settlement",
+//         constraints: $region
+//     });
 
 // улица
     $street.suggestions({
         token: token,
         type: type,
-        hint: false,
+        // hint: false,
         bounds: "street",
         constraints: $city,
         count: 15,
@@ -190,15 +227,46 @@ $(document).ready(function() {
     $house.suggestions({
         token: token,
         type: type,
-        hint: false,
+        // hint: false,
         noSuggestionsHint: false,
         bounds: "house",
         constraints: $street
     });
 
+    $("#billing_first_name").suggestions({
+        token: token,
+        type: "NAME",
+        params: {
+            parts: ["NAME", "SURNAME"]
+        },
+    });
+
+    $("#backorder_name").suggestions({
+        token: token,
+        type: "NAME",
+        params: {
+            parts: ["NAME", "SURNAME"]
+        },
+    });
+
+    $("#billing_email").suggestions({
+        token: token,
+        type: "EMAIL",
+        suggest_local: false,
+        onSelect: function(suggestion) {
+            console.log(suggestion);
+        }
+    });
+
 
     console.log($house.suggestions())
 
+});
+
+// select2-search__field
+
+$('#billing_state_field').one('select2:open', function(e) {
+    $('input.select2-search__field').prop('placeholder', 'Выберите свой регион');
 });
 
 

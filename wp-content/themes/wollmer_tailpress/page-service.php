@@ -4,7 +4,7 @@
 */
 get_header(); ?>
 
-	<div class="container my-8 mx-auto page-service">
+	<div class="container my-8 mx-auto">
 
 	<?php if ( have_posts() ) : ?>
 
@@ -12,7 +12,8 @@ get_header(); ?>
 		while ( have_posts() ) :
 			the_post();
 			?>
-      <h1 class="headline"><?php the_title();?></h1>
+		<div class="entry-content">
+				<h1><?= get_the_title(); ?></h1>
       <section class="entry-content">
         <?php the_content();?> 
     </section>

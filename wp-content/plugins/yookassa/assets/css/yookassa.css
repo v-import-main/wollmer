@@ -1,0 +1,11 @@
+.installments-info {
+    padding-bottom: 40px;
+}
+
+.selectPayShop {
+    padding: 0 0 10px 25px;
+}
+
+ul.wc_payment_methods li img {
+    float: right;
+}

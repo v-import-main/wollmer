@@ -163,19 +163,33 @@ function smdfw_add_rate_description_arg( $args, $method ) {
 
 
 add_action( 'woocommerce_checkout_create_order', 'append_shipping_method_to_order_comment' );
-
 function append_shipping_method_to_order_comment( $order ) {
-    $chosen_shipping_method = $order->get_shipping_method();
-    if ( $chosen_shipping_method ) {
+    //Shipping and payment in comments
+    $chosen_shipping_method = $order->get_shipping_to_display();
+    if ($chosen_shipping_method) {
         $order_comment = $order->get_customer_note();
-        $order_comment .= "\n\nСпособ доставки: " . $chosen_shipping_method;
-        $order->set_customer_note( $order_comment );
+        $order_comment .= "\n\nСпособ доставки: " . strip_tags($chosen_shipping_method);
+        $order->set_customer_note($order_comment);
+    }
+    $get_payment_method_title = $order->get_payment_method_title();
+    if ($get_payment_method_title) {
+        $order_comment = $order->get_customer_note();
+        $order_comment .= "\n\nСпособ оплаты: " . $get_payment_method_title;
+        $order->set_customer_note($order_comment);
+    }
+    //Subscription
+    if($_POST[ 'subscription' ]){
+        $order_comment = $order->get_customer_note();
+        $order_comment .= "\n\nОтправлять рассылку";
+        $order->set_customer_note($order_comment);
     }
 }
 
 
-
 add_action( 'woocommerce_after_checkout_billing_form', 'show_shipping_methods_form' );
 function show_shipping_methods_form() {
+    echo '<input type = "checkbox" name = "subscription"> Хочу получать новости и узнавать о специальных предложениях в числе первых';
+    echo "</br>";echo "</br>";
     get_template_part('template-parts/section', 'shipping');
+
 }

@@ -1,0 +1,1122 @@
+# Copyright (C) 2021 ЮKassa для Woocommerce
+# This file is distributed under the same license as the ЮKassa для Woocommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ЮKassa для WooCommerce 2.5.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yookassa\n"
+"POT-Creation-Date: 2023-06-28 16:33+0300\n"
+"PO-Revision-Date: 2023-06-28 16:44+0300\n"
+"Last-Translator: yoomoney <cms@yoomoney.ru>\n"
+"Language-Team: yoomoney <cms@yoomoney.ru>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: yookassa.pot\n"
+
+#. Plugin Name of the plugin
+msgid "ЮKassa для WooCommerce"
+msgstr "YooKassa for WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/yookassa/"
+msgstr "https://wordpress.org/plugins/yookassa/"
+
+#. Description of the plugin
+msgid "Платежный модуль для работы с сервисом ЮKassa через плагин WooCommerce"
+msgstr ""
+"The payment module for interaction with the YooKassa service via the "
+"WooCommerce plugin"
+
+#. Author of the plugin
+msgid "YooMoney"
+msgstr "YooMoney"
+
+#. Author URI of the plugin
+msgid "http://yookassa.ru"
+msgstr "https://yookassa.ru/en/"
+
+#: admin/partials/admin-settings-view.php:26
+#: admin/partials/admin-settings-view.php:41
+msgid "Настройки модуля ЮKassa для WooCommerce"
+msgstr "The YooKassa module settings for WooCommerce"
+
+#: admin/partials/admin-settings-view.php:30
+msgid "Список платежей через модуль ЮKassa"
+msgstr "List of payments made via the YooKassa module"
+
+#: admin/partials/admin-settings-view.php:46
+msgid "Версия модуля"
+msgstr "Module version"
+
+#: admin/partials/admin-settings-view.php:49
+msgid ""
+"Работая с модулем, вы автоматически соглашаетесь с <a data-qa-link='https://"
+"yoomoney.ru/doc.xml?id=527132' href='https://yoomoney.ru/doc.xml?id=527132' "
+"target='_blank'>условиями его использования</a>."
+msgstr ""
+"By operating the module, you automatically agree with <a href='https://"
+"yoomoney.ru/doc.xml?id=527132' target='_blank'>its Terms and Conditions of "
+"Use</a>."
+
+#: admin/partials/admin-settings-view.php:59
+msgid "Авторизация"
+msgstr "Authorization"
+
+#: admin/partials/admin-settings-view.php:62
+#: admin/partials/tabs/section2.php:26
+msgid "Способы оплаты"
+msgstr "Payment methods"
+
+#: admin/partials/admin-settings-view.php:65
+msgid "Доп. функции"
+msgstr "Additional functions"
+
+#: admin/partials/admin-settings-view.php:68
+msgid "Чеки"
+msgstr "Receipts"
+
+#: admin/partials/admin-settings-view.php:71
+msgid "Настройка уведомлений"
+msgstr "Setting up notifications"
+
+#: admin/partials/admin-settings-view.php:74
+msgid "Готово"
+msgstr "This is done"
+
+#: admin/partials/tabs/oauth_form.php:16
+msgid "Тестовый магазин"
+msgstr "Test store"
+
+#: admin/partials/tabs/oauth_form.php:17
+msgid "Боевой магазин"
+msgstr "Real store"
+
+#: admin/partials/tabs/oauth_form.php:24
+msgid "Фискализация включена"
+msgstr "Fiscalization enabled"
+
+#: admin/partials/tabs/oauth_form.php:25
+msgid "Фискализация отключена"
+msgstr "Fiscalization disabled"
+
+#: admin/partials/tabs/oauth_form.php:32
+msgid ""
+"Произошла ошибка. Пожалуйста, смените магазин по&nbsp;кнопке ниже, чтобы "
+"сюда автоматически подгрузились правильные данные."
+msgstr ""
+"Something went wrong. Please change the store using the button below to load "
+"the correct sign-in data into the form automatically."
+
+#: admin/partials/tabs/oauth_form.php:41 admin/partials/tabs/section1.php:54
+msgid "Сменить магазин"
+msgstr "Change store"
+
+#: admin/partials/tabs/oauth_form.php:45 admin/partials/tabs/section1.php:57
+#: admin/partials/tabs/section2.php:203 admin/partials/tabs/section3.php:165
+#: admin/partials/tabs/section4.php:222 admin/partials/tabs/section5.php:45
+msgid "Сохранить и продолжить"
+msgstr "Save & continue"
+
+#: admin/partials/tabs/oauth_form.php:55 admin/partials/tabs/section1.php:14
+msgid "Свяжите ваш сайт на WooCommerce с личным кабинетом ЮKassa"
+msgstr "Link your website on WooCommerce to the YooMoney Merchant Profile"
+
+#: admin/partials/tabs/oauth_form.php:61
+msgid "Подключить магазин"
+msgstr "Connect your store"
+
+#: admin/partials/tabs/section1.php:26 admin/partials/tabs/section1.php:33
+#: admin/partials/tabs/section2.php:140 admin/partials/tabs/section3.php:25
+msgid "Заполните поле"
+msgstr "Fill in the field"
+
+#: admin/partials/tabs/section1.php:30
+msgid "Секретный ключ"
+msgstr "Secret key"
+
+#: admin/partials/tabs/section1.php:39
+msgid ""
+"Кажется, есть ошибка в&nbsp;ShopID или секретном ключе. Пожалуйста, смените "
+"магазин по&nbsp;кнопке ниже, чтобы сюда автоматически подгрузились "
+"правильные данные."
+msgstr ""
+"Looks like there's a mistake in the ShopID or secret key. Please change the "
+"store using the button below to load the correct sign-in data into the form "
+"automatically."
+
+#: admin/partials/tabs/section1.php:45
+msgid "Где найти ShopID и секретный ключ"
+msgstr "Where to find the ShopID and secret key"
+
+#: admin/partials/tabs/section1.php:46
+msgid ""
+"Данные автоматически подтянутся сюда из&nbsp;личного кабинета. Для этого "
+"нажмите на&nbsp;<b>Сменить магазин</b>:<br>&mdash;&nbsp;во&nbsp;всплывающем "
+"окне войдите в&nbsp;ЮKassa<br>&mdash;&nbsp;разрешите поделиться данными "
+"с&nbsp;WooCommerce"
+msgstr ""
+"The sign-in data will be automatically loaded here from the Merchant "
+"Profile. Click Change store</b>:<br>&mdash;&nbsp;sign in to YooMoney in the "
+"pop-up window,<br>&mdash;&nbsp;allow WooCommerce to access your data"
+
+#: admin/partials/tabs/section1.php:77
+msgid "Ошибка"
+msgstr "Something went wrong"
+
+#: admin/partials/tabs/section1.php:78
+msgid ""
+"Пожалуйста, попробуйте перезагрузить страницу и сменить магазин ещё раз."
+msgstr "Please try refreshing the page and changing the store again."
+
+#: admin/partials/tabs/section2.php:16
+msgid "Сценарий оплаты"
+msgstr "Payment scenario"
+
+#: admin/partials/tabs/section2.php:18
+msgid "Выбор оплаты на стороне магазина"
+msgstr "On the store's site"
+
+#: admin/partials/tabs/section2.php:19
+msgid "Выбор оплаты на стороне сервиса ЮKassa"
+msgstr "On YooKassa's site"
+
+#: admin/partials/tabs/section2.php:28
+msgid ""
+"Покупатель выбирает способ оплаты и вводит платёжные данные на странице "
+"ЮKassa."
+msgstr ""
+"The customer chooses the payment method and enters the payment data on the "
+"YooKassa page."
+
+#: admin/partials/tabs/section2.php:29 admin/partials/tabs/section2.php:34
+msgid "Подробнее о способах оплаты &gt;"
+msgstr "More about payment methods &gt;"
+
+#: admin/partials/tabs/section2.php:32
+msgid "Выберите способы, которые подключены в ЮKassa."
+msgstr "Select the methods that are connected to YooKassa."
+
+#: admin/partials/tabs/section2.php:33
+msgid "После этого они появятся в платёжной форме на сайте."
+msgstr "After that, they will appear in the payment form on the site."
+
+#: admin/partials/tabs/section2.php:46
+msgid "Покупатели могут сохранять данные карты в вашем магазине"
+msgstr "Customers will be able to save card details in your store"
+
+#: admin/partials/tabs/section2.php:53
+msgid ""
+"Это поможет им быстрее оплачивать следующие покупки — достаточно будет "
+"ввести код из пуша или смс, иногда CVC."
+msgstr ""
+"It'll help them pay for their next orders faster: they'll only need to enter "
+"the code from the text message or push notification, sometimes the CVC."
+
+#: admin/partials/tabs/section2.php:65
+msgid "Добавить метод «Заплатить по частям» на страницу оформления заказа"
+msgstr "Add the Installments payment method to checkout page"
+
+#: admin/partials/tabs/section2.php:80
+msgid "Добавить блок «Заплатить по частям» в карточки товаров"
+msgstr "Add the information block about Installments to product descriptions"
+
+#: admin/partials/tabs/section2.php:95
+msgid "Отложенные платежи"
+msgstr "Deferred payment"
+
+#: admin/partials/tabs/section2.php:102
+msgid ""
+"Если опция включена, платежи с карт проходят в 2 этапа: у клиента сумма "
+"замораживается, и вам вручную нужно подтвердить её списание – через панель "
+"администратора"
+msgstr ""
+"If the option is enabled, payments from cards are carried out in 2 stages: "
+"the client's amount is frozen, and you need to manually confirm its "
+"withdrawal through the admin panel"
+
+#: admin/partials/tabs/section2.php:114
+msgid "Сбербанк Бизнес онлайн"
+msgstr "Sberbank Business Online"
+
+#: admin/partials/tabs/section2.php:122
+msgid ""
+"Если опция включена, вы можете принимать онлайн-платежи от юрлиц через "
+"Сбербанк Бизнес Онлайн."
+msgstr ""
+"If this option is enabled, you can accept online payments from legal "
+"entities through Sberbank Business Online."
+
+#: admin/partials/tabs/section2.php:123
+msgid ""
+"Подробнее — на <a data-qa-link='https://yookassa.ru/docs/support/payments/"
+"extra/b2b-payments' target='_blank' href='https://yookassa.ru/docs/support/"
+"payments/extra/b2b-payments'>сайте ЮKassa</a>."
+msgstr ""
+"Read more at <a data-qa-link='https://yookassa.ru/docs/support/payments/"
+"extra/b2b-payments' target='_blank' href='https://yookassa.ru/docs/support/"
+"payments/extra/b2b-payments'>YooKassa site</a>."
+
+#: admin/partials/tabs/section2.php:136
+msgid "Шаблон для назначения платежа"
+msgstr "Template for payment details"
+
+#: admin/partials/tabs/section2.php:142
+msgid "Это назначение платежа будет в платёжном поручении."
+msgstr "These payment details will be shown in the payment order."
+
+#: admin/partials/tabs/section2.php:147
+msgid "Ставка по умолчанию"
+msgstr "Default rate"
+
+#: admin/partials/tabs/section2.php:155
+msgid ""
+"Эта ставка передаётся в Сбербанк Бизнес Онлайн, если в карточке товара не "
+"указана другая ставка."
+msgstr ""
+"This rate will be sent to Sberbank Business Online if there's no other rate "
+"indicated in the payment description."
+
+#: admin/partials/tabs/section2.php:161
+msgid ""
+"Сопоставьте ставки НДС в вашем магазине со ставками для Сбербанка Бизнес "
+"Онлайн"
+msgstr ""
+"Compare the VAT rates in your store with the rates for Sberbank Business "
+"Online"
+
+#: admin/partials/tabs/section2.php:166
+msgid "Ставка НДС в вашем магазине"
+msgstr "VAT rate at your store"
+
+#: admin/partials/tabs/section2.php:169
+msgid "Ставка НДС для Сбербанк Бизнес Онлайн"
+msgstr "VAT rate for Sberbank Business Online"
+
+#: admin/partials/tabs/section2.php:194
+msgid ""
+"При оплате через Сбербанк Бизнес Онлайн есть ограничение: в одном чеке могут "
+"быть только товары с одинаковой ставкой НДС. Если клиент захочет оплатить за "
+"один раз товары с разными ставками — мы покажем ему сообщение, что так "
+"сделать не получится."
+msgstr ""
+"When paying through Sberbank Business Online there is a limitation: in one "
+"check can only be products with the same VAT rate. If the customer wants to "
+"pay for goods with different rates at one time — we will show him a message "
+"that it will not work."
+
+#: admin/partials/tabs/section2.php:202 admin/partials/tabs/section3.php:164
+#: admin/partials/tabs/section4.php:221 admin/partials/tabs/section5.php:44
+msgid "Назад"
+msgstr "Back"
+
+#: admin/partials/tabs/section3.php:17
+msgid "Описание платежа"
+msgstr "Transaction data"
+
+#: admin/partials/tabs/section3.php:19
+msgid ""
+"Это описание транзакции, которое пользователь увидит при оплате, а вы — в "
+"личном кабинете ЮKassa. Например, «Оплата заказа №72». Чтобы в описание "
+"подставлялся номер заказа (как в примере), поставьте на его месте "
+"%order_number% (Оплата заказа №%order_number%). Ограничение для описания — "
+"128 символов."
+msgstr ""
+"Full description of the transaction that the user will see during the "
+"checkout process. You can find it in your YooKassa Merchant Profile. For "
+"example, \"Payment for order No. 72\". To insert the order number into the "
+"description (as in the example), put %order_number% in its place (order "
+"payment %order_number%). The description limit is 128 characters."
+
+#: admin/partials/tabs/section3.php:35
+msgid "Страница успеха"
+msgstr "Successful payment page"
+
+#: admin/partials/tabs/section3.php:37
+msgid "Эту страницу увидит покупатель, когда оплатит заказ"
+msgstr "This page will be shown to the customer once they pay for the order"
+
+#: admin/partials/tabs/section3.php:41
+msgid "Страница \"Заказ принят\" от WooCommerce"
+msgstr "WooCommerce's \"Order accepted\" page"
+
+#: admin/partials/tabs/section3.php:44 admin/partials/tabs/section3.php:71
+msgid "Страница оформления заказа от WooCommerce"
+msgstr "WooCommerce's Order page"
+
+#: admin/partials/tabs/section3.php:64
+msgid "Страница отказа"
+msgstr "Unsuccessful payment page"
+
+#: admin/partials/tabs/section3.php:66
+msgid ""
+"Эту страницу увидит покупатель, если что-то пойдет не так: например, если "
+"ему не хватит денег на карте"
+msgstr ""
+"The customer will see this page if something goes wrong: for example, if "
+"there's not enough money on their card"
+
+#: admin/partials/tabs/section3.php:74
+msgid "Страница оплаты заказа от WooCommerce"
+msgstr "WooCommerce's Order payment page"
+
+#: admin/partials/tabs/section3.php:96
+msgid "Валюта платежа в ЮKassa"
+msgstr "The payment currency in the YooKassa"
+
+#: admin/partials/tabs/section3.php:102
+msgid "Валюты в ЮKassa и в магазине должны совпадать"
+msgstr "Currency in the YooKassa and in the store must match"
+
+#: admin/partials/tabs/section3.php:113
+msgid "Конвертировать сумму из текущей валюты магазина"
+msgstr "Convert an amount from the store's current currency"
+
+#: admin/partials/tabs/section3.php:116
+msgid "Конвертация по курсу ЦБ РФ."
+msgstr "Conversion at the rate of the CB RF."
+
+#: admin/partials/tabs/section3.php:131
+msgid "Удалить товары из корзины, когда покупатель переходит к оплате"
+msgstr "Remove items from the cart when the customer proceeds to checkout"
+
+#: admin/partials/tabs/section3.php:146
+msgid "Запись отладочной информации"
+msgstr "Record of debugging information"
+
+#: admin/partials/tabs/section3.php:150
+msgid "Настройку нужно будет поменять, только если попросят специалисты ЮMoney"
+msgstr ""
+"The settings should only be changed by the request from YooMoney specialists"
+
+#: admin/partials/tabs/section3.php:155
+msgid "Скачать лог"
+msgstr "Download the log"
+
+#: admin/partials/tabs/section4.php:26
+msgid "Автоматическая отправка чеков"
+msgstr "Send receipts automatically"
+
+#: admin/partials/tabs/section4.php:34
+msgid "Выберите ваш статус:"
+msgstr "Select your status:"
+
+#: admin/partials/tabs/section4.php:41
+msgid "ИП или юрлицо"
+msgstr "Sole proprietor or legal entity"
+
+#: admin/partials/tabs/section4.php:45
+msgid "Самозанятый"
+msgstr "Self-employed"
+
+#: admin/partials/tabs/section4.php:53
+msgid "Чтобы платёж прошёл и чек отправился:"
+msgstr "In order for a payment to go through and for the receipt to get sent:"
+
+#: admin/partials/tabs/section4.php:56
+msgid ""
+"В нём должно быть не больше 6 позиций. Позиции — это разные наименования, а "
+"не экземпляры одного и того же товара."
+msgstr ""
+"It must have up to 6 items. Items refer to the number of different products, "
+"not the quantity of the same product."
+
+#: admin/partials/tabs/section4.php:59
+msgid ""
+"Количество должно выражаться целым числом, дробные использовать нельзя. "
+"Например, 1.5 — не пройдёт, а 2 — пройдёт."
+msgstr ""
+"The quantity must be a whole number, decimals are not supported. For "
+"example, 2 is going to work, while 1.5 isn't."
+
+#: admin/partials/tabs/section4.php:62
+msgid ""
+"Цена каждой позиции должна быть больше 0 ₽ — иначе платёж не пройдёт. Если "
+"доставка бесплатная — она автоматически удалится из чека."
+msgstr ""
+"The price of each item must be greater than 0 ₽, otherwise, the payment "
+"won't go through. If the delivery is free, it'll be removed from the receipt "
+"automatically."
+
+#: admin/partials/tabs/section4.php:71
+msgid "Система налогообложения по умолчанию"
+msgstr "Default tax system"
+
+#: admin/partials/tabs/section4.php:73
+msgid ""
+"Выберите систему налогообложения по умолчанию. Параметр необходим, только "
+"если у вас несколько систем налогообложения, в остальных случаях не "
+"передается."
+msgstr ""
+"Select the default tax system. This parameter is only required if you have "
+"several tax systems, otherwise it is not passed."
+
+#: admin/partials/tabs/section4.php:85
+msgid "Ставка НДС по умолчанию"
+msgstr "Default rate"
+
+#: admin/partials/tabs/section4.php:87
+msgid ""
+"Выберите ставку, которая будет в чеке, если в карточке товара не указана "
+"другая ставка."
+msgstr ""
+"The default rate applies if another rate is not set on the product's page."
+
+#: admin/partials/tabs/section4.php:101
+msgid "Сопоставьте ставки"
+msgstr "Compare rates"
+
+#: admin/partials/tabs/section4.php:106
+msgid "Ставка в вашем магазине"
+msgstr "Rate at your store"
+
+#: admin/partials/tabs/section4.php:109
+msgid "Ставка для чека в налоговую"
+msgstr "Rate for the receipt to the tax service"
+
+#: admin/partials/tabs/section4.php:131
+msgid "Предмет расчёта и способ расчёта (ФФД 1.05)"
+msgstr "Subject of calculation and method of calculation (FVD 1.05)"
+
+#: admin/partials/tabs/section4.php:132
+msgid ""
+"Выберите значения, которые будут передаваться по умолчанию. Эти признаки "
+"можно настроить у каждой позиции отдельно — в карточке товара."
+msgstr ""
+"Select the values that will be passed by default. These features can be set "
+"up for each item separately - in the item card."
+
+#: admin/partials/tabs/section4.php:138
+msgid "Предмет расчёта"
+msgstr "Subject of calculation"
+
+#: admin/partials/tabs/section4.php:147
+msgid "Способ расчёта"
+msgstr "Method of calculation"
+
+#: admin/partials/tabs/section4.php:159
+msgid "Предмет расчёта для доставки"
+msgstr "Subject of calculation for delivery"
+
+#: admin/partials/tabs/section4.php:168
+msgid "Способ расчёта для доставки"
+msgstr "Payment method for delivery"
+
+#: admin/partials/tabs/section4.php:186
+msgid "Формировать второй чек"
+msgstr "To form the second check"
+
+#: admin/partials/tabs/section4.php:196
+msgid "При переходе заказа в статус"
+msgstr "When the order goes to the status"
+
+#: admin/partials/tabs/section4.php:204
+msgid ""
+"Если в заказе будут позиции с признаками «Полная предоплата» — второй чек "
+"отправится автоматически, когда заказ перейдёт в выбранный статус."
+msgstr ""
+"If there are items in the order with the signs «Full prepayment» — the "
+"second check will be sent automatically when the order enters the selected "
+"status."
+
+#: admin/partials/tabs/section4.php:208
+msgid "Второй чек"
+msgstr "Second check"
+
+#: admin/partials/tabs/section4.php:209
+msgid ""
+"Два чека нужно формировать, если покупатель вносит предоплату и потом "
+"получает товар или услугу. Первый чек — когда деньги поступают вам на счёт, "
+"второй — при отгрузке товаров или выполнении услуг."
+msgstr ""
+"Two checks need to be formed if the customer makes an advance payment and "
+"then receives the goods or services. The first check — when the money comes "
+"to your account, the second — when shipping goods or performing services."
+
+#: admin/partials/tabs/section4.php:210
+msgid "Читать про второй чек в ЮKassa &gt;"
+msgstr "Read about the second check in YooKassa &gt;"
+
+#: admin/partials/tabs/section5.php:15
+msgid ""
+"Пропишите URL для уведомлений в <a data-qa-settings-link='https://yookassa."
+"ru/my/shop-settings' target='_blank' href='https://yookassa.ru/my/shop-"
+"settings'>настройках личного кабинета ЮKassa</a>."
+msgstr ""
+"Write the URL for notifications in <a data-qa-settings-link='https://"
+"yookassa.ru/my/shop-settings' target='_blank' href='https://yookassa.ru/my/"
+"shop-settings'>settings of YooKassa Merchant Profile</a>."
+
+#: admin/partials/tabs/section5.php:16
+msgid "Он позволит изменять статус заказа после оплаты в вашем магазине."
+msgstr ""
+"It will allow you to change the status of the order after payment in your "
+"store."
+
+#: admin/partials/tabs/section5.php:29
+msgid "Скопировано!"
+msgstr "Copied!"
+
+#: admin/partials/tabs/section5.php:29
+msgid "Попробуйте Ctr+C!"
+msgstr "Try to Ctrl+C!"
+
+#: admin/partials/tabs/section6.php:11
+msgid "Всё готово, чтобы принимать платежи"
+msgstr "You are ready to accept payments"
+
+#: admin/partials/tabs/section6.php:12
+msgid "Вы можете вернуться и изменить настройки в любой момент"
+msgstr "You can go back and change the settings at any time"
+
+#: admin/partials/tabs/section6.php:17
+msgid "К настройкам"
+msgstr "Back to settings"
+
+#: admin/YooKassaAdmin.php:120 admin/YooKassaAdmin.php:121
+msgid "Настройки ЮKassa"
+msgstr "YooKassa settings"
+
+#: admin/YooKassaAdmin.php:178
+msgid "Без НДС"
+msgstr "Tax free"
+
+#: admin/YooKassaAdmin.php:189
+msgid "Не облагается"
+msgstr "Tax free"
+
+#: admin/YooKassaAdmin.php:193
+msgid "Расчетная ставка 10/110"
+msgstr "Tax rate 10/110"
+
+#: admin/YooKassaAdmin.php:194
+msgid "Расчетная ставка 20/120"
+msgstr "Tax rate 20/120"
+
+#: admin/YooKassaAdmin.php:201
+msgid "Общая система налогообложения"
+msgstr "General tax system"
+
+#: admin/YooKassaAdmin.php:202
+msgid "Упрощенная (УСН, доходы)"
+msgstr "Simplified (STS, income)"
+
+#: admin/YooKassaAdmin.php:203
+msgid "Упрощенная (УСН, доходы минус расходы)"
+msgstr "Simplified (STS, income with costs deducted)"
+
+#: admin/YooKassaAdmin.php:204
+msgid "Единый налог на вмененный доход (ЕНВД)"
+msgstr "Unified tax on imputed income (ENVD)"
+
+#: admin/YooKassaAdmin.php:205
+msgid "Единый сельскохозяйственный налог (ЕСН)"
+msgstr "Unified agricultural tax (ESN)"
+
+#: admin/YooKassaAdmin.php:206
+msgid "Патентная система налогообложения"
+msgstr "Patent Based Tax System"
+
+#: admin/YooKassaAdmin.php:222 admin/YooKassaAdmin.php:234
+#: gateway/YooKassaGateway.php:578 gateway/YooKassaGatewayB2bSberbank.php:161
+msgid "Оплата заказа №%order_number%"
+msgstr "Payment for order No. %order_number%"
+
+#: admin/YooKassaAdmin.php:257
+msgid "Товар"
+msgstr "Commodity"
+
+#: admin/YooKassaAdmin.php:258
+msgid "Подакцизный товар"
+msgstr "Excisable commodity"
+
+#: admin/YooKassaAdmin.php:259
+msgid "Работа"
+msgstr "Job"
+
+#: admin/YooKassaAdmin.php:260
+msgid "Услуга"
+msgstr "Service"
+
+#: admin/YooKassaAdmin.php:261
+msgid "Ставка в азартной игре"
+msgstr "Bet in a gambling game"
+
+#: admin/YooKassaAdmin.php:262
+msgid "Выигрыш в азартной игре"
+msgstr "The gambling winnings"
+
+#: admin/YooKassaAdmin.php:263
+msgid "Лотерейный билет"
+msgstr "Lottery ticket"
+
+#: admin/YooKassaAdmin.php:264
+msgid "Выигрыш в лотерею"
+msgstr "Winning the lottery"
+
+#: admin/YooKassaAdmin.php:265
+msgid "Результаты интеллектуальной деятельности"
+msgstr "Results of intellectual activity"
+
+#: admin/YooKassaAdmin.php:266
+msgid "Платеж"
+msgstr "Payment"
+
+#: admin/YooKassaAdmin.php:267
+msgid "Агентское вознаграждение"
+msgstr "Agent's commission"
+
+#: admin/YooKassaAdmin.php:268
+msgid "Несколько вариантов"
+msgstr "Several options"
+
+#: admin/YooKassaAdmin.php:269
+msgid "Другое"
+msgstr "Another"
+
+#: admin/YooKassaAdmin.php:273
+msgid "Полная предоплата"
+msgstr "Full prepayment"
+
+#: admin/YooKassaAdmin.php:274
+msgid "Частичная предоплата"
+msgstr "Partial prepayment"
+
+#: admin/YooKassaAdmin.php:275
+msgid "Аванс"
+msgstr "Advance payment"
+
+#: admin/YooKassaAdmin.php:276
+msgid "Полный расчет"
+msgstr "Full payment"
+
+#: admin/YooKassaAdmin.php:277
+msgid "Частичный расчет и кредит"
+msgstr "Partial payment and credit"
+
+#: admin/YooKassaAdmin.php:278
+msgid "Кредит"
+msgstr "Credit"
+
+#: admin/YooKassaAdmin.php:279
+msgid "Выплата по кредиту"
+msgstr "Payment on the loan"
+
+#: admin/YooKassaTransactionsListTable.php:54
+msgid "ID заказа"
+msgstr "Order ID"
+
+#: admin/YooKassaTransactionsListTable.php:55
+msgid "ID платежа"
+msgstr "Payment ID"
+
+#: admin/YooKassaTransactionsListTable.php:56
+msgid "Статус"
+msgstr "Status"
+
+#: admin/YooKassaTransactionsListTable.php:57
+msgid "Описание заказа"
+msgstr "Order information"
+
+#: admin/YooKassaTransactionsListTable.php:99
+msgid "Провести платежи"
+msgstr "Make payments"
+
+#: gateway/YooKassaGateway.php:159
+msgid "Признак предмета расчета"
+msgstr "Payment subject"
+
+#: gateway/YooKassaGateway.php:160
+msgid "Признак способа расчёта"
+msgstr "Payment method"
+
+#: gateway/YooKassaGateway.php:167
+msgid "Включить/Выключить"
+msgstr "Enable/Disable"
+
+#: gateway/YooKassaGateway.php:173
+msgid "Заголовок"
+msgstr "Header"
+
+#: gateway/YooKassaGateway.php:175
+msgid "Название, которое пользователь видит во время оплаты"
+msgstr "The header that the user will see during checkout"
+
+#: gateway/YooKassaGateway.php:179
+msgid "Описание"
+msgstr "Description"
+
+#: gateway/YooKassaGateway.php:181
+msgid "Описание, которое пользователь видит во время оплаты"
+msgstr "The description that the user will see during checkout"
+
+#: gateway/YooKassaGateway.php:189
+msgid ""
+"Для работы с модулем необходимо <a href=\"https://yoomoney.ru/joinups/"
+"\">подключить магазин к ЮKassa</a>. После подключения вы получите параметры "
+"для приема платежей (идентификатор магазина — shopId  и секретный ключ)."
+msgstr ""
+"To start operating the module, you need to <a target=\"_blank\" "
+"href=\"https://yookassa.ru/en//\">connect your store to YooKassa</a>. After "
+"that, you will receive the parameters for payment acceptance (shopId and "
+"Secret key)."
+
+#: gateway/YooKassaGateway.php:222
+msgid ""
+"Пользователь вернулся с формы оплаты. Id заказа - %1$s. Идентификатор "
+"платежа - %2$s."
+msgstr ""
+"The user has returned from the payment form. Order Id - %1$s. Payment Id - "
+"%2$s."
+
+#: gateway/YooKassaGateway.php:349 gateway/YooKassaGateway.php:414
+#: gateway/YooKassaGateway.php:424 gateway/YooKassaWidgetGateway.php:166
+msgid "Не удалось создать платеж. Для заказа %1$s"
+msgstr "Unable to make a payment. For order %1$s"
+
+#: gateway/YooKassaGateway.php:374 gateway/YooKassaGateway.php:416
+#: gateway/YooKassaGateway.php:426 gateway/YooKassaWidgetGateway.php:201
+#: gateway/YooKassaWidgetGateway.php:210
+msgid "Платеж не прошел. Попробуйте еще или выберите другой способ оплаты"
+msgstr "Payment wasn't processed. Try again or choose another payment method"
+
+#: gateway/YooKassaGateway.php:682
+msgid "Тестовое списание для привязки карты, средства будут возвращены."
+msgstr "Test payment to link the card, money will be refunded."
+
+#: gateway/YooKassaGatewayAlfabank.php:24
+#: gateway/YooKassaGatewayAlfabank.php:28
+msgid "Оплата через Альфа банк"
+msgstr "Payment via Alfa-Bank"
+
+#: gateway/YooKassaGatewayAlfabank.php:25
+#: gateway/YooKassaGatewayAlfabank.php:27
+msgid "Альфа-Клик"
+msgstr "Alfa-Click"
+
+#: gateway/YooKassaGatewayAlfabank.php:41
+msgid ""
+"Укажите логин, и мы выставим счет в Альфа-Клике. После этого останется "
+"подтвердить платеж на сайте интернет-банка."
+msgstr ""
+"Specify the login, and we'll send the bill in Alfa-Click. All you have do "
+"after that is confirm the payment online at the bank's website."
+
+#: gateway/YooKassaGatewayAlfabank.php:54
+msgid "Поле логин заполнено неверно."
+msgstr "The login field is filled incorrectly."
+
+#: gateway/YooKassaGatewayB2bSberbank.php:28
+#: gateway/YooKassaGatewayB2bSberbank.php:29
+#: gateway/YooKassaGatewayB2bSberbank.php:31
+#: gateway/YooKassaGatewayB2bSberbank.php:32
+msgid "Сбербанк Бизнес Онлайн"
+msgstr "Sberbank Business Online"
+
+#: gateway/YooKassaGatewayCard.php:22 gateway/YooKassaGatewayCard.php:26
+msgid "Оплата с произвольной банковской карты"
+msgstr "Payment from any bank card"
+
+#: gateway/YooKassaGatewayCard.php:23
+msgid "Банковские карты"
+msgstr "Bank cards"
+
+#: gateway/YooKassaGatewayCard.php:25
+msgid "Банковские карты — Visa, Mastercard и Maestro, «Мир»"
+msgstr "Debit or credit cards—Visa, Mastercard, Maestro, MIR"
+
+#: gateway/YooKassaGatewayCard.php:47 gateway/YooKassaGatewayWallet.php:44
+msgid "Сохранять платежный метод"
+msgstr "Save the payment method"
+
+#: gateway/YooKassaGatewayCard.php:49
+msgid "Покупатели могут сохранять карту для повторной оплаты"
+msgstr "Customers can save the card for re-payment"
+
+#: gateway/YooKassaGatewayCash.php:34 gateway/YooKassaGatewayCash.php:35
+#: gateway/YooKassaGatewayCash.php:37 gateway/YooKassaGatewayCash.php:38
+msgid "Наличные"
+msgstr "Cash via payment kiosks"
+
+#: gateway/YooKassaGatewayEPL.php:23 gateway/YooKassaGatewayEPL.php:24
+#: gateway/YooKassaGatewayEPL.php:26 gateway/YooKassaGatewayEPL.php:27
+msgid "ЮKassa (банковские карты, электронные деньги и другое)"
+msgstr "YooKassa (bank cards, e-money, etc.)"
+
+#: gateway/YooKassaGatewayInstallments.php:20
+#: gateway/YooKassaGatewayInstallments.php:21
+#: gateway/YooKassaGatewayInstallments.php:23
+#: gateway/YooKassaGatewayInstallments.php:24
+#: includes/YooKassaInstallments.php:79
+msgid "Заплатить по частям"
+msgstr "Installments"
+
+#: gateway/YooKassaGatewayQiwi.php:24 gateway/YooKassaGatewayQiwi.php:25
+#: gateway/YooKassaGatewayQiwi.php:27 gateway/YooKassaGatewayQiwi.php:28
+msgid "QIWI Wallet"
+msgstr "QIWI Wallet"
+
+#: gateway/YooKassaGatewayQiwi.php:39
+msgid "Телефон, который привязан к Qiwi Wallet"
+msgstr "Phone number linked to Qiwi Wallet"
+
+#: gateway/YooKassaGatewayQiwi.php:53
+msgid "Поле телефон заполнено неверно."
+msgstr "The phone number field is filled incorrectly."
+
+#: gateway/YooKassaGatewaySberbank.php:20
+#: gateway/YooKassaGatewaySberbank.php:23
+msgid "Оплата через Сбербанк"
+msgstr "SberPay"
+
+#: gateway/YooKassaGatewaySberbank.php:21
+#: gateway/YooKassaGatewaySberbank.php:24
+msgid "SberPay"
+msgstr "SberPay"
+
+#: gateway/YooKassaGatewaySbp.php:21 gateway/YooKassaGatewaySbp.php:24
+msgid "СБП"
+msgstr "SBP"
+
+#: gateway/YooKassaGatewaySbp.php:22 gateway/YooKassaGatewaySbp.php:25
+msgid ""
+"Система быстрых платежей ЦБ РФ для мгновенного перевода денег в другие банки"
+msgstr ""
+"Fast payment system of the Central Bank of the Russian Federation for "
+"instant money transfers to other banks"
+
+#: gateway/YooKassaGatewayTinkoffBank.php:21
+#: gateway/YooKassaGatewayTinkoffBank.php:22
+#: gateway/YooKassaGatewayTinkoffBank.php:24
+#: gateway/YooKassaGatewayTinkoffBank.php:25
+msgid "Интернет-банк Тинькофф"
+msgstr "Online Bank Tinkoff"
+
+#: gateway/YooKassaGatewayWallet.php:19 gateway/YooKassaGatewayWallet.php:23
+msgid "Оплата кошельком ЮMoney"
+msgstr "Payment by wallet YooMoney"
+
+#: gateway/YooKassaGatewayWallet.php:20 gateway/YooKassaGatewayWallet.php:22
+#: includes/WC_Payment_Token_YooKassa.php:15 includes/YooKassaPayment.php:519
+msgid "Кошелек ЮMoney"
+msgstr "YooMoney"
+
+#: gateway/YooKassaGatewayWallet.php:46
+msgid "Покупатели могут сохранять кошелёк для повторной оплаты"
+msgstr "Customers can save the wallet for re-payment"
+
+#: gateway/YooKassaGatewayWebmoney.php:21
+#: gateway/YooKassaGatewayWebmoney.php:22
+#: gateway/YooKassaGatewayWebmoney.php:24
+#: gateway/YooKassaGatewayWebmoney.php:25
+msgid "Webmoney"
+msgstr "Webmoney"
+
+#: gateway/YooKassaWidgetGateway.php:29
+msgid "Платёжный виджет ЮKassa (карты, Apple Pay и Google Pay)"
+msgstr "Payment widget from YooKassa (cards, Apple Pay and Google Play)"
+
+#: gateway/YooKassaWidgetGateway.php:30
+msgid ""
+"Покупатель вводит платёжные данные прямо во время заказа, без редиректа на "
+"страницу ЮKassa. Опция работает для платежей с карт (в том числе, через "
+"Apple Pay и Google Pay)."
+msgstr ""
+"The customer enters the payment data directly during the order, without "
+"redirecting to the YooKassa page. This option works for card payments "
+"(including Apple Pay and Google Play)."
+
+#: gateway/YooKassaWidgetGateway.php:32
+msgid "Банковские карты, Apple Pay, Google Pay"
+msgstr "Bank cards, Apple Pay, Google Play"
+
+#: gateway/YooKassaWidgetGateway.php:33
+msgid "Оплата банковской картой на сайте"
+msgstr "Payment by bank card on the website"
+
+#: gateway/YooKassaWidgetGateway.php:88 gateway/YooKassaWidgetGateway.php:106
+msgid "Что-то пошло не так!"
+msgstr "Something went wrong!"
+
+#: gateway/YooKassaWidgetGateway.php:90 gateway/YooKassaWidgetGateway.php:108
+msgid "Попробовать заново"
+msgstr "Try again"
+
+#: gateway/YooKassaWidgetGateway.php:199 gateway/YooKassaWidgetGateway.php:208
+msgid "Неудалось создать платеж. Для заказа %1$s"
+msgstr "Unable to make a payment. For order %1$s"
+
+#: gateway/YooKassaWidgetGateway.php:257
+msgid ""
+"Чтобы покупатели могли заплатить вам через Apple Pay, <a href=\"https://"
+"yookassa.ru/docs/merchant.ru.yandex.kassa\">скачайте файл apple-developer-"
+"merchantid-domain-association</a> и добавьте его в папку ./well-known на "
+"вашем сайте. Если не знаете, как это сделать, обратитесь к администратору "
+"сайта или в поддержку хостинга. Не забудьте также подключить оплату через "
+"Apple Pay <a href=\"https://yookassa.ru/my/payment-methods/"
+"settings#applePay\">в личном кабинете ЮKassa</a>. <a href=\"https://yookassa."
+"ru/developers/payment-forms/widget#apple-pay-configuration\">Почитать о "
+"подключении Apple Pay в документации ЮKassa</a>"
+msgstr ""
+"Чтобы покупатели могли заплатить вам через Apple Pay, <a href=\"https://"
+"yookassa.ru/docs/merchant.ru.yandex.kassa\">скачайте файл apple-developer-"
+"merchantid-domain-association</a> и добавьте его в папку ./well-known на "
+"вашем сайте. Если не знаете, как это сделать, обратитесь к администратору "
+"сайта или в поддержку хостинга. Не забудьте также подключить оплату через "
+"Apple Pay <a href=\"https://yookassa.ru/my/payment-methods/"
+"settings#applePay\">в личном кабинете ЮKassa</a>. <a href=\"https://yookassa."
+"ru/developers/payment-forms/widget#apple-pay-configuration\">Почитать о "
+"подключении Apple Pay в документации ЮKassa</a>"
+
+#: includes/YooKassaHandler.php:102 includes/YooKassaHandler.php:112
+msgid "Доставка"
+msgstr "Shipping"
+
+#: includes/YooKassaHandler.php:210
+msgid "Успешный платеж. Id заказа - %1$s. Данные платежа - %2$s."
+msgstr "Payment successful. Order Id - %1$s. Payment information - %2$s."
+
+#: includes/YooKassaHandler.php:215
+msgid "Номер транзакции в ЮKassa: %1$s. Сумма: %2$s"
+msgstr "Transaction number in YooKassa: %1$s. Amount: %2$s"
+
+#: includes/YooKassaHandler.php:227
+msgid "Успешная подписка. Id заказа - %1$s. Данные платежа - %2$s."
+msgstr "Subscribe successful. Order Id - %1$s. Payment information - %2$s."
+
+#: includes/YooKassaHandler.php:240
+msgid "Неуспешный платеж. Id заказа - %1$s. Данные платежа - %2$s."
+msgstr "Payment unsuccessful. Order Id - %1$s. Payment information - %2$s."
+
+#: includes/YooKassaHandler.php:253
+msgid "Платеж в ожидании оплаты. Id заказа - %1$s. Данные платежа - %2$s."
+msgstr "Payment pending payment. Order Id - %1$s. Payment details - %2$s."
+
+#: includes/YooKassaHandler.php:266
+msgid "Платеж ждет подтверждения. Id заказа - %1$s. Данные платежа - %2$s."
+msgstr ""
+"Payment is waiting for confirmation. Order Id - %1$s. Payment details - %2$s."
+
+#: includes/YooKassaHandler.php:271
+msgid ""
+"Поступил новый платёж. Он ожидает подтверждения до %1$s, после чего "
+"автоматически отменится"
+msgstr ""
+"A new payment came in. It waits for confirmation up to %1$s, then "
+"automatically cancels"
+
+#: includes/YooKassaHandler.php:282
+msgid "Статус заказа. %1$s"
+msgstr "Order status. %1$s"
+
+#: includes/YooKassaHandler.php:295
+msgid ""
+"<b>Нельзя добавить больше 6 разных позиций </b><br>Такое ограничение для "
+"владельца магазина. Уберите лишние позиции из корзины — остальные можно "
+"добавить в другом заказе."
+msgstr ""
+"<b>Can't add more than 6 different items at once </b><br>This restriction "
+"has been set up for the owner of the store. Remove excess items from the "
+"cart: you can add the rest of them in a new order."
+
+#: includes/YooKassaHandler.php:302
+msgid ""
+"<b>Нельзя добавить позицию с дробным количеством </b><br>Только с целым. "
+"Свяжитесь с магазином, чтобы исправили значение и помогли сделать заказ."
+msgstr ""
+"<b>Can't add an item quantity with a fractional part </b><br>It must be a "
+"whole number. Contact the store to fix the quantity value and help you place "
+"the order."
+
+#: includes/YooKassaHandler.php:308
+msgid ""
+"<b>Не получается создать чек </b><br>Цена позиции должна быть больше 0 ₽. "
+"Уберите позицию из корзины и попробуйте ещё раз."
+msgstr ""
+"<b>Can't generate a receipt </b><br>Item price must be greater than 0 ₽. "
+"Remove the item from the cart and try again."
+
+#: includes/YooKassaInstallments.php:80
+msgid " (%s ₽ в месяц)"
+msgstr " (%s ₽ per month)"
+
+#: includes/YooKassaOrderHelper.php:99
+msgid "Ошибка ЦБ РФ: не удается получить список валют!"
+msgstr "CBRF Error: Can't get currency list!"
+
+#: includes/YooKassaPayment.php:462
+msgid "Вы подтвердили платёж в ЮKassa."
+msgstr "You have confirmed the payment to YooKassa."
+
+#: includes/YooKassaPayment.php:465 includes/YooKassaPayment.php:468
+#: includes/YooKassaPayment.php:472
+msgid "Платёж не подтвердился. Попробуйте ещё раз."
+msgstr "The payment was not confirmed. Try again."
+
+#: includes/YooKassaPayment.php:503
+msgid "Вы отменили платёж в ЮKassa. Деньги вернутся клиенту."
+msgstr ""
+"You canceled a payment to YooKassa. The money will be returned to the client."
+
+#: includes/YooKassaPayment.php:506 includes/YooKassaPayment.php:510
+msgid "Платёж не отменился. Попробуйте ещё раз."
+msgstr "The payment was not canceled. Try again."
+
+#: includes/YooKassaSecondReceipt.php:363
+msgid "Отправлен второй чек. Сумма %s рублей."
+msgstr "Second check sent. The amount of %s rubles."
+
+#: yookassa.php:37
+msgid ""
+"Плагин ЮKassa для WooCommerce требует, чтобы плагин <a href=\"https://"
+"wordpress.org/extend/plugins/woocommerce/\" target=\"_blank\">WooCommerce</"
+"a> был активен!"
+msgstr ""
+"The YooKassa For WooCommerce plugin requires the <a href=\"https://wordpress."
+"org/extend/plugins/woocommerce/\" target=\"_blank\">WooCommerce</a> plugin "
+"to be active!"
+
+#~ msgid ""
+#~ "Готово, теперь чеки будут автоматически отправляться в налоговую и "
+#~ "покупателям."
+#~ msgstr ""
+#~ "Done, now receipts will be sent to the Tax Service and customers "
+#~ "automatically."
+
+#~ msgid "54-ФЗ"
+#~ msgstr "54 Federal law"
+
+#~ msgid "Отправлять в ЮKassa данные для чеков (54-ФЗ)"
+#~ msgstr "Transmit details for receipts to YooKassa (Federal Law 54-FZ)"
+
+#~ msgid ""
+#~ "Проверьте shopId и Секретный ключ — где-то есть ошибка. А лучше "
+#~ "скопируйте их прямо из <a href=\"https://yookassa.ru/my\" "
+#~ "target=\"_blank\">личного кабинета ЮKassa</a>"
+#~ msgstr ""
+#~ "Check shopId and Secret key — there is an error somewhere. Better yet, "
+#~ "copy them directly from your <a href='https://yookassa.ru/my' "
+#~ "target='_blank'>YooKassa Merchant Profile</a>"
+
+#~ msgid ""
+#~ "<b>shopId</b> можно скопировать в <a target='_blank' href='https://"
+#~ "yookassa.ru/my/shop-settings'>личном кабинете ЮKassa</a>."
+#~ msgstr ""
+#~ "<b>shopId</b> can be copied from <a target='_blank' href='https://"
+#~ "yookassa.ru/my/shop-settings'>YooKassa Merchant Profile</a>."
+
+#~ msgid ""
+#~ "<b>Секретный ключ</b> нужно выпустить и сохранить после подключения "
+#~ "ЮKassa. Если ключ потерялся, в личном кабинете можно его перевыпустить."
+#~ msgstr ""
+#~ "<b>Secret key</b> must be released and saved after the YooKassa is "
+#~ "connected. If the key is lost, in your account, you can reissue it."
+
+#~ msgid "Выкл"
+#~ msgstr "Off"
+
+#~ msgid "Вкл"
+#~ msgstr "On"

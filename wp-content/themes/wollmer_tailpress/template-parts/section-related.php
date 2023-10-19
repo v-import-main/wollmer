@@ -14,7 +14,7 @@ if(count($list)){
   if(count($_list)){
 ?>
 <section id="section-product" class="section-product">
-  <div class="headline">
+  <div class="product-page-headline">
     <h2>Покупают вместе</h2>
   </div>
   <div class="product-list">

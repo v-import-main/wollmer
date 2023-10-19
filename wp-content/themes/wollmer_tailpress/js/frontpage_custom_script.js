@@ -29,3 +29,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 // alert(1);
 
+$('.portfolio-slides').slick({
+    infinite        : true,
+    slidesToShow    : 1,
+    slidesToScroll  : 1,
+    mobileFirst     : true
+});

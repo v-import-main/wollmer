@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){document.querySelector("#ctl-system-info-wrap .helper").addEventListener("click",(function(){var e=document.getElementById("ctl-system-info");navigator.clipboard.writeText(e.value).then((function(){}),(function(){}));var t=Cyr2LatSystemInfoObject.copiedMsg;alert(t)}))}));

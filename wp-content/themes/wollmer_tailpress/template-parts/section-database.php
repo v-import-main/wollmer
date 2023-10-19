@@ -9,29 +9,29 @@
     'Trade-in 20%',
   ];
   $tags = [
-    [
-      'title' => 'Wollmer Care',
-      'permalink' => '/care/',
-    ],
-    [
+	[
       'title' => 'О компании Wollmer',
       'permalink' => '/about-us/',
     ],
     [
-      'title' => 'Сервисное обслуживание',
-      'permalink' => '/service/',
+      'title' => 'Доставка',
+      'permalink' => '/delivery/',
+    ],
+	[
+      'title' => 'Оплата',
+      'permalink' => '/payment/',
     ],
     [
-      'title' => 'Доставка и оплата',
-      'permalink' => '/payment-and-delivery/',
+      'title' => 'Гарантия и сервис',
+      'permalink' => '/service/',
+    ],
+	[
+      'title' => 'Wollmer Care',
+      'permalink' => '/care/',
     ],
     [
       'title' => 'Аксессуары',
       'permalink' => '/products/aksessuary/',
-    ],
-    [
-      'title' => 'Обмен и возврат',
-      'permalink' => '/exchange/',
     ],
   ];
 
@@ -51,7 +51,7 @@
   ?>
     <div class="product-info">
       <h2>Wollmer Care</h2>
-      <p>Программа постгарантийного обслуживания техники и специальных привилегий WOLLMER CARE</p>
+      <p>Программа постгарантийного обслуживания техники и специальных привилегий</p>
       <a class="button ajax_add_to_cart add_to_cart_button addtocart" data-product_id="<?= get_care( $product ); ?>" data-quantity="1" href="?add-to-cart=<?= get_care( $product ); ?>&quantity=1">
         <span>Добавить страховку</span>
       </a>

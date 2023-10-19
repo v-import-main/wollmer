@@ -126,7 +126,7 @@ if (document.querySelector('.reels-wrapper')) {
     Dots: true,
     center: false,
     slidesPerPage: 'auto',
-    infinite: false,
+    infinite: true,
     clickSlide: true,
     on: {
       refresh: carousel => {
@@ -532,7 +532,7 @@ function get_selected_cat_reviews(cat) {
         Dots: false,
         center: false,
         slidesPerPage: 'auto',
-        infinite: false,
+        infinite: true,
         on: {
           refresh: carousel => {
             // Update total count
